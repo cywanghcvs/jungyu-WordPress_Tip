@@ -1,0 +1,1169 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: real-media-library\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-12 09:32+0000\n"
+"POT-Revision-Date: Wed Feb 28 2018 15:58:54 GMT+0100 (Mitteleuropäische "
+"Zeit)\n"
+"PO-Revision-Date: 2019-06-28 17:26+0800\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"Last-Translator: \n"
+"Language: zh_TW\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: inc/attachment/Permissions.class.php:26
+msgid "You are not allowed to insert files here."
+msgstr "您不能在此處插入檔案。"
+
+#: inc/attachment/Permissions.class.php:35
+msgid "You are not allowed to move the file."
+msgstr "您不能移動文件。"
+
+#: inc/attachment/Permissions.class.php:48
+msgid "You are not allowed to create a subfolder here."
+msgstr "您不能在此處建立子資料夾。"
+
+#: inc/attachment/Permissions.class.php:58
+msgid "You are not allowed to delete this folder."
+msgstr "您不能刪除此資料夾。"
+
+#: inc/attachment/Permissions.class.php:68
+msgid "You are not allowed to rename this folder."
+msgstr "您不能重命名此資料夾。"
+
+#: inc/attachment/CustomField.class.php:38
+#, fuzzy
+msgid ""
+"When you move this shortcut, the folder location of the source/main file "
+"will not be changed."
+msgstr "移動此捷徑時，不會更改來源/主檔案的資料夾位置。"
+
+#: inc/attachment/CustomField.class.php:39
+#, fuzzy
+msgid ""
+"When you move this attachment, the folder location of the associated "
+"shortcuts of this attachment will not be changed."
+msgstr "移動此附件時，不會更改此附件關聯捷徑的資料夾位置。"
+
+#: inc/attachment/CustomField.class.php:64
+#: inc/general/FolderShortcode.class.php:82 inc/general/Lang.class.php:20
+#: inc/folder/Creatable.class.php:437
+msgid "Folder"
+msgstr "資料夾"
+
+#: inc/attachment/CustomField.class.php:93
+#, fuzzy
+msgid "Shortcut infos"
+msgstr "捷徑的資訊"
+
+#: inc/attachment/CustomField.class.php:98
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0kb)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"這是媒體庫檔案的捷徑。 捷徑不需要任何物理存儲<strong>(0kb)</strong>。如果您要"
+"更改檔案本身，則必須在原始檔案中執行此操作（例如，通過外掛替換媒體檔案）。"
+"<br/>另請注意，捷徑中的字段可能與原始檔案不同，例如 \"標題\"、\"描述\"或\"說"
+"明\"。"
+
+#: inc/attachment/CustomField.class.php:104
+#, fuzzy, php-format
+msgid "For this file is one shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %s shortcuts available in the following folders:"
+msgstr[0] "對於此檔案，以下文件夾中提供了一個捷徑："
+
+#: inc/attachment/CustomField.class.php:112
+#, fuzzy
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"此檔案沒有關聯的捷徑。 您可以透過移動每個鼠標的檔案並按住任意鍵來創建捷徑。"
+
+#: inc/attachment/Upload.class.php:49
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr "您只需將檔案直接上傳到資料夾即可。 選擇資料夾並上傳檔案。"
+
+#: inc/attachment/Upload.class.php:51
+msgid "upload to folder"
+msgstr "上傳到資料夾"
+
+#: inc/metadata/CoverImage.class.php:47
+msgid "Cover image"
+msgstr "封面圖片"
+
+#: inc/metadata/Meta.class.php:34
+msgid "Path"
+msgstr "路徑"
+
+#: inc/metadata/Meta.class.php:37
+msgid "Folder type"
+msgstr "資料夾類型"
+
+#: inc/metadata/Meta.class.php:74
+msgid "General"
+msgstr "一般"
+
+#: inc/metadata/Description.class.php:19
+msgid "Description"
+msgstr "描述"
+
+#: inc/api/attachment.php:110 inc/api/attachment.php:130
+#: inc/api/attachment.php:146
+msgid "The given folder was not found."
+msgstr "找不到指定的文件夾。"
+
+#: inc/general/Exceptions.collection.php:16
+#, php-format
+msgid "'%s' already exists in this folder."
+msgstr "'%s' 已存在於此資料夾中。"
+
+#: inc/general/FolderShortcode.class.php:80
+msgid "Gallery from Media Folder"
+msgstr "媒體資料夾中的圖庫"
+
+#: inc/general/FolderShortcode.class.php:81
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr "注意：您只能選擇圖庫。 資料夾和集合是灰色的。"
+
+#: inc/general/FolderShortcode.class.php:83
+msgid "Link to"
+msgstr "繫結到"
+
+#: inc/general/FolderShortcode.class.php:84
+msgid "Columns"
+msgstr "列"
+
+#: inc/general/FolderShortcode.class.php:85
+msgid "Random Order"
+msgstr "隨機順序"
+
+#: inc/general/FolderShortcode.class.php:86
+msgid "Size"
+msgstr "大小"
+
+#: inc/general/FolderShortcode.class.php:88
+msgid "Attachment File"
+msgstr "附件檔案"
+
+#: inc/general/FolderShortcode.class.php:89
+msgid "Media File"
+msgstr "媒體檔案"
+
+#: inc/general/FolderShortcode.class.php:90
+msgid "None"
+msgstr "沒有"
+
+#: inc/general/FolderShortcode.class.php:93
+msgid "Thumbnail"
+msgstr "縮圖"
+
+#: inc/general/FolderShortcode.class.php:94
+msgid "Medium"
+msgstr "中圖"
+
+#: inc/general/FolderShortcode.class.php:95
+msgid "Large"
+msgstr "大圖"
+
+#: inc/general/FolderShortcode.class.php:96
+msgid "Full Size"
+msgstr "原尺寸"
+
+#: inc/general/Core.class.php:222
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>您尚未輸入授權金鑰</strong>。 要接收自動更新，請在\"輸入序號\"中輸入"
+"金鑰。"
+
+#: inc/general/Options.class.php:34
+#, fuzzy
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary：一般"
+
+#: inc/general/Options.class.php:42
+msgid "Load RML functionality in frontend"
+msgstr "在前端下載RML功能"
+
+#: inc/general/Options.class.php:86
+#, fuzzy
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary：重置"
+
+#: inc/general/Options.class.php:93
+msgid "Reset the order of all galleries"
+msgstr "重置所有圖庫的順序"
+
+#: inc/general/Options.class.php:101
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "清除所有設定（資料夾，附件關係）"
+
+#: inc/general/Options.class.php:109
+msgid "Reset folder count cache"
+msgstr "重置資料夾數量暫存"
+
+#: inc/general/Options.class.php:117
+#, fuzzy
+msgid "Reset names, slugs and absolute pathes"
+msgstr "重置名稱，代稱和絕對路徑"
+
+#: inc/general/Options.class.php:126
+#, fuzzy
+msgid "RealMediaLibrary:Upgrade"
+msgstr "RealMediaLibrary：升級"
+
+#: inc/general/Options.class.php:145
+msgid ""
+"If Real Media Library made some technical changes in a newer update version "
+"you will see here upgrade options."
+msgstr ""
+"如果Real Media Library在較新的更新版本中進行了一些技術更改，您將在此處看到升"
+"級選項。"
+
+#: inc/general/Options.class.php:156
+msgid "Wipe attachment relations"
+msgstr "清除附件關係"
+
+#: inc/general/Options.class.php:157
+msgid "Wipe all"
+msgstr "清除全部"
+
+#: inc/general/Options.class.php:161
+msgid "Reset count"
+msgstr "重置數量"
+
+#: inc/general/Options.class.php:165 inc/general/Options.class.php:181
+#: inc/general/Options.class.php:197
+msgid "Reset"
+msgstr "重置"
+
+#: inc/general/Options.class.php:172
+msgid "If you are using a front end page builder, for example Visual Composer"
+msgstr "如果您使用的是前端頁面編輯器，例如Visual Composer"
+
+#: inc/general/Options.class.php:198
+#, fuzzy
+msgid ""
+"You can also reset a single folder when navigating to the folder details."
+msgstr "瀏覽到資料夾詳細訊息時，您還可以重置單個資料夾。"
+
+#: inc/general/Assets.class.php:184
+msgid "Browse Add-Ons"
+msgstr "瀏覽附加組件"
+
+#: inc/general/Assets.class.php:185
+msgid "Give feedback"
+msgstr "給予反饋"
+
+#: inc/general/Assets.class.php:186
+#, fuzzy
+msgid "Rate plugin"
+msgstr "評價外掛"
+
+#: inc/general/Assets.class.php:200
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT bet "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"注意：如果刪除捷徑文件，將不會刪除來源文件。\n"
+"如果要刪除非捷徑文件，也會刪除所有關聯的捷徑。"
+
+#: inc/general/Lang.class.php:18
+msgid "No folder selected"
+msgstr "沒有選擇資料夾"
+
+#: inc/general/Lang.class.php:19
+msgid "Reload content"
+msgstr "重新載入內容"
+
+#: inc/general/Lang.class.php:21
+msgid "Subfolders"
+msgstr "子資料夾"
+
+#: inc/general/Lang.class.php:22
+msgid "Please select a Media Library folder in the block settings."
+msgstr "請在區塊設定中選擇媒體庫資料夾。"
+
+#: inc/general/Lang.class.php:24
+msgid "New folders inherit this restriction"
+msgstr "新資料夾繼承此限制"
+
+#: inc/general/Lang.class.php:25
+msgid "The current selected folder has some restrictions:"
+msgstr "當前選定的資料夾有一些限制："
+
+#: inc/general/Lang.class.php:26
+msgid "You can not change *parent* folder"
+msgstr "您無法更改*上層*資料夾"
+
+#: inc/general/Lang.class.php:27
+msgid "You can not *rearrange* subfolders"
+msgstr "你不能*重新排列*子資料夾"
+
+#: inc/general/Lang.class.php:28
+msgid "You can not *create* subfolders"
+msgstr "你不能*建立*子資料夾"
+
+#: inc/general/Lang.class.php:29
+msgid ""
+"You can not *insert* new files. New files will be moved to Unorganized..."
+msgstr "你不能*插入*新檔案。 新檔案將移至“未分類”..."
+
+#: inc/general/Lang.class.php:30
+msgid "You can not *rename* the folder"
+msgstr "你不能*重新命名*資料夾"
+
+#: inc/general/Lang.class.php:31
+msgid "You can not *delete* the folder"
+msgstr "你不能*刪除*資料夾"
+
+#: inc/general/Lang.class.php:32
+msgid "You can not *move* files outside the folder"
+msgstr "你不能*移動*資料夾外的檔案"
+
+#: inc/general/Lang.class.php:33
+#, fuzzy
+msgid "Parent"
+msgstr "上層"
+
+#: inc/general/Lang.class.php:34
+msgid "Before this node"
+msgstr "在此節點之前"
+
+#: inc/general/Lang.class.php:35
+msgid "If no next node is given the item is put to the end."
+msgstr "如果沒有給出下一個節點，則該項目被放到最後。"
+
+#: inc/general/Lang.class.php:36
+msgid "The file is uploaded to the folder you are currently in."
+msgstr "該檔案將上載到您當前所在的資料夾中。"
+
+#: inc/general/Lang.class.php:37
+msgid "Are you sure?"
+msgstr "你確定嗎？"
+
+#: inc/general/Lang.class.php:38
+msgid "Success"
+msgstr "成功"
+
+#: inc/general/Lang.class.php:39
+msgid "Failed"
+msgstr "失敗"
+
+#: inc/general/Lang.class.php:40
+#, fuzzy
+msgid "No entries found"
+msgstr "找不到項目"
+
+#: inc/general/Lang.class.php:41
+msgid "Are you sure to delete *{name}*? All files gets moved to / Unorganized."
+msgstr "您確定要刪除*{name}*嗎？ 所有文件都被移動到/ 未分類。"
+
+#: inc/general/Lang.class.php:42
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/general/Lang.class.php:43
+msgid "Cancel"
+msgstr "取消"
+
+#: inc/general/Lang.class.php:44
+msgid "Save"
+msgstr "儲存"
+
+#: inc/general/Lang.class.php:45
+msgid "Back"
+msgstr "返回"
+
+#: inc/general/Lang.class.php:46
+msgid "No folders found"
+msgstr "找不到資料夾"
+
+#: inc/general/Lang.class.php:47
+msgid ""
+"You have actually not created any folder. Just click on the header button to "
+"create your first folder."
+msgstr "您實際上沒有建立任何資料夾。 只需點擊標題按鈕即可建立第一個資料夾。"
+
+#: inc/general/Lang.class.php:48
+msgid "Folders"
+msgstr "資料夾"
+
+#: inc/general/Lang.class.php:49
+msgid "No search results."
+msgstr "沒有搜索結果。"
+
+#: inc/general/Lang.class.php:50
+msgid "Renaming to *{name}*..."
+msgstr "重命名為*{name}* ..."
+
+#: inc/general/Lang.class.php:51
+msgid "Successfully renamed folder to *{name}*"
+msgstr "已成功將資料夾重命名為*{name}*"
+
+#: inc/general/Lang.class.php:52
+msgid "Creating *{name}*..."
+msgstr "建立*{name}* ..."
+
+#: inc/general/Lang.class.php:53
+msgid "Successfully created *{name}*"
+msgstr "已成功建立*{name}*"
+
+#: inc/general/Lang.class.php:54 inc/folder/CRUD.class.php:124
+msgid "The folder you try to delete has subfolders."
+msgstr "您嘗試刪除的資料夾包含子資料夾。"
+
+#: inc/general/Lang.class.php:55
+msgid "Successfully deleted *{name}*"
+msgstr "已成功刪除*{name}*"
+
+#: inc/general/Lang.class.php:56
+#, fuzzy
+msgid "Rearrange tree by drag & drop"
+msgstr "透過拖放重新排列列表"
+
+#: inc/general/Lang.class.php:57
+msgid "Rearrange *{name}* placement manually"
+msgstr "手動重新排列*{name}* 位置"
+
+#: inc/general/Lang.class.php:58
+#, fuzzy
+msgid "Reordering the tree hierarchy..."
+msgstr "重新排序樹的結構......"
+
+#: inc/general/Lang.class.php:59
+#, fuzzy
+msgid "Successfully sorted the tree hierarchy"
+msgstr "成功對樹結構進行排序"
+
+#: inc/general/Lang.class.php:60
+msgid "Reorder subfolders of *{name}*..."
+msgstr "重新排序*{name}*的子資料夾..."
+
+#: inc/general/Lang.class.php:61
+msgid "{count} files remaining..."
+msgstr "剩餘{count}個檔案......"
+
+#: inc/general/Lang.class.php:62
+msgid "Receiving data..."
+msgstr "接收資料......"
+
+#: inc/general/Lang.class.php:63
+msgid "Shortcut"
+msgstr "捷徑"
+
+#: inc/general/Lang.class.php:64
+#, fuzzy
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0kb)*. If you want to change the file itself, you must do "
+"this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"這是媒體庫檔案的捷徑。 捷徑不需要任何物理存儲 *(0kb)*。如果您要更改檔案本身，"
+"則必須在原始檔案中執行此操作（例如，通過外掛替換媒體檔案）。\n"
+"另請注意，捷徑中的文字可能與原始文件不同，例如 “標題”或“描述”。"
+
+#: inc/general/Lang.class.php:66
+msgid ""
+"In the current view of uploads are filters active. Please reset these and "
+"refresh the view."
+msgstr "在上傳的當前視圖中，過濾器處於活動狀態。 請重置這些並刷新視圖。"
+
+#: inc/general/Lang.class.php:67
+msgid "A collection can not contain files. Upload moved to Unorganized..."
+msgstr "集合不能包含檔案。 上傳已移至未分類..."
+
+#: inc/general/Lang.class.php:68
+msgid "A gallery can contain only images. Upload moved to Unorganized..."
+msgstr "圖庫只能包含圖像。 上傳已移至未分類..."
+
+#: inc/general/Lang.class.php:69
+msgid "Order content by *{name}*..."
+msgstr "透過*{name}*訂閱內容..."
+
+#: inc/general/Lang.class.php:70
+#, fuzzy
+msgid "Reset order"
+msgstr "重置訂閱"
+
+#: inc/general/Lang.class.php:71
+#, fuzzy
+msgid "Apply order once..."
+msgstr "申請訂閱..."
+
+#: inc/general/Lang.class.php:72
+#, fuzzy
+msgid "Last"
+msgstr "最後"
+
+#: inc/general/Lang.class.php:73
+#, fuzzy
+msgid "Deactivate automatically ordering"
+msgstr "停用自動訂閱"
+
+#: inc/general/Lang.class.php:74
+#, fuzzy
+msgid "Apply automatic order..."
+msgstr "申請自動訂閱..."
+
+#: inc/general/Lang.class.php:75
+msgid "Latest"
+msgstr "最新"
+
+#: inc/general/Lang.class.php:76
+#, fuzzy
+msgid "Reindex order"
+msgstr "重新索引訂閱"
+
+#: inc/general/Lang.class.php:77
+#, fuzzy
+msgid "Reset to last order"
+msgstr "重置為最後一個訂閱"
+
+#: inc/general/Lang.class.php:78
+msgid "All files"
+msgstr "所有檔案"
+
+#: inc/general/Lang.class.php:79 inc/folder/Root.class.php:18
+#: inc/folder/Root.class.php:66
+msgid "Unorganized"
+msgstr "未分類"
+
+#: inc/general/Lang.class.php:80
+msgid "Move {count} files"
+msgstr "移動{count}個檔案"
+
+#: inc/general/Lang.class.php:81
+msgid "Move one file"
+msgstr "移動一個檔案"
+
+#: inc/general/Lang.class.php:82
+msgid "Copy {count} files"
+msgstr "複製{count}個檔案"
+
+#: inc/general/Lang.class.php:83
+msgid "Copy one file"
+msgstr "複製一個檔案"
+
+#: inc/general/Lang.class.php:84
+msgid "Moving {count} files..."
+msgstr "移動{count}個檔案......"
+
+#: inc/general/Lang.class.php:85
+msgid "Moving one file..."
+msgstr "移動一個檔案......"
+
+#: inc/general/Lang.class.php:86
+msgid "Copying {count} files..."
+msgstr "複製{count}個檔案......"
+
+#: inc/general/Lang.class.php:87
+msgid "Copying one file..."
+msgstr "複製一個檔案......"
+
+#: inc/general/Lang.class.php:88
+msgid "Successfully moved {count} files"
+msgstr "成功移動了{count}個檔案"
+
+#: inc/general/Lang.class.php:89
+msgid "Successfully moved one file"
+msgstr "成功移動了一個檔案"
+
+#: inc/general/Lang.class.php:90
+msgid "Successfully copied {count} files"
+msgstr "已成功複製{count}個檔案"
+
+#: inc/general/Lang.class.php:91
+msgid "Successfully copied one file"
+msgstr "成功複製了一個檔案"
+
+#: inc/general/Lang.class.php:92
+msgid "Hold any key to create a shortcut"
+msgstr "按住任意鍵以建立捷徑"
+
+#: inc/general/Lang.class.php:93
+#, fuzzy
+msgid "Release key to move file"
+msgstr "釋放鍵以移動文件"
+
+#: inc/general/Lang.class.php:94
+msgid "Click this to create a new folder"
+msgstr "點擊此按鈕可建立新資料夾"
+
+#: inc/general/Lang.class.php:95
+#, fuzzy
+msgid ""
+"A folder can contain every type of file and collections, but no galleries. "
+"If you want to create a subfolder simply select a folder from the list and "
+"click this button."
+msgstr ""
+"資料夾可以包含每種類型的檔案和集合，但不包含任何藝廊。 如果要建立子資料夾，只"
+"需從列表中選擇一個資料夾，然後點擊此按鈕。"
+
+#: inc/general/Lang.class.php:96
+#, fuzzy
+msgid "Click this to create a new collection"
+msgstr "點擊此按鈕可建立新集合"
+
+#: inc/general/Lang.class.php:97
+#, fuzzy
+msgid ""
+"A collection can contain no files. But you can create there other "
+"collections and *galleries*. The mentioned above gallery is only a *gallery "
+"data folder*, that means they are not automatically in your frontend (your "
+"website).\n"
+"\n"
+"You can create a *visual gallery* from this *gallery data folder* via the "
+"Visual Editor in your page/post."
+msgstr ""
+"集合不能包含任何檔案。 但是你可以建立其他集合和*圖庫*。 上面提到的圖庫只是一"
+"個*圖庫數據資料夾*，這意味著它們不會自動進入您的前端（您的網站）。\n"
+"\n"
+"您可以通過頁面/文章中的*Visual Editor*從圖庫數據資料夾建立一個*visual "
+"gallery*。"
+
+#: inc/general/Lang.class.php:100
+#, fuzzy
+msgid "Click this to create a *new gallery data folder*"
+msgstr "點擊此按鈕可建立*新圖庫數據資料夾*"
+
+#: inc/general/Lang.class.php:101
+msgid ""
+"A *gallery data folder* can only contain images. It is simplier for you to "
+"distinguish where your visual galleries are.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"*圖庫數據資料夾*只能包含圖像。 您可以更輕鬆地區分視覺圖庫的位置。\n"
+"\n"
+"您還可以透過拖放順序圖像為*自定義圖像順序*。"
+
+#: inc/general/Lang.class.php:104
+msgid "Settings"
+msgstr "設定"
+
+#: inc/general/Lang.class.php:105
+#, fuzzy
+msgid "General settings for the current logged in user."
+msgstr "當前登錄使用者的一般設置。"
+
+#: inc/general/Lang.class.php:106
+msgid "Permissions"
+msgstr "權限"
+
+#: inc/general/Lang.class.php:107
+msgid "Reorder files in this folder"
+msgstr "重新排序此資料夾中的檔案"
+
+#: inc/general/Lang.class.php:108
+#, fuzzy
+msgid "Start to reorder the files / images by *title, filename, ID, ...*"
+msgstr "開始按照*標題, 檔案名稱, ID, ...*重新排序檔案/圖片"
+
+#: inc/general/Lang.class.php:109
+msgid "Refresh"
+msgstr "刷新"
+
+#: inc/general/Lang.class.php:110
+#, fuzzy
+msgid "Refreshes the current folder view."
+msgstr "刷新當前資料夾。"
+
+#: inc/general/Lang.class.php:111
+msgid "Rename"
+msgstr "重新命名"
+
+#: inc/general/Lang.class.php:112
+msgid "Rename the current selected folder."
+msgstr "重命名選定的資料夾。"
+
+#: inc/general/Lang.class.php:113
+msgid "Delete"
+msgstr "刪除"
+
+#: inc/general/Lang.class.php:114
+msgid "Delete the current selected folder."
+msgstr "刪除選定的資料夾。"
+
+#: inc/general/Lang.class.php:115
+msgid "Rearrange"
+msgstr "改編"
+
+#: inc/general/Lang.class.php:116
+msgid "Change the hierarchical order of the folders."
+msgstr "更改資料夾的層次順序。"
+
+#: inc/general/Lang.class.php:117
+msgid "Folder details"
+msgstr "資料夾細節"
+
+#: inc/general/Lang.class.php:118
+msgid "Select a folder and view more details about it."
+msgstr "選擇資料夾並查看有關它的更多詳細訊息。"
+
+#: inc/general/Lang.class.php:119
+msgid ""
+"An error occured during requesting the Real Media Library REST endpoint "
+"*{endpoint}* from the server (_405 Method not allowed_). One reason can be "
+"that your server configuration is missing something."
+msgstr ""
+"從服務器請求Real Media Library REST端點*{endpoint}* 時發生錯誤（_405 Method "
+"not allowed_）。 一個原因可能是您的服務配置缺少某些東西。"
+
+#: inc/general/Lang.class.php:120
+msgid "Click here to learn how to resolve this (external link)"
+msgstr "點擊此處以了解如何解決此問題（外部連結）"
+
+#: inc/general/Lang.class.php:121
+msgid ""
+"It seems the tree could not be fetched because the WP REST API endpoint "
+"*tree* is not reachable. Do you use a plugin which disables the WP REST API "
+"like *Clearfy*?"
+msgstr ""
+"似乎無法獲取樹，因為WP REST API端點*tree* 無法訪問。 你是否使用了禁用WP REST "
+"API的外掛，如*Clearfy*？"
+
+#: inc/general/Lang.class.php:123
+msgid "Product license not activated, yet."
+msgstr "尚未激活產品許可證。"
+
+#: inc/general/Lang.class.php:124
+msgid "Enter license"
+msgstr "輸入許可證"
+
+#: inc/general/Lang.class.php:125
+msgid "Dismiss notice"
+msgstr "卸除通知"
+
+#: inc/general/View.class.php:65
+msgid "All"
+msgstr "全部"
+
+#: inc/general/View.class.php:69 inc/general/View.class.php:70
+msgid "/ Unorganized"
+msgstr "/未分類"
+
+#: inc/general/View.class.php:125
+msgid "Unorganized pictures"
+msgstr "未分類的圖片"
+
+#: inc/general/Migration.class.php:109
+#, fuzzy
+msgid "Migration <= 2.7.2"
+msgstr "數據庫遷移 <= 2.7.2"
+
+#: inc/general/Migration.class.php:118
+msgid "Import gallery order"
+msgstr "匯入圖庫順序"
+
+#: inc/general/Migration.class.php:119
+msgid ""
+"You have used an old version (<= 2.7.2) of RML and the new version (>= 2.8) "
+"has changed the place where the image gallery order is stored."
+msgstr ""
+"您已使用RML的舊版本（<= 2.7.2），並且新版本（> = 2.8）已更改存儲圖像庫訂單的"
+"位置。"
+
+#: inc/general/Migration.class.php:170
+#, fuzzy
+msgid "Migration <= 2.6.3"
+msgstr "數據庫遷移 <= 2.6.3"
+
+#: inc/general/Migration.class.php:179
+msgid "Import image relationships"
+msgstr "匯入圖像關係"
+
+#: inc/general/Migration.class.php:180
+msgid ""
+"You have used an old version (<= 2.6.3) of RML and the new version (>= "
+"2.6.4) has changed the place where the image relationships are stored."
+msgstr ""
+"您已經使用了RML的舊版本（<= 2.6.3），並且圖像關聯已更改為新版本（> = "
+"2.6.4）。"
+
+#: inc/usersettings/AllFilesShortcuts.class.php:38
+msgid "Hide shortcuts in \"All files\""
+msgstr "隱藏\"所有檔案\"中的捷徑"
+
+#: inc/usersettings/AllFilesShortcuts.class.php:39
+msgid "The count is always inclusive shortcuts"
+msgstr "總數總是包含捷徑"
+
+#: inc/rest/Attachment.class.php:98 inc/folder/Creatable.class.php:99
+#: inc/order/Sortable.class.php:99
+msgid "Something went wrong."
+msgstr "有些錯誤。"
+
+#: inc/rest/Service.class.php:89
+msgid "Folder not found."
+msgstr "找不到資料夾。"
+
+#: inc/rest/Service.class.php:217
+msgid "Forbidden"
+msgstr "被禁止"
+
+#: inc/rest/Service.class.php:220
+msgid "Real Media Library is not active for the current user."
+msgstr "Real Media Library對當前使用者不啟用。"
+
+#: inc/folder/Gallery.class.php:16
+msgid "You can only move images to a gallery."
+msgstr "您只能將圖像移動到圖庫。"
+
+#: inc/folder/Gallery.class.php:38
+msgid "Gallery"
+msgstr "圖庫"
+
+#: inc/folder/Gallery.class.php:42
+msgid ""
+"A gallery can contain only images. If you want to display a gallery go to a "
+"post and have a look at the visual editor buttons."
+msgstr ""
+"圖庫只能包含圖像。 如果你想顯示一個圖庫，你可以去看一篇文章，看看可視化的編輯"
+"器按鈕。"
+
+#: inc/folder/Collection.class.php:18
+msgid "A collection can not contain files."
+msgstr "集合不能包含檔案。"
+
+#: inc/folder/Collection.class.php:39
+msgid "Collection"
+msgstr "集合"
+
+#: inc/folder/Collection.class.php:43
+msgid ""
+"A collection can not contain files. But you can create there other "
+"collections and <strong>galleries</strong>."
+msgstr "集合不能包含檔案。 但您可以建立其他集合和<strong>圖庫</strong>。"
+
+#: inc/folder/Creatable.class.php:282
+msgid "You need to provide a set of files."
+msgstr "您需要提供一組檔案。"
+
+#: inc/folder/Creatable.class.php:377
+msgid "The folder could not be created in the database."
+msgstr "無法在資料庫中建立該資料夾。"
+
+#: inc/folder/Creatable.class.php:380
+msgid "The folder could not be created because it already exists."
+msgstr "無法建立該資料夾，因為它已存在。"
+
+#: inc/folder/Creatable.class.php:451
+msgid ""
+"A folder can contain every type of file or a collection, but no gallery."
+msgstr "資料夾可以包含每種類型的檔案或集合，但不包含圖庫。"
+
+#: inc/folder/Creatable.class.php:466
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr "被指定的上資料夾不存在。"
+
+#: inc/folder/Creatable.class.php:471
+msgid "You are not allowed to change the parent for this folder."
+msgstr "您無權更改此資料夾的上層。"
+
+#: inc/folder/Creatable.class.php:476
+msgid "The given parent does not allow the folder type."
+msgstr "被指定的上層不允許此資料夾類型。"
+
+#: inc/folder/Creatable.class.php:575
+#, php-format
+msgid "'%s' is not a valid folder name."
+msgstr "'%s' 不是有效的資料夾名稱。"
+
+#: inc/folder/Creatable.class.php:734
+msgid "Order by name ascending"
+msgstr "按名稱遞增排序"
+
+#: inc/folder/Creatable.class.php:738
+msgid "Order by name descending"
+msgstr "按名稱遞減排序"
+
+#: inc/folder/Creatable.class.php:742 inc/order/Sortable.class.php:349
+msgid "Order by ID ascending"
+msgstr "按ID遞增排序"
+
+#: inc/folder/Creatable.class.php:746 inc/order/Sortable.class.php:353
+msgid "Order by ID descending"
+msgstr "按ID遞減排序"
+
+#: inc/folder/Root.class.php:70
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr "無分類與根文件夾相同。 在這裡，您可以找到未分配給資料夾的所有檔案。"
+
+#: inc/folder/CRUD.class.php:103
+msgid "The given folder does not exist or you can not rename this folder."
+msgstr "被指定的資料夾不存在，或者您無法重命名此資料夾。"
+
+#: inc/folder/CRUD.class.php:181
+msgid "The given folder does not exist."
+msgstr "指定的資料夾不存在。"
+
+#: inc/order/Sortable.class.php:29
+msgid "The given folder does not allow to reorder the files."
+msgstr "指定的資料夾不允許重新排序檔案。"
+
+#: inc/order/Sortable.class.php:36
+msgid "This folder has an automatic order, please deactivate that first."
+msgstr "此資料夾有自動排序，請先停用。"
+
+#: inc/order/Sortable.class.php:317
+msgid "Order by date ascending"
+msgstr "按日期遞增排序"
+
+#: inc/order/Sortable.class.php:321
+msgid "Order by date descending"
+msgstr "按日期遞減排序"
+
+#: inc/order/Sortable.class.php:325
+msgid "Order by title ascending"
+msgstr "按標題遞增排序"
+
+#: inc/order/Sortable.class.php:329
+msgid "Order by title descending"
+msgstr "按標題遞減排序"
+
+#: inc/order/Sortable.class.php:333
+msgid "Order by filename ascending"
+msgstr "按檔案名稱遞增排序"
+
+#: inc/order/Sortable.class.php:337
+msgid "Order by filename descending"
+msgstr "按檔案名稱遞減排序"
+
+#: inc/order/Sortable.class.php:341
+msgid "Natural order by filename ascending"
+msgstr "按檔案名遞增的自然排序"
+
+#: inc/order/Sortable.class.php:345
+msgid "Natural order by filename descending"
+msgstr "按檔案名遞減的自然排序"
+
+#: inc/comp/PolyLang.class.php:52
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang：自動搬移翻譯"
+
+#: inc/comp/PolyLang.class.php:63 inc/comp/WPML.class.php:249
+msgid "If you move a file also move the associated translation files."
+msgstr "如果移動檔案也會移動相關的翻譯檔案。"
+
+#: inc/comp/ExImport.class.php:33
+msgid "Export / Import folders"
+msgstr "匯出/匯入資料夾"
+
+#: inc/comp/ExImport.class.php:42
+msgid "Import taxonomy categories"
+msgstr "匯入分類類別"
+
+#: inc/comp/ExImport.class.php:51
+msgid "Export"
+msgstr "匯出"
+
+#: inc/comp/ExImport.class.php:52 inc/comp/ExImport.class.php:60
+msgid "Import"
+msgstr "匯入"
+
+#: inc/comp/ExImport.class.php:53
+msgid ""
+"The export process will respect all available folders. The import process "
+"will not touch your existing structure and please make sure the import data "
+"does not have duplicate names with your current hierarchy."
+msgstr ""
+"匯出過程將尊重所有可用資料夾。 匯入過程不會變更您現有的結構，請確保匯入資料與"
+"您目前的層次結構沒有重複的名稱。"
+
+#: inc/comp/ExImport.class.php:54
+msgid "Exported data:"
+msgstr "匯出資料："
+
+#: inc/comp/ExImport.class.php:55
+msgid "Import data:"
+msgstr "匯入資料："
+
+#: inc/comp/ExImport.class.php:61
+msgid "Imports categories and post relations."
+msgstr "匯入類別和文章關係。"
+
+#: inc/comp/WPML.class.php:238
+msgid "WPML: Automatically move translations"
+msgstr "WPML：自動搬移翻譯"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:23
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:395
+msgid "Check for updates"
+msgstr "檢查更新"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:24
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:39
+msgid "Enter License"
+msgstr "輸入許可證"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:25
+msgid "Your license key:"
+msgstr "您的許可證金鑰："
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:26
+msgid "License or Envato Purchase Code"
+msgstr "許可證或Envato購買代碼"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:27
+msgid "Where do I find my Envato purchase code?"
+msgstr "我在哪裡可以找到我的Envato購買代碼？"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:28
+msgid "License Settings"
+msgstr "許可證設定"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:29
+msgid "Enter License or Envato Purchase Code"
+msgstr "輸入許可證或Envato購買代碼"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:31
+msgid "Activate"
+msgstr "啟用"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:32
+msgid "Deactivate"
+msgstr "停用"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:33
+msgid "Plugin successfully activated!"
+msgstr "外掛成功激活！"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:34
+msgid "Plugin could not be activated. The license key is invalid."
+msgstr "外掛無法激活。 許可證金鑰無效。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:35
+msgid "Plugin could not be activated. An unknown error occurred."
+msgstr "外掛無法激活。 出現未知錯誤。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:36
+msgid "What's this?"
+msgstr "這是什麼？"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:38
+msgid ""
+"To enable full functionality of this plugin, all you have to do is to enter "
+"the license that was provided to you during sale. If you bought the plugin "
+"using the Envato market, you'll need to enter the Envato purchase code."
+msgstr ""
+"要啟用此外掛的完整功能，您只需輸入在銷售期間提供給您的許可證即可。 如果您使用"
+"Envato市場購買該外掛，則需要輸入Envato購買代碼。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:40
+msgid ""
+"Are you sure you want to deactivate the plugin? This will free up the "
+"license to be used on a different site."
+msgstr "您確定要停用該外掛嗎？ 此許可證將可以在不同的網站上使用。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:41
+msgid ""
+"I allow the following data to be sent to our update servers: license key, "
+"site url, WordPress version, PHP version and package version. This data is "
+"required to provide license activation and update functionality."
+msgstr ""
+"我允許將以下資料發送到我們的更新服務器：許可證金鑰，網站URL，WordPress版本，"
+"PHP版本和套件包版本。 需要此資料才能提供許可證激活和更新功能。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:42
+msgid ""
+"To use the extended funcionality of this plugin, you need to allow the "
+"required data to be sent to our servers. Don't worry, we don't share that "
+"data with anyone. But it is required to verify an activated license."
+msgstr ""
+"要使用此外掛的擴展功能，您需要允許將所需資料發送到我們的伺服器。 別擔心，我們"
+"不會與任何人分享這些資料。 此動作只是需要驗證激活的許可證。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/src/V4/Translations.php:43
+msgid "Please provide a license key."
+msgstr "請提供許可證金鑰。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "沒有可用的變更日誌。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:432
+msgid "View details"
+msgstr "查看詳情"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:455
+#, php-format
+msgid "More information about %s"
+msgstr "更多有關 %s的訊息"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:548
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "%s 外掛是最新的。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:550
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "可以使用新版本的%s外掛。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:552
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "無法確定%s是否有可用的更新。"
+
+#: vendor/matthiasweb/wordpress-plugin-updater/plugin-update-checker-4.4/Puc/v4p4/Plugin/UpdateChecker.php:558
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "未知的更新檢查程序狀態 \"%s\""
+
+#. Name of the plugin
+msgid "WP Real Media Library"
+msgstr "WP Real Media Library"
+
+#. Description of the plugin
+msgid "Organize your wordpress media library in a nice way."
+msgstr "以一種很好的方式組織您的wordpress媒體庫。"
+
+#. URI of the plugin
+msgid "https://matthias-web.com/wordpress/real-media-library/"
+msgstr "https://matthias-web.com/wordpress/real-media-library/"
+
+#. Author of the plugin
+msgid "Matthias Günter"
+msgstr "Matthias Günter"
+
+#. URI of the plugin
+msgid "https://matthias-web.com"
+msgstr "https://matthias-web.com"
