@@ -9,6 +9,7 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
+
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 
 /* 中文CSS排版 */
@@ -58,4 +59,4 @@ h6 {
 p {
   font-size: 1rem;
   line-height: 1.3;
-} 
+}
