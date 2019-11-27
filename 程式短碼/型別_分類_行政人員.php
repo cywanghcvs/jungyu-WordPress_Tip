@@ -44,16 +44,16 @@ function create_staff_taxonomies()
 {
     // Add new taxonomy, make it hierarchical (like categories)
     $labels = array(
-        'name' => __('行政人員'),
-        'singular_name' => __('行政人員'),
-        'search_items' => __('搜尋行政人員'),
+        'name' => __('行政人員分類'),
+        'singular_name' => __('行政人員分類'),
+        'search_items' => __('搜尋行政人員分類'),
         'all_items' => __('全部分類'),
         'parent_item' => __('上層'),
         'parent_item_colon' => __('上層分類:'),
-        'edit_item' => __('編輯行政人員'),
-        'update_item' => __('更新行政人員類'),
+        'edit_item' => __('編輯行政人員分類'),
+        'update_item' => __('更新行政人員分類'),
         'new_item_name' => __('新行政人員分類名稱'),
-        'menu_name' => __('行政人員'),
+        'menu_name' => __('行政人員分類'),
     );
     $args = array(
         'hierarchical'      => true,
