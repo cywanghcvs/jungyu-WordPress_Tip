@@ -28,7 +28,7 @@ function create_post_type_album()
     'show_in_nav_menus'   => true,
     'show_in_admin_bar'   => true,
     'menu_position'      => 6,
-    'menu_icon'       => 'dashicons-calendar',
+    'menu_icon'       => 'dashicons-format-gallery',
     'can_export'         => true,
     //'has_archive'        => 'albums',
     'has_archive'        => true,

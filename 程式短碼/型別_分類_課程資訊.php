@@ -28,7 +28,7 @@ function create_post_type_course()
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
         'menu_position'      => 4,
-        'menu_icon'       => 'dashicons-calendar',
+        'menu_icon'       => 'dashicons-welcome-learn-more',
         'can_export'         => true,
         'has_archive'        => true,
         'exclude_from_search' => true,
