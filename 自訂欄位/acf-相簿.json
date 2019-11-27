@@ -1,0 +1,180 @@
+[
+    {
+        "key": "group_5d41854c41009",
+        "title": "相簿",
+        "fields": [
+            {
+                "key": "field_5d8185a1013bc",
+                "label": "相簿名稱",
+                "name": "album-name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d41855282c7e",
+                "label": "相簿",
+                "name": "album",
+                "type": "gallery",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "insert": "append",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d7ed68e0f27d",
+                "label": "主要照片",
+                "name": "main_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d54c8de0d105",
+                "label": "相簿主色系",
+                "name": "main_color",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "gallery-pink": "gallery-pink",
+                    "gallery-green": "gallery-green",
+                    "gallery-blue": "gallery-blue",
+                    "gallery-grey": "gallery-grey",
+                    "gallery-yellow": "gallery-yellow",
+                    "gallery-coffee": "gallery-coffee",
+                    "gallery-red": "gallery-red",
+                    "gallery-purple": "gallery-purple",
+                    "gallery-lightsteeblue": "gallery-lightsteeblue",
+                    "gallery-black": "gallery-black",
+                    "gallery-navy": "gallery-navy",
+                    "gallery-aqua": "gallery-aqua"
+                },
+                "default_value": [
+                    "gallery-green"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5dce0b3083bff",
+                "label": "日期",
+                "name": "日期",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "Y.n.d",
+                "return_format": "Y.n.d",
+                "first_day": 1
+            },
+            {
+                "key": "field_5ddb4725e8d45",
+                "label": "照片",
+                "name": "image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "gallery"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "format",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    }
+]
