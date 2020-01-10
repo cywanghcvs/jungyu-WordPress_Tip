@@ -1,0 +1,5838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JetEngine for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-10 08:34+0800\n"
+"PO-Revision-Date: 2020-01-10 08:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: Zemez\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;"
+"_nx_noop:4c,1,2\n"
+"esc_attr__;_x: 1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: framework\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: includes/base/base-data.php:91 includes/base/base-data.php:159
+#: includes/base/base-data.php:201
+#: includes/components/listings/post-type.php:270
+#: includes/components/meta-boxes/data.php:36
+#: includes/components/post-types/data.php:436
+#: includes/components/relations/data.php:191
+#: includes/dashboard/skins-import.php:40
+msgid "You don't have permissions to do this"
+msgstr "你沒有權限執行這裡"
+
+#: includes/base/base-data.php:106
+msgid "Couldn't create item"
+msgstr "無法建立項目"
+
+#: includes/base/base-data.php:171 includes/components/meta-boxes/data.php:46
+#: includes/components/relations/data.php:201
+msgid "Please provide item ID to delete"
+msgstr "請提供要刪除的項目 ID"
+
+#: includes/base/base-data.php:216
+msgid "Item ID not passed"
+msgstr "項目 ID 沒通過"
+
+#: includes/base/base-data.php:229
+msgid "Couldn't update item"
+msgstr "無法更新項目"
+
+#: includes/base/base-data.php:264
+msgid "Please set post type slug"
+msgstr "請設定文章型別代稱"
+
+#: includes/base/base-data.php:272
+msgid "Please set post type name"
+msgstr "請設定文章型別名稱"
+
+#: includes/base/base-data.php:280
+msgid "Please change post type slug. Current is reserved for WordPress needs"
+msgstr "請更新文章型別代稱，此代稱已用於 WordPress 別處"
+
+#: includes/compatibility/packages/acf.php:59
+msgid "ACF Gallery as WP Gallery"
+msgstr "ACF 相簿作為 WP 相簿"
+
+#: includes/compatibility/packages/acf.php:292
+msgid "ACF"
+msgstr "ACF"
+
+#: includes/compatibility/packages/acf.php:377
+msgid "ACF Field"
+msgstr "ACF 欄位"
+
+#: includes/compatibility/packages/jet-popup.php:48
+msgid "Jet Engine Listing popup"
+msgstr "Jet Engine 列表彈出"
+
+#: includes/compatibility/packages/jet-popup.php:50
+#: includes/components/elementor-views/document-types/listing-item.php:107
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:197
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:224
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:308
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:324
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:402
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:127
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:193
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:262
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:148
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:215
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:201
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:294
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:530
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:57
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:94
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:150
+#: includes/components/elementor-views/static-widgets/grid.php:80
+#: includes/components/elementor-views/static-widgets/grid.php:137
+#: includes/components/elementor-views/static-widgets/grid.php:150
+#: includes/components/elementor-views/static-widgets/grid.php:165
+#: includes/components/elementor-views/static-widgets/grid.php:764
+#: includes/components/elementor-views/static-widgets/grid.php:1165
+#: includes/components/elementor-views/static-widgets/grid.php:1199
+#: includes/components/elementor-views/static-widgets/grid.php:1238
+#: includes/components/elementor-views/static-widgets/grid.php:1253
+#: includes/components/elementor-views/static-widgets/grid.php:1281
+#: includes/modules/calendar/widget.php:110
+#: includes/modules/calendar/widget.php:155
+#: includes/modules/forms/widgets/booking-form.php:84
+#: includes/modules/forms/widgets/booking-form.php:108
+#: includes/modules/gallery/grid.php:196
+#: includes/modules/gallery/slider.php:351
+#: templates/admin/pages/post-types/edit.php:437
+msgid "Yes"
+msgstr "是"
+
+#: includes/compatibility/packages/jet-popup.php:51
+#: includes/components/elementor-views/document-types/listing-item.php:108
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:198
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:225
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:309
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:325
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:403
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:128
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:194
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:210
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:263
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:149
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:162
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:216
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:202
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:295
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:531
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:58
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:95
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:151
+#: includes/components/elementor-views/static-widgets/grid.php:81
+#: includes/components/elementor-views/static-widgets/grid.php:138
+#: includes/components/elementor-views/static-widgets/grid.php:151
+#: includes/components/elementor-views/static-widgets/grid.php:166
+#: includes/components/elementor-views/static-widgets/grid.php:765
+#: includes/components/elementor-views/static-widgets/grid.php:1166
+#: includes/components/elementor-views/static-widgets/grid.php:1200
+#: includes/components/elementor-views/static-widgets/grid.php:1239
+#: includes/components/elementor-views/static-widgets/grid.php:1254
+#: includes/components/elementor-views/static-widgets/grid.php:1282
+#: includes/modules/calendar/widget.php:111
+#: includes/modules/calendar/widget.php:156
+#: includes/modules/forms/widgets/booking-form.php:85
+#: includes/modules/forms/widgets/booking-form.php:109
+#: includes/modules/gallery/grid.php:197
+#: includes/modules/gallery/slider.php:352
+#: templates/admin/pages/post-types/edit.php:440
+msgid "No"
+msgstr "否"
+
+#: includes/compatibility/packages/meta-box.php:79
+msgid "Meta Box"
+msgstr "詮釋資料群組"
+
+#: includes/compatibility/packages/meta-box.php:264
+msgid "Meta Box Field"
+msgstr "詳釋資料群組欄位"
+
+#: includes/compatibility/packages/woocommerce.php:55
+msgid "Price"
+msgstr "價格"
+
+#: includes/compatibility/packages/woocommerce.php:61
+msgid "Sale Price"
+msgstr "售價"
+
+#: includes/compatibility/packages/woocommerce.php:67
+msgid "SKU"
+msgstr "存貨單位"
+
+#: includes/compatibility/packages/woocommerce.php:73
+msgid "Sales"
+msgstr "銷售"
+
+#: includes/compatibility/packages/woocommerce.php:79
+msgid "Average Rating"
+msgstr "平均評分"
+
+#: includes/compatibility/packages/woocommerce.php:85
+msgid "Stock Status"
+msgstr "庫存狀況"
+
+#: includes/compatibility/packages/woocommerce.php:91
+msgid "Weight"
+msgstr "重量"
+
+#: includes/compatibility/packages/woocommerce.php:97
+msgid "Length"
+msgstr "長度"
+
+#: includes/compatibility/packages/woocommerce.php:103
+#: includes/modules/calendar/widget.php:333
+#: includes/modules/calendar/widget.php:892
+#: includes/modules/forms/widgets/booking-form.php:230
+msgid "Width"
+msgstr "寬度"
+
+#: includes/compatibility/packages/woocommerce.php:109
+#: includes/modules/calendar/widget.php:350
+#: includes/modules/calendar/widget.php:914
+#: includes/modules/forms/widgets/booking-form.php:118
+msgid "Height"
+msgstr "高度"
+
+#: includes/compatibility/packages/woocommerce.php:125
+msgid "Thumbnail"
+msgstr "縮圖"
+
+#: includes/compatibility/packages/wpml.php:51
+msgid "Listing Grid: Not found message"
+msgstr "列表方格：未找到任何訊息"
+
+#: includes/compatibility/packages/wpml.php:64
+msgid "Field: Date format (if used)"
+msgstr "欄位：日期格式（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:69
+msgid "Field: Separator for the decimal point (if used)"
+msgstr "欄位：使用小數點分隔（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:74
+msgid "Field: Thousands separator (if used)"
+msgstr "欄位：千位數分隔符號（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:79
+msgid "Field: Field format (if used)"
+msgstr "欄位：欄位格式（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:92
+msgid "Link: Label (if used)"
+msgstr "連結：標籤（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:105
+msgid "Meta: Prefix (if used)"
+msgstr "詮釋資料：前輟（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:110
+msgid "Meta: Suffix (if used)"
+msgstr "詮釋資料：後輟（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:115
+msgid "Meta: Zero Comments Format (if used)"
+msgstr "詮釋資料：零評論格式（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:120
+msgid "Meta: One Comments Format (if used)"
+msgstr "詮釋資料：壹評論格式（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:125
+msgid "Meta: More Comments Format (if used)"
+msgstr "詮釋資料：更多評論格式（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:130
+msgid "Meta: Date Format (if used)"
+msgstr "評釋資料：日期格式（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:143
+msgid "Terms: Prefix (if used)"
+msgstr "分類項目：前輟（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:148
+msgid "Terms: Suffix (if used)"
+msgstr "分類項目：後輟（如果有使用）"
+
+#: includes/compatibility/packages/wpml.php:161
+msgid "Repeater: Field format (if used)"
+msgstr "重複器：欄位格式（如果有使用）"
+
+#: includes/components/blocks-views/block-types/base.php:84
+msgid "Item renderer class not found"
+msgstr "找不到項目渲染器類別"
+
+#: includes/components/blocks-views/editor.php:88
+msgid "Listing Item Settings"
+msgstr "列表項目設定"
+
+#: includes/components/blocks-views/editor.php:96
+msgid "Listing Items CSS"
+msgstr "列表項目 CSS"
+
+#: includes/components/blocks-views/editor.php:128
+msgid "Listing Post Type"
+msgstr "列表文章型別"
+
+#: includes/components/blocks-views/editor.php:135
+msgid "Listing Taxonomy"
+msgstr "列表分類法"
+
+#: includes/components/blocks-views/editor.php:140
+msgid "No available settings"
+msgstr "無可用的設置"
+
+#: includes/components/blocks-views/editor.php:163
+msgid "You need to reload page after update to apply saved settings"
+msgstr "您需要在更新後重新刷新頁面以套用儲存的設置"
+
+#: includes/components/blocks-views/editor.php:186
+msgid ""
+"When targeting your specific element, add <code>selector</code> before the "
+"tags and classes you want to exclusively target, i.e: <code>selector a "
+"{ color: red;}</code>"
+msgstr ""
+"當定義您要指定的元素時，在要專門定義的標記和類之前新增 <code>selector</"
+"code>，例如：<code>selector a { color: red;}</code>"
+
+#: includes/components/blocks-views/editor.php:226
+msgid "Other"
+msgstr "其它"
+
+#: includes/components/blocks-views/editor.php:230
+#: includes/components/blocks-views/editor.php:283
+#: includes/components/elementor-views/document-types/listing-item.php:173
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:361
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:502
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:53
+#: includes/components/listings/data.php:490
+msgid "Options"
+msgstr "選項"
+
+#: includes/components/blocks-views/editor.php:249
+#: includes/components/blocks-views/editor.php:263
+#: includes/components/elementor-views/document-types/listing-item.php:163
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:159
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:338
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:346
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:228
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:492
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:252
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:214
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:163
+#: includes/components/elementor-views/static-widgets/grid.php:43
+#: includes/modules/calendar/widget.php:62
+msgid "General"
+msgstr "一般"
+
+#: includes/components/blocks-views/editor.php:253
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:161
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:340
+msgid "Post thumbnail"
+msgstr "文章縮圖"
+
+#: includes/components/blocks-views/editor.php:257
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:341
+msgid "User avatar (works only for user listing and pages)"
+msgstr "使用者頭像（僅適用於用戶列表和頁面）"
+
+#: includes/components/blocks-views/editor.php:267
+#: includes/components/elementor-views/document-types/listing-item.php:165
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:348
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:494
+msgid "Permalink"
+msgstr "固定連結"
+
+#: includes/components/elementor-views/document-types/listing-item.php:14
+#: includes/components/listings/post-type.php:347
+msgid "Listing Item"
+msgstr "列表項目"
+
+#: includes/components/elementor-views/document-types/listing-item.php:32
+msgid "Listing Settings"
+msgstr "列表設定"
+
+#: includes/components/elementor-views/document-types/listing-item.php:41
+msgid ""
+"<b>Please note:</b> You need to reload page after applying new source, "
+"changing post type or taxonomy. New meta fields and options for dynamic "
+"fields will be applied only after reloading."
+msgstr ""
+"<b>請注意：</b>您需要在更改文章型別及套用新來源之後刷新頁面，新的詮釋欄位和用"
+"於動態欄位的選項將會在刷新之後套用。"
+
+#: includes/components/elementor-views/document-types/listing-item.php:48
+#: templates/admin/listings-popup.php:14
+msgid "Listing source:"
+msgstr "列表來源："
+
+#: includes/components/elementor-views/document-types/listing-item.php:52
+#: includes/components/meta-boxes/pages/edit.php:141
+#: includes/components/options-pages/pages/edit.php:186
+#: includes/dashboard/skins-import.php:274
+#: templates/admin/listings-popup.php:16
+msgid "Posts"
+msgstr "文章"
+
+#: includes/components/elementor-views/document-types/listing-item.php:53
+#: includes/components/elementor-views/static-widgets/grid.php:522
+#: includes/dashboard/skins-import.php:309
+#: templates/admin/listings-popup.php:17
+msgid "Terms"
+msgstr "分類項目"
+
+#: includes/components/elementor-views/document-types/listing-item.php:54
+#: includes/components/options-pages/pages/edit.php:218
+#: templates/admin/listings-popup.php:18
+msgid "Users"
+msgstr "使用者"
+
+#: includes/components/elementor-views/document-types/listing-item.php:62
+#: templates/admin/listings-popup.php:22
+msgid "From post type:"
+msgstr "從文章型別："
+
+#: includes/components/elementor-views/document-types/listing-item.php:74
+#: templates/admin/listings-popup.php:30
+msgid "From taxonomy:"
+msgstr "從分類法："
+
+#: includes/components/elementor-views/document-types/listing-item.php:87
+msgid "Preview Width"
+msgstr "預覽寬度"
+
+#: includes/components/elementor-views/document-types/listing-item.php:105
+msgid "Make listing item clickable"
+msgstr "使列表項目可被點擊"
+
+#: includes/components/elementor-views/document-types/listing-item.php:119
+msgid "Link source"
+msgstr "連結來源"
+
+#: includes/components/elementor-views/document-types/listing-item.php:137
+#: includes/components/elementor-views/dynamic-tags/tags/options-gallery-tag.php:36
+#: includes/components/elementor-views/dynamic-tags/tags/options-image-tag.php:36
+#: includes/components/elementor-views/dynamic-tags/tags/options-tag.php:14
+#: includes/components/elementor-views/dynamic-tags/tags/options-tag.php:43
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:115
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:57
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:155
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:59
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:74
+msgid "Option"
+msgstr "選項"
+
+#: includes/components/elementor-views/dynamic-tags/module.php:25
+#: includes/dashboard/manager.php:41 includes/dashboard/manager.php:42
+#: templates/admin/pages/post-types/list.php:23
+msgid "JetEngine"
+msgstr "JetEngine"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-field-tag.php:14
+msgid "Custom Field"
+msgstr "自訂欄位"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-field-tag.php:38
+#: includes/components/elementor-views/dynamic-tags/tags/custom-gallery-tag.php:32
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:32
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:428
+#: includes/components/elementor-views/static-widgets/grid.php:505
+#: includes/modules/forms/editor.php:166
+#: templates/admin/pages/meta-boxes/fields.php:49
+msgid "Field"
+msgstr "欄位"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-gallery-tag.php:14
+msgid "JetEngine Gallery"
+msgstr "JetEngine 相簿"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:14
+msgid "Custom Image"
+msgstr "自訂圖片"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:50
+msgid "Queried term thumbnial"
+msgstr "查詢分類項目縮圖"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:51
+msgid "For taxonomy archives only"
+msgstr "僅用於分類列表"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:60
+msgid "Thumbnail meta key"
+msgstr "縮圖詮釋資料鍵"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:74
+#: includes/components/elementor-views/dynamic-tags/tags/options-image-tag.php:47
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:208
+msgid "Fallback"
+msgstr "退回預設"
+
+#: includes/components/elementor-views/dynamic-tags/tags/options-gallery-tag.php:14
+msgid "Gallery from options"
+msgstr "相簿選項"
+
+#: includes/components/elementor-views/dynamic-tags/tags/options-image-tag.php:14
+msgid "Image from options"
+msgstr "圖片選項"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:15
+msgid "Dynamic Field"
+msgstr "動態欄位"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:35
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:35
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:35
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:38
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:38
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:38
+#: includes/components/listings/data.php:103
+#: includes/modules/forms/widgets/booking-form.php:38
+msgid "Content"
+msgstr "內容"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:42
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:42
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:44
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:59
+#: includes/components/listings/post-type.php:68
+msgid "Source"
+msgstr "來源"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:52
+msgid "Object Field"
+msgstr "特件欄位"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:65
+msgid "Automatically generated excerpt"
+msgstr "自動生成摘要"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:78
+msgid "More string"
+msgstr "更多字串"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:95
+#: templates/forms/admin/form-builder.php:181
+msgid "Meta Field"
+msgstr "詮釋欄位"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:137
+msgid "Or enter meta field key"
+msgstr "或輸入詮釋欄位鍵"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:141
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:181
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:84
+msgid "Note: this filed will override Meta Field value"
+msgstr "注意：此欄位將覆蓋掉詮釋欄位值"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:152
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:163
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:104
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:115
+msgid "Field Icon"
+msgstr "欄位圖示"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:175
+msgid "HTML tag"
+msgstr "HTML 標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:195
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:260
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:213
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:199
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:148
+msgid "Hide if value is empty"
+msgstr "如果是空值時予以隱藏"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:212
+msgid "Show this if field value is empty"
+msgstr "如果此欄是空值時予以顯示"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:222
+msgid "Filter field output"
+msgstr "篩選欄位以輸出"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:235
+#: templates/admin/pages/post-types/edit.php:281
+msgid "Callback"
+msgstr "回調"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:248
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:150
+msgid "Format"
+msgstr "格式"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:255
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:153
+#: includes/components/post-types/pages/edit.php:180
+msgid "Documentation on date and time formatting"
+msgstr "日期和時間格式的說明文件"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:262
+msgid "Decimal point"
+msgstr "小數點"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:265
+msgid "Sets the separator for the decimal point"
+msgstr "設定小數點的分隔符號"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:276
+msgid "Thousands separator"
+msgstr "千位數分隔"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:289
+msgid "Decimal points"
+msgstr "小數點"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:295
+msgid "Sets the number of visible decimal points"
+msgstr "設定小數點位數"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:306
+msgid "Single value"
+msgstr "單值"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:322
+msgid "Add links to related posts"
+msgstr "新增相關文章的連結"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:338
+msgid "Related list HTML tag"
+msgstr "相關列表 HTML 標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:356
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:485
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:82
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:406
+#: includes/components/post-types/pages/edit.php:234
+msgid "Delimiter"
+msgstr "分隔符號"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:369
+msgid "Text if enabled"
+msgstr "文本，如果啟用"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:382
+msgid "Text if disabled"
+msgstr "文本，如果停用"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:400
+msgid "Customize field output"
+msgstr "自訂欄位輸出"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:413
+msgid "Field format"
+msgstr "欄位格式"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:416
+#, php-format
+msgid "%s will be replaced with field value"
+msgstr "%s 將會取代掉欄位值"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:437
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:624
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:451
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:355
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:386
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:494
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:561
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:209
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:415
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:499
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:547
+#: includes/components/elementor-views/static-widgets/grid.php:1388
+#: includes/components/elementor-views/static-widgets/grid.php:1419
+#: includes/components/elementor-views/static-widgets/grid.php:1792
+#: includes/components/elementor-views/static-widgets/grid.php:1812
+#: includes/components/elementor-views/static-widgets/grid.php:1832
+#: includes/modules/forms/widgets/booking-form.php:139
+#: includes/modules/forms/widgets/booking-form.php:207
+#: includes/modules/forms/widgets/booking-form.php:271
+#: includes/modules/forms/widgets/booking-form.php:369
+#: includes/modules/forms/widgets/booking-form.php:517
+#: includes/modules/forms/widgets/booking-form.php:622
+#: includes/modules/forms/widgets/booking-form.php:769
+#: includes/modules/forms/widgets/booking-form.php:1209
+#: includes/modules/gallery/grid.php:103 includes/modules/gallery/grid.php:123
+#: includes/modules/gallery/slider.php:83
+#: includes/modules/gallery/slider.php:103
+#: includes/modules/gallery/slider.php:227
+#: includes/modules/gallery/slider.php:270
+msgid "Color"
+msgstr "顏色"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:456
+msgid "Field content width"
+msgstr "欄位內容寬度"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:460
+msgid "Auto"
+msgstr "自動"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:461
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:200
+#: includes/modules/forms/widgets/booking-form.php:968
+msgid "Fullwidth"
+msgstr "全寬"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:473
+msgid "Display"
+msgstr "顯示"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:477
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:132
+msgid "Inline"
+msgstr "行內"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:478
+msgid "Multiline"
+msgstr "多行"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:486
+msgid "Widget Items Alignment"
+msgstr "小工具項目對齊"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:492
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:523
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:239
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:188
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:266
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:251
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:177
+#: includes/components/elementor-views/static-widgets/grid.php:1520
+#: includes/components/elementor-views/static-widgets/grid.php:1671
+#: includes/modules/calendar/widget.php:845
+#: includes/modules/calendar/widget.php:871
+#: includes/modules/calendar/widget.php:1132
+#: includes/modules/forms/widgets/booking-form.php:301
+#: includes/modules/forms/widgets/booking-form.php:956
+#: includes/modules/forms/widgets/booking-form.php:1161
+#: includes/modules/forms/widgets/booking-form.php:1237
+msgid "Left"
+msgstr "左"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:496
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:527
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:243
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:192
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:270
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:255
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:181
+#: includes/modules/calendar/widget.php:849
+#: includes/modules/calendar/widget.php:875
+#: includes/modules/calendar/widget.php:1136
+#: includes/modules/forms/widgets/booking-form.php:305
+#: includes/modules/forms/widgets/booking-form.php:960
+#: includes/modules/forms/widgets/booking-form.php:1165
+#: includes/modules/forms/widgets/booking-form.php:1241
+msgid "Center"
+msgstr "中"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:500
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:531
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:247
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:196
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:274
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:259
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:185
+#: includes/components/elementor-views/static-widgets/grid.php:1521
+#: includes/components/elementor-views/static-widgets/grid.php:1672
+#: includes/modules/calendar/widget.php:853
+#: includes/modules/calendar/widget.php:879
+#: includes/modules/calendar/widget.php:1140
+#: includes/modules/forms/widgets/booking-form.php:309
+#: includes/modules/forms/widgets/booking-form.php:964
+#: includes/modules/forms/widgets/booking-form.php:1169
+#: includes/modules/forms/widgets/booking-form.php:1245
+msgid "Right"
+msgstr "右"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:510
+msgid "Icon and field value. Affects to single line field values."
+msgstr "圖示和欄位值，影響單一行欄位值。"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:517
+msgid "Field Content Alignment"
+msgstr "欄位內容對齊"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:541
+msgid "Field value. Affects to multiline field values."
+msgstr "欄位值，影響多行欄位的值。"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:556
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:342
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:386
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:590
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:456
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:621
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:350
+#: includes/modules/calendar/widget.php:276
+#: includes/modules/calendar/widget.php:572
+#: includes/modules/calendar/widget.php:665
+#: includes/modules/calendar/widget.php:953
+#: includes/modules/forms/widgets/booking-form.php:404
+#: includes/modules/forms/widgets/booking-form.php:557
+#: includes/modules/forms/widgets/booking-form.php:702
+#: includes/modules/forms/widgets/booking-form.php:897
+#: includes/modules/forms/widgets/booking-form.php:1132
+msgid "Padding"
+msgstr "內距"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:569
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:354
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:398
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:602
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:471
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:505
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:636
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:362
+#: includes/modules/calendar/widget.php:288
+#: includes/modules/calendar/widget.php:965
+#: includes/modules/forms/widgets/booking-form.php:416
+#: includes/modules/forms/widgets/booking-form.php:569
+#: includes/modules/forms/widgets/booking-form.php:714
+#: includes/modules/forms/widgets/booking-form.php:909
+#: includes/modules/forms/widgets/booking-form.php:1144
+#: includes/modules/forms/widgets/booking-form.php:1220
+msgid "Margin"
+msgstr "外距"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:583
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:297
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:367
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:411
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:615
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:427
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:592
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:375
+#: includes/modules/calendar/widget.php:301
+#: includes/modules/calendar/widget.php:394
+#: includes/modules/calendar/widget.php:425
+#: includes/modules/calendar/widget.php:932
+#: includes/modules/forms/widgets/booking-form.php:429
+#: includes/modules/forms/widgets/booking-form.php:582
+#: includes/modules/forms/widgets/booking-form.php:727
+#: includes/modules/forms/widgets/booking-form.php:922
+#: includes/modules/forms/widgets/booking-form.php:1001
+msgid "Border"
+msgstr "邊線"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:592
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:306
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:376
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:420
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:624
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:436
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:601
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:384
+#: includes/modules/calendar/widget.php:310
+#: includes/modules/calendar/widget.php:403
+#: includes/modules/calendar/widget.php:434
+#: includes/modules/calendar/widget.php:630
+#: includes/modules/calendar/widget.php:742
+#: includes/modules/calendar/widget.php:941
+#: includes/modules/forms/widgets/booking-form.php:438
+#: includes/modules/forms/widgets/booking-form.php:591
+#: includes/modules/forms/widgets/booking-form.php:736
+#: includes/modules/forms/widgets/booking-form.php:931
+#: includes/modules/forms/widgets/booking-form.php:1010
+msgid "Border Radius"
+msgstr "邊線圓角"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:615
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:64
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:75
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:442
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:200
+msgid "Icon"
+msgstr "圖示"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:636
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:463
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:221
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:426
+#: includes/components/post-types/pages/edit.php:249
+#: includes/modules/forms/widgets/booking-form.php:780
+msgid "Size"
+msgstr "尺寸"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:654
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:481
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:239
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:510
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:558
+#: includes/modules/forms/widgets/booking-form.php:218
+#: includes/modules/forms/widgets/booking-form.php:282
+msgid "Gap"
+msgstr "間距"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:674
+msgid "Misc"
+msgstr "雜項"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:15
+msgid "Dynamic Image"
+msgstr "動態圖片"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:78
+msgid "Or enter custom meta field key"
+msgstr "或輸入自訂詮釋欄位鍵"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:82
+msgid "Note: this filed will override Source value"
+msgstr "注意：這個欄位將會覆蓋掉來源值"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:89
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:103
+msgid "Image Size"
+msgstr "圖片尺寸"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:96
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:118
+msgid "Note: this option will work only if image stored as attachment ID"
+msgstr "注意：這個選項將只會作用於有儲存附件 ID 的圖片"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:125
+msgid "Linked image"
+msgstr "已連結圖片"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:137
+msgid "Link Source"
+msgstr "連結來源"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:177
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:80
+msgid "Or enter post meta field key"
+msgstr "或輸入文章詮釋欄位鍵"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:191
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:146
+msgid "Open in new window"
+msgstr "在新視窗中開啟"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:206
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:158
+msgid "Add \"rel\" attr"
+msgstr "新增 \"rel\" 屬性"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:211
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:163
+msgid "Alternate"
+msgstr "替代"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:212
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:164
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:52
+#: includes/components/elementor-views/static-widgets/grid.php:384
+#: includes/components/post-types/manager.php:609
+msgid "Author"
+msgstr "作者"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:213
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:165
+msgid "Bookmark"
+msgstr "書籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:214
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:166
+msgid "External"
+msgstr "外部"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:215
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:167
+msgid "Help"
+msgstr "幫助"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:216
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:168
+msgid "License"
+msgstr "許可證"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:217
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:169
+msgid "Next"
+msgstr "下一步"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:218
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:170
+msgid "Nofollow"
+msgstr "沒有關注"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:219
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:171
+msgid "Noreferrer"
+msgstr "沒有參照"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:220
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:172
+msgid "Noopener"
+msgstr "沒有開啟者"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:221
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:173
+msgid "Prev"
+msgstr "上一步"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:222
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:174
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:223
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:175
+msgid "Tag"
+msgstr "標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:234
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:183
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:261
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:246
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:666
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:172
+#: includes/modules/forms/widgets/booking-form.php:951
+#: includes/modules/forms/widgets/booking-form.php:1156
+#: includes/modules/forms/widgets/booking-form.php:1232
+msgid "Alignment"
+msgstr "對齊"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:273
+msgid "Fallback Image"
+msgstr "退回預設圖片"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:274
+msgid "This image will be shown if selected source field is empty"
+msgstr "如果所選來源欄位為空時，將顯示此圖片"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:287
+msgid "Image"
+msgstr "圖片"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:15
+msgid "Dynamic Link"
+msgstr "動態連結"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:91
+#: templates/admin/pages/meta-boxes/fields.php:25
+#: templates/admin/pages/meta-boxes/fields.php:262
+msgid "Label"
+msgstr "標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:94
+msgid "Read More"
+msgstr "閱讀更多"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:95
+msgid "You can use next macros in this field: "
+msgstr "你可以在此欄位裡使用下一個巨集： "
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:127
+msgid "HTML wrapper"
+msgstr "HTML 容器"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:247
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:308
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:512
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:348
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:278
+#: includes/components/elementor-views/static-widgets/grid.php:1381
+#: includes/components/elementor-views/static-widgets/grid.php:1785
+#: includes/modules/calendar/widget.php:452
+#: includes/modules/calendar/widget.php:768
+#: includes/modules/forms/widgets/booking-form.php:811
+#: includes/modules/gallery/slider.php:216
+msgid "Normal"
+msgstr "一般"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:262
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:302
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:326
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:357
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:530
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:561
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:293
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:321
+#: includes/modules/calendar/widget.php:459
+#: includes/modules/calendar/widget.php:491
+#: includes/modules/calendar/widget.php:553
+#: includes/modules/calendar/widget.php:775
+#: includes/modules/calendar/widget.php:806
+#: includes/modules/forms/widgets/booking-form.php:829
+#: includes/modules/forms/widgets/booking-form.php:860
+#: includes/modules/forms/widgets/booking-form.php:1042
+#: includes/modules/forms/widgets/booking-form.php:1095
+msgid "Text Color"
+msgstr "文本顏色"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:273
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:313
+msgid "Icon Color"
+msgstr "圖示顏色"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:287
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:339
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:543
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:379
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:306
+#: includes/components/elementor-views/static-widgets/grid.php:1412
+#: includes/components/elementor-views/static-widgets/grid.php:1805
+#: includes/modules/calendar/widget.php:484
+#: includes/modules/forms/widgets/booking-form.php:842
+#: includes/modules/gallery/slider.php:259
+msgid "Hover"
+msgstr "懸停"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:324
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:368
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:572
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:408
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:332
+#: includes/modules/calendar/widget.php:513
+#: includes/modules/calendar/widget.php:597
+#: includes/modules/calendar/widget.php:731
+#: includes/modules/forms/widgets/booking-form.php:871
+#: includes/modules/forms/widgets/booking-form.php:1053
+#: includes/modules/forms/widgets/booking-form.php:1106
+msgid "Border Color"
+msgstr "邊線顏色"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:396
+msgid "Icon Position"
+msgstr "圖示位置"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:400
+msgid "Before Label"
+msgstr "之前的標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:401
+msgid "After Label"
+msgstr "之後的標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:412
+msgid "Icon Size"
+msgstr "圖示大小"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:430
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:451
+msgid "Icon Gap"
+msgstr "圖示間隔"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:18
+msgid "Dynamic Meta"
+msgstr "動態詮釋資料"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:47
+#: includes/components/elementor-views/static-widgets/grid.php:224
+#: includes/components/elementor-views/static-widgets/grid.php:387
+#: includes/components/elementor-views/static-widgets/grid.php:619
+#: includes/components/elementor-views/static-widgets/grid.php:874
+#: includes/components/elementor-views/static-widgets/grid.php:1017
+#: templates/admin/pages/meta-boxes/fields.php:279
+#: templates/admin/pages/post-types/edit.php:239
+msgid "Type"
+msgstr "型別"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:51
+#: includes/components/elementor-views/static-widgets/grid.php:388
+#: includes/components/listings/data.php:102
+#: includes/components/meta-boxes/pages/edit.php:85
+#: includes/modules/forms/manager.php:236
+msgid "Date"
+msgstr "日期"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:53
+#: includes/components/options-pages/pages/edit.php:202
+#: includes/components/post-types/manager.php:597
+msgid "Comments"
+msgstr "評論"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:87
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:646
+#: templates/admin/pages/post-types/edit.php:313
+msgid "Prefix"
+msgstr "前輟"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:96
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:693
+#: templates/admin/pages/post-types/edit.php:322
+msgid "Suffix"
+msgstr "後輟"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:128
+#: includes/modules/calendar/widget.php:231
+#: includes/modules/forms/widgets/booking-form.php:487
+#: templates/admin/pages/meta-boxes/fields.php:84
+msgid "Layout"
+msgstr "佈局"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:133
+msgid "List"
+msgstr "列表"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:143
+msgid "Date Settings"
+msgstr "日期設置"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:160
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:183
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:206
+msgid "Link"
+msgstr "連結"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:164
+msgid "Archive"
+msgstr "文章列表"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:165
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:188
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:210
+#: templates/admin/pages/meta-boxes/edit.php:28
+msgid "Post"
+msgstr "文章"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:166
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:189
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:211
+#: includes/components/elementor-views/static-widgets/grid.php:382
+#: includes/components/elementor-views/static-widgets/grid.php:740
+msgid "None"
+msgstr "無"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:176
+msgid "Author Settings"
+msgstr "作者設置"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:187
+msgid "Author Archives"
+msgstr "作者列表"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:199
+msgid "Comments Settings"
+msgstr "評論設置"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:219
+msgid "Zero Comments Format"
+msgstr "零評論格式"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:229
+msgid "One Comments Format"
+msgstr "壹評論格式"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:239
+msgid "More Comments Format"
+msgstr "更多評論格式"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:243
+#, php-format
+msgid "Use % for comments number"
+msgstr "使用 % f評論數"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:289
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:283
+msgid "Items"
+msgstr "項目"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:315
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:346
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:519
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:550
+#: includes/modules/calendar/widget.php:246
+#: includes/modules/calendar/widget.php:471
+#: includes/modules/calendar/widget.php:502
+#: includes/modules/calendar/widget.php:542
+#: includes/modules/calendar/widget.php:654
+#: includes/modules/calendar/widget.php:786
+#: includes/modules/calendar/widget.php:817
+#: includes/modules/forms/widgets/booking-form.php:393
+#: includes/modules/forms/widgets/booking-form.php:546
+#: includes/modules/forms/widgets/booking-form.php:691
+#: includes/modules/forms/widgets/booking-form.php:818
+#: includes/modules/forms/widgets/booking-form.php:849
+#: includes/modules/forms/widgets/booking-form.php:1031
+#: includes/modules/forms/widgets/booking-form.php:1084
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:501
+msgid "Items Value"
+msgstr "項目值"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:655
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:702
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:444
+msgid "Left Gap"
+msgstr "左間隔"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:673
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:720
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:462
+msgid "Right Gap"
+msgstr "右間隔"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:18
+msgid "Dynamic Repeater"
+msgstr "動態重複器"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:46
+msgid ""
+"<b>Note</b> this widget could process only repeater meta fields created with "
+"JetThemeCore or ACF plugins"
+msgstr "<b>注意</b>此小工具只能處理使用 JetThemeCore 或 ACF 外掛創建的詮釋欄位"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:95
+msgid "Item format"
+msgstr "項目格式"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:98
+msgid "You can render repeater fields values with macros %repeater field name%"
+msgstr "你能夠使用巨集來渲染重複器欄位值 %repeater field name%"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:105
+msgid "Item HTML tag"
+msgstr "項目 HTML 標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:119
+msgid "Items delimiter"
+msgstr "項目分隔符號"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:128
+msgid "Before items markup"
+msgstr "在項目標記之前"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:131
+msgid "HTML to output before repeater items"
+msgstr "在重複器項目之前輸出的 HTML"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:138
+msgid "After items markup"
+msgstr "在項目標記之後"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:141
+msgid "HTML to output after repeater items"
+msgstr "在重複器項目之後輸出的 HTML"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:148
+msgid "Add counter to repeater items"
+msgstr "為重複器項目新增計數"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:157
+msgid "Add leding zero before counter items"
+msgstr "在計數項目前多加零"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:169
+msgid "Text after counter number"
+msgstr "計數項目之後的文本"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:182
+msgid "Position"
+msgstr "位置"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:186
+msgid "Above items"
+msgstr "以上項目"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:187
+msgid "At the left of the items"
+msgstr "在項目的左側"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:188
+msgid "At the right of the items"
+msgstr "在項目的右側"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:223
+msgid "Direction"
+msgstr "方向"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:228
+#: includes/modules/forms/widgets/booking-form.php:492
+#: templates/admin/pages/meta-boxes/fields.php:91
+msgid "Horizontal"
+msgstr "水平"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:232
+#: includes/modules/forms/widgets/booking-form.php:496
+#: templates/admin/pages/meta-boxes/fields.php:95
+msgid "Vertical"
+msgstr "垂直"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:292
+msgid "Fixed item size"
+msgstr "固定項目大小"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:304
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:540
+msgid "Item Width"
+msgstr "項目寬度"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:325
+msgid "Item Height"
+msgstr "項目高度"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:366
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:397
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:580
+msgid "Background color"
+msgstr "背景顏色"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:519
+msgid "Counters"
+msgstr "計數器"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:528
+msgid "Fixed counter box size"
+msgstr "固定計數器外框尺寸"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:648
+msgid "Counter depth"
+msgstr "計數器深度"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:670
+msgid "Left/Top"
+msgstr "左上"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:674
+msgid "Center/Middle"
+msgstr "置中"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:678
+msgid "Right/Bottom"
+msgstr "右下"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:682
+msgid "Stretch"
+msgstr "伸展"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:18
+msgid "Dynamic Terms"
+msgstr "動態分類項目"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:45
+msgid "From taxonomy"
+msgstr "從分類法"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:55
+msgid "Show all terms"
+msgstr "顯示全部分類項目"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:67
+msgid "Terms number to show"
+msgstr "顯示項目號碼"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:91
+msgid "Linked terms"
+msgstr "連結項目"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:92
+msgid "Terms labels are linked to term archive page"
+msgstr "項目標籤連結到項目列表頁"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:105
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:116
+msgid "Terms Icon"
+msgstr "項目圖示"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:128
+msgid "Text before terms list"
+msgstr "在項目列表之前的文字"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:138
+msgid "Text after terms list"
+msgstr "在項目清單之後的文字"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:259
+#: includes/modules/forms/widgets/booking-form.php:190
+#: templates/admin/pages/post-types/edit.php:52
+#: templates/admin/pages/taxonomies/edit.php:57
+msgid "Labels"
+msgstr "標籤"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:482
+msgid "Text before"
+msgstr "之前文字"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:530
+msgid "Text after"
+msgstr "之後文字"
+
+#: includes/components/elementor-views/manager.php:176
+#: includes/components/listings/post-type.php:185
+msgid ""
+"You need an <b>Elementor Page Builder</b> plugin to create and edit listing "
+"items"
+msgstr "你需要 <b>Elementor Page Builder</b> 外掛來創建及編輯列表項目"
+
+#: includes/components/elementor-views/manager.php:180
+#: includes/components/listings/post-type.php:189
+msgid "Install Elementor Page Builder"
+msgstr "安裝 Elementor Page Builder"
+
+#: includes/components/elementor-views/manager.php:267
+msgid "Listing Elements"
+msgstr "列表元素"
+
+#: includes/components/elementor-views/manager.php:371
+msgid ""
+"Please install <a href=\"https://wordpress.org/plugins/elementor/\" target="
+"\"_blank\">Elementor page builder</a> to manage listings layout"
+msgstr ""
+"請安裝 <a href=\"https://wordpress.org/plugins/elementor/\" target=\"_blank"
+"\">Elementor page builder</a> 來管理列表佈局"
+
+#: includes/components/elementor-views/manager.php:372
+msgid "Elementor missed"
+msgstr "Elementor 找不著"
+
+#: includes/components/elementor-views/manager.php:381
+msgid "Incorrect template type. Please try again."
+msgstr "不正確的版型型別，請重試。"
+
+#: includes/components/elementor-views/manager.php:382
+#: includes/components/listings/post-type.php:271
+#: includes/components/listings/post-type.php:292
+#: includes/modules/forms/widgets/booking-form.php:1077
+msgid "Error"
+msgstr "錯誤"
+
+#: includes/components/elementor-views/static-widgets/grid.php:23
+msgid "Listing Grid"
+msgstr "列表方格"
+
+#: includes/components/elementor-views/static-widgets/grid.php:50
+#: includes/modules/calendar/widget.php:69
+msgid "Listing"
+msgstr "列表"
+
+#: includes/components/elementor-views/static-widgets/grid.php:60
+msgid "Columns Number"
+msgstr "欄號"
+
+#: includes/components/elementor-views/static-widgets/grid.php:77
+msgid "Use as Archive Template"
+msgstr "使用文章列表版型"
+
+#: includes/components/elementor-views/static-widgets/grid.php:90
+msgid "Status"
+msgstr "狀態"
+
+#: includes/components/elementor-views/static-widgets/grid.php:94
+#: includes/components/elementor-views/static-widgets/grid.php:329
+msgid "Publish"
+msgstr "發佈"
+
+#: includes/components/elementor-views/static-widgets/grid.php:95
+#: includes/components/elementor-views/static-widgets/grid.php:333
+msgid "Future"
+msgstr "未來"
+
+#: includes/components/elementor-views/static-widgets/grid.php:96
+#: includes/components/elementor-views/static-widgets/grid.php:331
+msgid "Draft"
+msgstr "草稿"
+
+#: includes/components/elementor-views/static-widgets/grid.php:97
+msgid "Pending Review"
+msgstr "待審"
+
+#: includes/components/elementor-views/static-widgets/grid.php:98
+#: includes/components/elementor-views/static-widgets/grid.php:334
+msgid "Private"
+msgstr "秘密"
+
+#: includes/components/elementor-views/static-widgets/grid.php:110
+msgid "Posts number"
+msgstr "文章數"
+
+#: includes/components/elementor-views/static-widgets/grid.php:125
+msgid "Not found message"
+msgstr "找不到訊息"
+
+#: includes/components/elementor-views/static-widgets/grid.php:127
+msgid "No data was found"
+msgstr "找不到資料"
+
+#: includes/components/elementor-views/static-widgets/grid.php:135
+msgid "Is masonry grid"
+msgstr "是否採用瀑布流"
+
+#: includes/components/elementor-views/static-widgets/grid.php:147
+msgid "Equal columns height"
+msgstr "等於欄高"
+
+#: includes/components/elementor-views/static-widgets/grid.php:149
+msgid "Fits only top level sections of grid item"
+msgstr "僅適合方格項目的頂層部分"
+
+#: includes/components/elementor-views/static-widgets/grid.php:163
+msgid "Load more"
+msgstr "載入更多"
+
+#: includes/components/elementor-views/static-widgets/grid.php:175
+msgid "Load more element ID"
+msgstr "載入更多元素 ID"
+
+#: includes/components/elementor-views/static-widgets/grid.php:196
+msgid "Posts Query"
+msgstr "文章查詢"
+
+#: includes/components/elementor-views/static-widgets/grid.php:204
+#: includes/components/elementor-views/static-widgets/grid.php:700
+msgid "Set advanced query parameters"
+msgstr "設置進階查詢參數"
+
+#: includes/components/elementor-views/static-widgets/grid.php:212
+#: includes/components/elementor-views/static-widgets/grid.php:709
+msgid ""
+"You select <b>Use as Archive Template</b> option, so other query parameters "
+"will be ignored"
+msgstr "你選擇了<b>使用文章列表版型</b>選項，所以其它的查詢參數將會被忽略"
+
+#: includes/components/elementor-views/static-widgets/grid.php:228
+msgid "Posts Parameters"
+msgstr "文章參數"
+
+#: includes/components/elementor-views/static-widgets/grid.php:229
+msgid "Order & Offset"
+msgstr "順序 & 偏移"
+
+#: includes/components/elementor-views/static-widgets/grid.php:230
+msgid "Tax Query"
+msgstr "分類查詢"
+
+#: includes/components/elementor-views/static-widgets/grid.php:231
+#: includes/components/elementor-views/static-widgets/grid.php:818
+#: includes/components/elementor-views/static-widgets/grid.php:958
+msgid "Meta Query"
+msgstr "詮釋資料查詢"
+
+#: includes/components/elementor-views/static-widgets/grid.php:232
+msgid "Date Query"
+msgstr "日期查詢"
+
+#: includes/components/elementor-views/static-widgets/grid.php:240
+#: includes/modules/forms/widgets/booking-form.php:59
+msgid "Column"
+msgstr "欄"
+
+#: includes/components/elementor-views/static-widgets/grid.php:244
+msgid "Post date"
+msgstr "文章日期"
+
+#: includes/components/elementor-views/static-widgets/grid.php:245
+msgid "Post date GMT"
+msgstr "文章日期 GMT"
+
+#: includes/components/elementor-views/static-widgets/grid.php:246
+msgid "Post modified"
+msgstr "文章修改時間"
+
+#: includes/components/elementor-views/static-widgets/grid.php:247
+msgid "Post modified GMT"
+msgstr "文章修改時間 GMT"
+
+#: includes/components/elementor-views/static-widgets/grid.php:258
+msgid "After"
+msgstr "之後"
+
+#: includes/components/elementor-views/static-widgets/grid.php:261
+msgid "Date to retrieve posts after. Accepts strtotime()-compatible string"
+msgstr "檢索文章之後的日期，接受 strtotime() 等相容字串"
+
+#: includes/components/elementor-views/static-widgets/grid.php:272
+msgid "Before"
+msgstr "之前"
+
+#: includes/components/elementor-views/static-widgets/grid.php:275
+msgid "Date to retrieve posts before. Accepts strtotime()-compatible string"
+msgstr "檢索文章之前的日期，接受 strtotime() 等相容字串"
+
+#: includes/components/elementor-views/static-widgets/grid.php:286
+msgid "Include posts by IDs"
+msgstr "內含文章，依照 IDs"
+
+#: includes/components/elementor-views/static-widgets/grid.php:289
+#: includes/components/elementor-views/static-widgets/grid.php:315
+msgid "Eg. 12, 24, 33"
+msgstr "例如： 12, 24, 33"
+
+#: includes/components/elementor-views/static-widgets/grid.php:299
+msgid "Exclude posts by IDs"
+msgstr "排除文章，依照 IDs"
+
+#: includes/components/elementor-views/static-widgets/grid.php:302
+msgid ""
+"Eg. 12, 24, 33. If this is used in the same query as Include posts by IDs, "
+"it will be ignored"
+msgstr "例如： 12, 24, 33，如果同一查詢內也使用了內含文章，這將被忽略"
+
+#: includes/components/elementor-views/static-widgets/grid.php:312
+msgid "Get child of"
+msgstr "取得子項目"
+
+#: includes/components/elementor-views/static-widgets/grid.php:325
+msgid "Get posts with status"
+msgstr "取得具有狀態的文章"
+
+#: includes/components/elementor-views/static-widgets/grid.php:330
+msgid "Pending"
+msgstr "處理中"
+
+#: includes/components/elementor-views/static-widgets/grid.php:332
+msgid "Auto draft"
+msgstr "自動草稿"
+
+#: includes/components/elementor-views/static-widgets/grid.php:335
+msgid "Trash"
+msgstr "垃圾"
+
+#: includes/components/elementor-views/static-widgets/grid.php:336
+msgid "Any"
+msgstr "任一"
+
+#: includes/components/elementor-views/static-widgets/grid.php:347
+msgid "Posts offset"
+msgstr "文章偏移"
+
+#: includes/components/elementor-views/static-widgets/grid.php:362
+#: includes/components/elementor-views/static-widgets/grid.php:748
+msgid "Order"
+msgstr "排序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:366
+#: includes/components/elementor-views/static-widgets/grid.php:752
+msgid "ASC"
+msgstr "升冪"
+
+#: includes/components/elementor-views/static-widgets/grid.php:367
+#: includes/components/elementor-views/static-widgets/grid.php:753
+msgid "DESC"
+msgstr "降冪"
+
+#: includes/components/elementor-views/static-widgets/grid.php:378
+msgid "Order by"
+msgstr "排序依"
+
+#: includes/components/elementor-views/static-widgets/grid.php:383
+#: includes/components/listings/data.php:122
+msgid "ID"
+msgstr "ID"
+
+#: includes/components/elementor-views/static-widgets/grid.php:385
+#: includes/components/listings/data.php:101
+#: includes/components/post-types/manager.php:589
+#: templates/admin/pages/post-types/edit.php:230
+msgid "Title"
+msgstr "標題"
+
+#: includes/components/elementor-views/static-widgets/grid.php:386
+#: includes/components/elementor-views/static-widgets/grid.php:510
+#: includes/components/elementor-views/static-widgets/grid.php:733
+#: templates/admin/pages/meta-boxes/fields.php:271
+#: templates/admin/pages/relations/edit.php:15
+#: templates/admin/pages/relations/list.php:11
+msgid "Name"
+msgstr "名稱"
+
+#: includes/components/elementor-views/static-widgets/grid.php:389
+msgid "Modified"
+msgstr "修改時間"
+
+#: includes/components/elementor-views/static-widgets/grid.php:390
+#: includes/components/elementor-views/static-widgets/grid.php:738
+msgid "Parent"
+msgstr "上層"
+
+#: includes/components/elementor-views/static-widgets/grid.php:391
+msgid "Rand"
+msgstr "隨機"
+
+#: includes/components/elementor-views/static-widgets/grid.php:392
+msgid "Comment count"
+msgstr "評論數"
+
+#: includes/components/elementor-views/static-widgets/grid.php:393
+msgid "Relevance"
+msgstr "關聯"
+
+#: includes/components/elementor-views/static-widgets/grid.php:394
+msgid "Menu order"
+msgstr "選單順序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:395
+msgid "Meta value"
+msgstr "詮釋欄位值"
+
+#: includes/components/elementor-views/static-widgets/grid.php:396
+msgid "Meta clause"
+msgstr "詮釋欄位條件"
+
+#: includes/components/elementor-views/static-widgets/grid.php:397
+msgid "Preserve post ID order given in the \"Include posts by IDs\" option"
+msgstr "為\"依 IDs 內含文章\"選項保留其文章 ID 排序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:408
+msgid "Meta key to order"
+msgstr "依詮釋欄位鍵排序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:412
+msgid "Set meta field name to order by"
+msgstr "設置依詮釋欄位名稱排序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:423
+msgid "Meta clause to order"
+msgstr "依詮釋欄位條件排序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:427
+msgid ""
+"Meta clause name to order by. Clause with this name should be created in "
+"Meta Query parameters"
+msgstr "依詮釋資料條件名稱排序，這個名稱應該是建在詮釋資料查詢參數裡"
+
+#: includes/components/elementor-views/static-widgets/grid.php:438
+msgid "Meta type"
+msgstr "詮釋欄位型別"
+
+#: includes/components/elementor-views/static-widgets/grid.php:442
+#: includes/components/elementor-views/static-widgets/grid.php:1867
+msgid "NUMERIC"
+msgstr "NUMERIC"
+
+#: includes/components/elementor-views/static-widgets/grid.php:443
+#: includes/components/elementor-views/static-widgets/grid.php:1869
+msgid "CHAR"
+msgstr "CHAR"
+
+#: includes/components/elementor-views/static-widgets/grid.php:444
+#: includes/components/elementor-views/static-widgets/grid.php:1870
+msgid "DATE"
+msgstr "DATE"
+
+#: includes/components/elementor-views/static-widgets/grid.php:445
+#: includes/components/elementor-views/static-widgets/grid.php:1871
+msgid "DATETIME"
+msgstr "DATETIME"
+
+#: includes/components/elementor-views/static-widgets/grid.php:446
+#: includes/components/elementor-views/static-widgets/grid.php:1872
+msgid "DECIMAL"
+msgstr "DECIMAL"
+
+#: includes/components/elementor-views/static-widgets/grid.php:458
+#: templates/admin/pages/meta-boxes/edit.php:32
+#: templates/admin/pages/post-types/edit.php:265
+msgid "Taxonomy"
+msgstr "分類法"
+
+#: includes/components/elementor-views/static-widgets/grid.php:471
+msgid "Taxonomy from meta field"
+msgstr "依詮釋欄位取得分類法"
+
+#: includes/components/elementor-views/static-widgets/grid.php:475
+msgid "Get taxonomy name from current page meta field"
+msgstr "從當前頁的詮釋欄位取得分類法名稱"
+
+#: includes/components/elementor-views/static-widgets/grid.php:486
+#: includes/components/elementor-views/static-widgets/grid.php:561
+#: includes/components/elementor-views/static-widgets/grid.php:838
+#: includes/components/elementor-views/static-widgets/grid.php:978
+#: includes/modules/listing-injections/listing-injections.php:476
+msgid "Operator"
+msgstr "運算子"
+
+#: includes/components/elementor-views/static-widgets/grid.php:489
+msgid "IN"
+msgstr "IN"
+
+#: includes/components/elementor-views/static-widgets/grid.php:490
+msgid "NOT IN"
+msgstr "NOT IN"
+
+#: includes/components/elementor-views/static-widgets/grid.php:491
+#: includes/components/elementor-views/static-widgets/grid.php:660
+#: includes/components/elementor-views/static-widgets/grid.php:673
+#: includes/components/elementor-views/static-widgets/grid.php:898
+#: includes/components/elementor-views/static-widgets/grid.php:1044
+msgid "AND"
+msgstr "AND"
+
+#: includes/components/elementor-views/static-widgets/grid.php:492
+msgid "EXISTS"
+msgstr "EXISTS"
+
+#: includes/components/elementor-views/static-widgets/grid.php:493
+msgid "NOT EXISTS"
+msgstr "NOT EXISTS"
+
+#: includes/components/elementor-views/static-widgets/grid.php:508
+#: includes/components/elementor-views/static-widgets/grid.php:736
+msgid "Term ID"
+msgstr "分類項目 ID"
+
+#: includes/components/elementor-views/static-widgets/grid.php:509
+#: includes/components/elementor-views/static-widgets/grid.php:734
+msgid "Slug"
+msgstr "代稱"
+
+#: includes/components/elementor-views/static-widgets/grid.php:535
+msgid "Terms from meta field"
+msgstr "從詮釋欄位取得分類項目"
+
+#: includes/components/elementor-views/static-widgets/grid.php:539
+msgid "Get terms IDs from current page meta field"
+msgstr "從當前頁的詮釋欄位取得分類項目 IDs"
+
+#: includes/components/elementor-views/static-widgets/grid.php:549
+#: includes/components/elementor-views/static-widgets/grid.php:829
+#: includes/components/elementor-views/static-widgets/grid.php:969
+#: includes/modules/listing-injections/listing-injections.php:464
+msgid "Key (name/ID)"
+msgstr "鍵（名稱 / ID）"
+
+#: includes/components/elementor-views/static-widgets/grid.php:565
+#: includes/components/elementor-views/static-widgets/grid.php:842
+#: includes/components/elementor-views/static-widgets/grid.php:982
+#: includes/modules/listing-injections/listing-injections.php:480
+msgid "Equal"
+msgstr "等於"
+
+#: includes/components/elementor-views/static-widgets/grid.php:566
+#: includes/components/elementor-views/static-widgets/grid.php:843
+#: includes/components/elementor-views/static-widgets/grid.php:983
+#: includes/modules/listing-injections/listing-injections.php:481
+msgid "Not equal"
+msgstr "不等於"
+
+#: includes/components/elementor-views/static-widgets/grid.php:567
+#: includes/components/elementor-views/static-widgets/grid.php:844
+#: includes/components/elementor-views/static-widgets/grid.php:984
+#: includes/modules/listing-injections/listing-injections.php:482
+msgid "Greater than"
+msgstr "大於"
+
+#: includes/components/elementor-views/static-widgets/grid.php:568
+#: includes/components/elementor-views/static-widgets/grid.php:845
+#: includes/components/elementor-views/static-widgets/grid.php:985
+#: includes/modules/listing-injections/listing-injections.php:483
+msgid "Greater or equal"
+msgstr "大於等於"
+
+#: includes/components/elementor-views/static-widgets/grid.php:569
+#: includes/components/elementor-views/static-widgets/grid.php:846
+#: includes/components/elementor-views/static-widgets/grid.php:986
+#: includes/modules/listing-injections/listing-injections.php:484
+msgid "Less than"
+msgstr "小於"
+
+#: includes/components/elementor-views/static-widgets/grid.php:570
+#: includes/components/elementor-views/static-widgets/grid.php:847
+#: includes/components/elementor-views/static-widgets/grid.php:987
+#: includes/modules/listing-injections/listing-injections.php:485
+msgid "Equal or less"
+msgstr "等於小於"
+
+#: includes/components/elementor-views/static-widgets/grid.php:571
+#: includes/components/elementor-views/static-widgets/grid.php:848
+#: includes/components/elementor-views/static-widgets/grid.php:988
+#: includes/modules/listing-injections/listing-injections.php:486
+msgid "Like"
+msgstr "Like"
+
+#: includes/components/elementor-views/static-widgets/grid.php:572
+#: includes/components/elementor-views/static-widgets/grid.php:849
+#: includes/components/elementor-views/static-widgets/grid.php:989
+#: includes/modules/listing-injections/listing-injections.php:487
+msgid "Not like"
+msgstr "Not like"
+
+#: includes/components/elementor-views/static-widgets/grid.php:573
+#: includes/components/elementor-views/static-widgets/grid.php:850
+#: includes/components/elementor-views/static-widgets/grid.php:990
+#: includes/modules/listing-injections/listing-injections.php:488
+msgid "In"
+msgstr "In"
+
+#: includes/components/elementor-views/static-widgets/grid.php:574
+#: includes/components/elementor-views/static-widgets/grid.php:851
+#: includes/components/elementor-views/static-widgets/grid.php:991
+#: includes/modules/listing-injections/listing-injections.php:489
+msgid "Not in"
+msgstr "Not in"
+
+#: includes/components/elementor-views/static-widgets/grid.php:575
+#: includes/components/elementor-views/static-widgets/grid.php:852
+#: includes/components/elementor-views/static-widgets/grid.php:992
+#: includes/modules/listing-injections/listing-injections.php:490
+msgid "Between"
+msgstr "Between"
+
+#: includes/components/elementor-views/static-widgets/grid.php:576
+#: includes/components/elementor-views/static-widgets/grid.php:853
+#: includes/components/elementor-views/static-widgets/grid.php:993
+#: includes/modules/listing-injections/listing-injections.php:491
+msgid "Not between"
+msgstr "Not between"
+
+#: includes/components/elementor-views/static-widgets/grid.php:577
+#: includes/components/elementor-views/static-widgets/grid.php:854
+#: includes/components/elementor-views/static-widgets/grid.php:994
+msgid "Exists"
+msgstr "Exists"
+
+#: includes/components/elementor-views/static-widgets/grid.php:578
+#: includes/components/elementor-views/static-widgets/grid.php:855
+#: includes/components/elementor-views/static-widgets/grid.php:995
+msgid "Not Exists"
+msgstr "Not Exists"
+
+#: includes/components/elementor-views/static-widgets/grid.php:589
+#: includes/components/elementor-views/static-widgets/grid.php:863
+#: includes/components/elementor-views/static-widgets/grid.php:1003
+#: includes/modules/listing-injections/listing-injections.php:502
+msgid "Value"
+msgstr "值"
+
+#: includes/components/elementor-views/static-widgets/grid.php:593
+#: includes/components/elementor-views/static-widgets/grid.php:867
+#: includes/components/elementor-views/static-widgets/grid.php:1007
+#: includes/modules/listing-injections/listing-injections.php:506
+msgid ""
+"For <b>In</b>, <b>Not in</b>, <b>Between</b> and <b>Not between</b> compare "
+"separate multiple values with comma"
+msgstr ""
+"對於 <b>In</b>, <b>Not in</b>, <b>Between</b> and <b>Not between</b> ，用逗號"
+"分隔多個要比較的數值"
+
+#: includes/components/elementor-views/static-widgets/grid.php:604
+msgid "Or get value from query variable"
+msgstr "或從查詢變數取得值"
+
+#: includes/components/elementor-views/static-widgets/grid.php:608
+msgid ""
+"Set query variable name (from URL or WordPress query var) to get value from"
+msgstr "設置查詢變數名稱（來自 URL 或 WordPress 查詢變數）以從中獲取值"
+
+#: includes/components/elementor-views/static-widgets/grid.php:632
+msgid "Meta Query Clause"
+msgstr "詮釋欄位查詢條件"
+
+#: includes/components/elementor-views/static-widgets/grid.php:636
+msgid ""
+"Set unique name for current query clause to use it to order posts by this "
+"clause"
+msgstr "為當前查詢條件設定唯一的名稱，以使用它來按此條件對文章排序"
+
+#: includes/components/elementor-views/static-widgets/grid.php:656
+#: includes/components/elementor-views/static-widgets/grid.php:894
+#: includes/components/elementor-views/static-widgets/grid.php:1040
+msgid "Meta query relation"
+msgstr "詮釋欄位查詢關聯"
+
+#: includes/components/elementor-views/static-widgets/grid.php:661
+#: includes/components/elementor-views/static-widgets/grid.php:674
+#: includes/components/elementor-views/static-widgets/grid.php:899
+#: includes/components/elementor-views/static-widgets/grid.php:1045
+msgid "OR"
+msgstr "OR"
+
+#: includes/components/elementor-views/static-widgets/grid.php:669
+msgid "Tax query relation"
+msgstr "分類法查詢關聯"
+
+#: includes/components/elementor-views/static-widgets/grid.php:692
+msgid "Terms Query"
+msgstr "分類項目查詢"
+
+#: includes/components/elementor-views/static-widgets/grid.php:719
+msgid "Get terms of posts"
+msgstr "取得文章裡的分類項目"
+
+#: includes/components/elementor-views/static-widgets/grid.php:729
+msgid "Order By"
+msgstr "排序依"
+
+#: includes/components/elementor-views/static-widgets/grid.php:735
+msgid "Term Group"
+msgstr "分類項目群組"
+
+#: includes/components/elementor-views/static-widgets/grid.php:737
+#: templates/admin/pages/meta-boxes/fields.php:324
+#: templates/admin/pages/taxonomies/edit.php:158
+msgid "Description"
+msgstr "說明"
+
+#: includes/components/elementor-views/static-widgets/grid.php:739
+msgid "Count"
+msgstr "計數"
+
+#: includes/components/elementor-views/static-widgets/grid.php:761
+msgid "Hide empty"
+msgstr "隱藏空值"
+
+#: includes/components/elementor-views/static-widgets/grid.php:774
+msgid "Include terms"
+msgstr "內含分類項目"
+
+#: includes/components/elementor-views/static-widgets/grid.php:778
+msgid "Comma/space-separated string of term ids to include"
+msgstr "使用逗號／空白分隔要內含的 IDs 字串"
+
+#: includes/components/elementor-views/static-widgets/grid.php:785
+msgid "Exclude terms"
+msgstr "排序分類項目"
+
+#: includes/components/elementor-views/static-widgets/grid.php:789
+msgid ""
+"Comma/space-separated string of term ids to exclude. Ignore if <b>Include "
+"terms</b> not empty"
+msgstr ""
+"使用逗號／空白分隔要排除的 IDs 字串，如果<b>內含分類項目</b>不是空時將忽略此"
+"設置"
+
+#: includes/components/elementor-views/static-widgets/grid.php:796
+msgid "Offset"
+msgstr "偏移"
+
+#: includes/components/elementor-views/static-widgets/grid.php:808
+msgid "Child of"
+msgstr "子項"
+
+#: includes/components/elementor-views/static-widgets/grid.php:811
+msgid "Term ID to retrieve child terms of"
+msgstr "分類項目 ID 以檢索其子項"
+
+#: includes/components/elementor-views/static-widgets/grid.php:909
+msgid "Users Query"
+msgstr "使用者查詢"
+
+#: includes/components/elementor-views/static-widgets/grid.php:916
+msgid "Roles"
+msgstr "角色"
+
+#: includes/components/elementor-views/static-widgets/grid.php:927
+msgid "Exclude roles"
+msgstr "排除角色"
+
+#: includes/components/elementor-views/static-widgets/grid.php:938
+msgid "Include users by ID"
+msgstr "依 ID 內含使用者"
+
+#: includes/components/elementor-views/static-widgets/grid.php:940
+#: includes/components/elementor-views/static-widgets/grid.php:950
+msgid "Comma-separated ID's list"
+msgstr "使用逗號分格 IDs 清單"
+
+#: includes/components/elementor-views/static-widgets/grid.php:948
+msgid "Exclude users by ID"
+msgstr "依 ID 排除使用者"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1059
+msgid "Widget Visibility"
+msgstr "小工具可視"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1064
+msgid "Always show"
+msgstr "總是顯示"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1065
+msgid "Query is empty"
+msgstr "查詢是空的"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1071
+msgid "Hide widget if"
+msgstr "隱藏小工具，如果"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1091
+#: includes/modules/gallery/grid.php:159
+msgid "Columns"
+msgstr "欄"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1100
+msgid "Horizontal Gap"
+msgstr "水平間距"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1118
+msgid "Vertical Gap"
+msgstr "垂直間距"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1145
+#: includes/components/elementor-views/static-widgets/grid.php:1334
+msgid "Slider"
+msgstr "捲軸"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1153
+msgid "Slider settings are disabled for masonry layout"
+msgstr "在瀑布流佈局設定中捲軸已停用"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1163
+msgid "Enable Slider"
+msgstr "啟用捲軸"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1178
+msgid "Slides to Scroll"
+msgstr "滑動以捲動"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1197
+msgid "Show Arrows Navigation"
+msgstr "顯示箭頭導引"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1212
+msgid "Arrow Icon"
+msgstr "箭形圖示"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1216
+msgid "Angle"
+msgstr "角度"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1217
+msgid "Chevron"
+msgstr "人字型"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1218
+msgid "Angle Double"
+msgstr "2倍角度"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1219
+msgid "Arrow"
+msgstr "箭形"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1220
+msgid "Caret"
+msgstr "插入符號"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1221
+msgid "Long Arrow"
+msgstr "長箭形"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1222
+msgid "Arrow Circle"
+msgstr "箭形圓圈"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1223
+msgid "Chevron Circle"
+msgstr "人字型圓圈"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1224
+msgid "Caret Square"
+msgstr "三角方框"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1236
+msgid "Show Dots Navigation"
+msgstr "顯示點狀線導引"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1251
+msgid "Autoplay"
+msgstr "自動播放"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1266
+msgid "Autoplay Speed"
+msgstr "自動播放數度"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1279
+msgid "Infinite Loop"
+msgstr "無限重播"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1294
+msgid "Effect"
+msgstr "特效"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1298
+msgid "Slide"
+msgstr "滑動"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1299
+msgid "Fade"
+msgstr "消失"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1311
+msgid "Animation Speed"
+msgstr "動畫速度"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1343
+#: includes/modules/gallery/slider.php:170
+msgid "Slider arrows box size"
+msgstr "滑動箭頭方框大小"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1361
+#: includes/modules/gallery/slider.php:192
+msgid "Slider arrows size"
+msgstr "滑動箭頭大小"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1399
+#: includes/components/elementor-views/static-widgets/grid.php:1430
+#: includes/modules/gallery/slider.php:242
+#: includes/modules/gallery/slider.php:285
+msgid "Background"
+msgstr "背景"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1445
+#: includes/components/elementor-views/static-widgets/grid.php:1596
+msgid "Vertical Position by"
+msgstr "垂直位置依"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1449
+#: includes/components/elementor-views/static-widgets/grid.php:1600
+#: includes/modules/forms/widgets/booking-form.php:329
+msgid "Top"
+msgstr "頂部"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1450
+#: includes/components/elementor-views/static-widgets/grid.php:1601
+#: includes/modules/forms/widgets/booking-form.php:337
+msgid "Bottom"
+msgstr "底部"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1458
+#: includes/components/elementor-views/static-widgets/grid.php:1609
+msgid "Top Indent"
+msgstr "頂部內縮"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1487
+#: includes/components/elementor-views/static-widgets/grid.php:1638
+msgid "Bottom Indent"
+msgstr "底部內縮"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1516
+#: includes/components/elementor-views/static-widgets/grid.php:1667
+msgid "Horizontal Position by"
+msgstr "水平位置依"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1529
+#: includes/components/elementor-views/static-widgets/grid.php:1680
+msgid "Left Indent"
+msgstr "左邊內縮"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1558
+#: includes/components/elementor-views/static-widgets/grid.php:1709
+msgid "Right Indent"
+msgstr "右邊內縮"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1587
+msgid "Next Arrow Position"
+msgstr "下一步箭頭位置"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1738
+msgid "Dots Styles"
+msgstr "點狀線樣式"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1747
+msgid "Dots Size"
+msgstr "點狀線大小"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1765
+msgid "Dots Gap"
+msgstr "點狀線間距"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1825
+msgid "Active"
+msgstr "啟動"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1868
+msgid "BINARY"
+msgstr "BINARY"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1873
+msgid "SIGNED"
+msgstr "SIGNED"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1874
+msgid "UNSIGNED"
+msgstr "UNSIGNED"
+
+#: includes/components/elementor-views/static-widgets/grid.php:2576
+msgid "Please select listing to show."
+msgstr "請選擇要顯示的列表。"
+
+#: includes/components/listings/data.php:104
+#: includes/components/post-types/manager.php:613
+msgid "Excerpt"
+msgstr "摘要"
+
+#: includes/components/listings/data.php:112
+msgid "Term name"
+msgstr "分類項目名稱"
+
+#: includes/components/listings/data.php:113
+msgid "Term description"
+msgstr "分類項目說明"
+
+#: includes/components/listings/data.php:114
+msgid "Posts count"
+msgstr "文章計數"
+
+#: includes/components/listings/data.php:123
+msgid "Login"
+msgstr "登入"
+
+#: includes/components/listings/data.php:124
+msgid "Nickname"
+msgstr "暱稱"
+
+#: includes/components/listings/data.php:125
+msgid "E-mail"
+msgstr "電子郵件"
+
+#: includes/components/listings/data.php:126
+#: includes/modules/forms/manager.php:143
+msgid "URL"
+msgstr "URL"
+
+#: includes/components/listings/data.php:127
+msgid "Registration Date"
+msgstr "註冊日期"
+
+#: includes/components/listings/data.php:128
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: includes/components/listings/data.php:485
+msgid "Post/Term/User Data"
+msgstr "文章／分類項目／使用者資料"
+
+#: includes/components/listings/data.php:486
+msgid "Meta Data"
+msgstr "詮釋資料"
+
+#: includes/components/listings/manager.php:210
+#: includes/components/listings/manager.php:215 includes/core/functions.php:70
+#: includes/modules/calendar/widget.php:142
+msgid "Full"
+msgstr "填滿"
+
+#: includes/components/listings/manager.php:299
+msgid "Format date"
+msgstr "格式日期"
+
+#: includes/components/listings/manager.php:300
+msgid "Format date (localized)"
+msgstr "格式日期（本地化）"
+
+#: includes/components/listings/manager.php:301
+msgid "Format number"
+msgstr "格式數值"
+
+#: includes/components/listings/manager.php:302
+msgid "Get post/page link (only URL)"
+msgstr "取得文章／頁面連結（限 URL）"
+
+#: includes/components/listings/manager.php:303
+msgid "Get post/page link (linked title)"
+msgstr "取得文章／頁面連結（連結標題）"
+
+#: includes/components/listings/manager.php:304
+msgid "Get term link"
+msgstr "取得分類項目連結"
+
+#: includes/components/listings/manager.php:305
+msgid "Embed URL"
+msgstr "嵌入 URL"
+
+#: includes/components/listings/manager.php:306
+msgid "Make clickable"
+msgstr "使可被點擊"
+
+#: includes/components/listings/manager.php:307
+msgid "Embed icon from Iconpicker"
+msgstr "使用圖示選取器以嵌入圖示"
+
+#: includes/components/listings/manager.php:308
+msgid "Multiple select field values"
+msgstr "複選欄位值"
+
+#: includes/components/listings/manager.php:309
+msgid "Checkbox field values"
+msgstr "核取欄位值"
+
+#: includes/components/listings/manager.php:310
+msgid "Switcher field values"
+msgstr "切換開關欄位值"
+
+#: includes/components/listings/manager.php:311
+msgid "ACF Checkbox field values"
+msgstr "ACF 核取欄位值"
+
+#: includes/components/listings/manager.php:312
+msgid "Get post titles from IDs"
+msgstr "從 IDs 取得文章標題"
+
+#: includes/components/listings/manager.php:313
+msgid "Related posts list"
+msgstr "相關文章列表"
+
+#: includes/components/listings/manager.php:314
+msgid "Get image by ID"
+msgstr "依 ID 取得圖片"
+
+#: includes/components/listings/manager.php:315
+msgid "Do shortcodes"
+msgstr "執行短碼"
+
+#: includes/components/listings/post-type.php:74
+msgid "For post type/taxonomy"
+msgstr "依文章型別／分類法"
+
+#: includes/components/listings/post-type.php:291
+msgid "Can't create template. Please try again"
+msgstr "不能創建版型，請重試"
+
+#: includes/components/listings/post-type.php:310
+msgid "Listing view instance is not found"
+msgstr "找不到列表檢視實例"
+
+#: includes/components/listings/post-type.php:346
+msgid "Listing Items"
+msgstr "列表項目"
+
+#: includes/components/listings/post-type.php:348
+#: includes/components/meta-boxes/pages/list.php:41
+#: includes/components/options-pages/pages/list.php:41
+#: includes/components/post-types/manager.php:433
+#: includes/components/post-types/pages/list.php:43
+#: includes/components/relations/pages/list.php:41
+#: includes/components/taxonomies/pages/list.php:41
+#: includes/modules/forms/editor.php:433
+#: templates/admin/pages/post-types/edit.php:212
+msgid "Add New"
+msgstr "新增"
+
+#: includes/components/listings/post-type.php:349
+#: includes/components/listings/post-type.php:351
+#: includes/components/post-types/manager.php:440
+#: includes/modules/forms/editor.php:436
+msgid "Add New Item"
+msgstr "新增項目"
+
+#: includes/components/listings/post-type.php:350
+#: includes/components/post-types/manager.php:454
+msgid "Edit Item"
+msgstr "編輯項目"
+
+#: includes/components/listings/post-type.php:352
+#: includes/components/post-types/manager.php:461
+#: includes/components/taxonomies/manager.php:251
+msgid "View Item"
+msgstr "檢視項目"
+
+#: includes/components/listings/post-type.php:353
+msgid "Search Item"
+msgstr "搜尋項目"
+
+#: includes/components/listings/post-type.php:354
+msgid "No Templates Found"
+msgstr "找不到版型"
+
+#: includes/components/listings/post-type.php:355
+msgid "No Templates Found In Trash"
+msgstr "在垃圾筒中找不到版型"
+
+#: includes/components/listings/post-type.php:356
+msgid "My Library"
+msgstr "我的版型庫"
+
+#: includes/components/listings/post-type.php:385
+#: includes/components/listings/post-type.php:386
+#: includes/dashboard/skins-import.php:245
+msgid "Listings"
+msgstr "列表方格"
+
+#: includes/components/listings/render/dynamic-field.php:152
+msgid ""
+"<strong>Warning:</strong> Error appears on callback applying. Please select "
+"other callback to filter field value."
+msgstr ""
+"<strong>警告：</strong>套用回調時出現錯誤。 請選擇其他回調以過濾欄位值。"
+
+#: includes/components/listings/render/dynamic-meta.php:368
+msgid ""
+"Dynamic Meta widget allowed only for Posts listing source or in Post context"
+msgstr "動態詮釋欄位小工具僅適用於文章列表方格來源或文章相關"
+
+#: includes/components/listings/render/dynamic-terms.php:145
+msgid ""
+"Dynamic Terms widget allowed only for Posts listing source or in Post context"
+msgstr "動態分類項目小工具僅適用於文章列表方格來源或文章相關"
+
+#: includes/components/meta-boxes/manager.php:217
+msgid "(User fields)"
+msgstr "（使用者欄位）"
+
+#: includes/components/meta-boxes/manager.php:293
+msgid "Default user fields"
+msgstr "預設使用者欄位"
+
+#: includes/components/meta-boxes/manager.php:297
+#: includes/modules/forms/editor.php:248
+msgid "First Name"
+msgstr "名"
+
+#: includes/components/meta-boxes/manager.php:302
+#: includes/modules/forms/editor.php:249
+msgid "Last Name"
+msgstr "姓"
+
+#: includes/components/meta-boxes/manager.php:307
+msgid "Biographical Info"
+msgstr "簡歷"
+
+#: includes/components/meta-boxes/manager.php:481
+#: includes/dashboard/skins-import.php:104
+msgid "Meta Boxes"
+msgstr "詮釋資料群組"
+
+#: includes/components/meta-boxes/manager.php:518
+msgid "Please, set meta box title"
+msgstr "請為詮釋資料群組命名"
+
+#: includes/components/meta-boxes/manager.php:519
+#: includes/components/relations/manager.php:580
+msgid "Meta box updated"
+msgstr "詮釋資料群組已更新"
+
+#: includes/components/meta-boxes/pages/edit.php:38
+msgid "Edit Meta Box"
+msgstr "編輯詮釋資料群組"
+
+#: includes/components/meta-boxes/pages/edit.php:40
+msgid "Add New Meta Box"
+msgstr "新增詮釋資料群組"
+
+#: includes/components/meta-boxes/pages/edit.php:69
+msgid "Meta fields"
+msgstr "詮釋欄位"
+
+#: includes/components/meta-boxes/pages/edit.php:70
+msgid "New Meta Field"
+msgstr "新增詮釋欄位"
+
+#: includes/components/meta-boxes/pages/edit.php:81
+#: includes/modules/forms/manager.php:141
+#: includes/modules/forms/manager.php:229
+msgid "Text"
+msgstr "文字"
+
+#: includes/components/meta-boxes/pages/edit.php:89
+#: includes/modules/forms/manager.php:237
+msgid "Time"
+msgstr "時間"
+
+#: includes/components/meta-boxes/pages/edit.php:93
+msgid "Datetime"
+msgstr "日期時間"
+
+#: includes/components/meta-boxes/pages/edit.php:97
+#: includes/modules/forms/manager.php:230
+msgid "Textarea"
+msgstr "多行文字方框"
+
+#: includes/components/meta-boxes/pages/edit.php:101
+msgid "WYSIWYG"
+msgstr "所見即所得編輯"
+
+#: includes/components/meta-boxes/pages/edit.php:105
+msgid "Switcher"
+msgstr "切換開關"
+
+#: includes/components/meta-boxes/pages/edit.php:109
+msgid "Checkbox"
+msgstr "核取方塊"
+
+#: includes/components/meta-boxes/pages/edit.php:113
+msgid "Iconpicker"
+msgstr "圖示選取器"
+
+#: includes/components/meta-boxes/pages/edit.php:117
+#: includes/components/options-pages/pages/edit.php:190
+msgid "Media"
+msgstr "媒體"
+
+#: includes/components/meta-boxes/pages/edit.php:121
+msgid "Gallery"
+msgstr "相簿"
+
+#: includes/components/meta-boxes/pages/edit.php:125
+#: includes/modules/forms/manager.php:234
+msgid "Radio"
+msgstr "選項方塊"
+
+#: includes/components/meta-boxes/pages/edit.php:129
+msgid "Repeater"
+msgstr "重複器"
+
+#: includes/components/meta-boxes/pages/edit.php:133
+#: includes/modules/forms/manager.php:232
+msgid "Select"
+msgstr "下拉選單"
+
+#: includes/components/meta-boxes/pages/edit.php:137
+msgid "Colorpicker"
+msgstr "顏色選取器"
+
+#: includes/components/meta-boxes/pages/edit.php:193
+msgid "Update Meta Box"
+msgstr "更新詮釋資料群組"
+
+#: includes/components/meta-boxes/pages/edit.php:196
+msgid "Add Meta Box"
+msgstr "新增詮釋資料群組"
+
+#: includes/components/meta-boxes/pages/edit.php:211
+msgid "How to create a custom meta field. Custom meta field types overview"
+msgstr "如何創建自訂詮釋資料欄位。 自訂詮釋資料欄位型別概述"
+
+#: includes/components/meta-boxes/pages/edit.php:215
+msgid ""
+"How to group the custom meta fields for the certain post types into meta "
+"boxes"
+msgstr "如何將某些文章型別的自訂欄位分組到詮釋資料群組裡"
+
+#: includes/components/meta-boxes/pages/edit.php:219
+msgid "How to create Checkbox type meta field and display it in Listing Grid"
+msgstr "如何創建核取方塊型別之詮釋欄位並顯示在列表方格中"
+
+#: includes/components/meta-boxes/pages/list.php:62
+msgid "Meta Boxes List"
+msgstr "詮釋資料群組清單"
+
+#: includes/components/meta-boxes/post.php:38
+#: includes/components/options-pages/pages/edit.php:226
+msgid "Settings"
+msgstr "設置"
+
+#: includes/components/meta-boxes/post.php:193
+#: includes/components/meta-boxes/post.php:195
+#: includes/components/options-pages/options-page.php:441
+#: includes/components/options-pages/options-page.php:443
+msgid "Name: "
+msgstr "名稱： "
+
+#: includes/components/meta-boxes/post.php:520
+msgid "name: "
+msgstr "名稱： "
+
+#: includes/components/meta-boxes/rest-api/delete-meta-box.php:31
+#: includes/components/meta-boxes/rest-api/edit-meta-box.php:34
+#: includes/components/meta-boxes/rest-api/get-meta-box.php:31
+#: includes/components/options-pages/rest-api/delete-options-page.php:33
+#: includes/components/options-pages/rest-api/edit-options-page.php:34
+#: includes/components/options-pages/rest-api/get-options-page.php:31
+#: includes/components/post-types/rest-api/delete-post-type.php:34
+#: includes/components/post-types/rest-api/edit-post-type.php:34
+#: includes/components/post-types/rest-api/get-post-type.php:31
+#: includes/components/relations/rest-api/delete-relation.php:31
+#: includes/components/relations/rest-api/edit-relation.php:34
+#: includes/components/relations/rest-api/get-relation.php:31
+#: includes/components/taxonomies/rest-api/delete-taxonomy.php:33
+#: includes/components/taxonomies/rest-api/edit-taxonomy.php:34
+#: includes/components/taxonomies/rest-api/get-taxonomy.php:31
+msgid "Item ID not found in request"
+msgstr "在請求中找不到項目 ID"
+
+#: includes/components/meta-boxes/rest-api/get-meta-box.php:47
+#: includes/components/post-types/data.php:543
+#: includes/components/post-types/rest-api/get-post-type.php:47
+msgid "Post type not found"
+msgstr "找不到文章型別"
+
+#: includes/components/options-pages/manager.php:273
+#: includes/components/options-pages/pages/list.php:62
+msgid "Options Pages"
+msgstr "選項頁"
+
+#: includes/components/options-pages/manager.php:313
+msgid "Please, set page title"
+msgstr "請設定頁面標題"
+
+#: includes/components/options-pages/manager.php:314
+msgid "Please, set page slug"
+msgstr "請設定頁面代稱"
+
+#: includes/components/options-pages/manager.php:315
+msgid "Page updated"
+msgstr "頁面已更新"
+
+#: includes/components/options-pages/manager.php:320
+msgid "Creating an Options page with JetEngine"
+msgstr "使用 JetEngine 創建選項頁"
+
+#: includes/components/options-pages/options-page.php:235
+msgid "Saved"
+msgstr "已儲存"
+
+#: includes/components/options-pages/options-page.php:308
+#: templates/admin/pages/dashboard/main.php:39
+msgid "Save"
+msgstr "儲存"
+
+#: includes/components/options-pages/pages/edit.php:38
+msgid "Edit Options Page"
+msgstr "編輯選項頁"
+
+#: includes/components/options-pages/pages/edit.php:40
+msgid "Add New Options Page"
+msgstr "新增選項頁"
+
+#: includes/components/options-pages/pages/edit.php:69
+#: includes/modules/forms/widgets/booking-form.php:352
+msgid "Fields"
+msgstr "欄位"
+
+#: includes/components/options-pages/pages/edit.php:70
+msgid "New Field"
+msgstr "新增欄位"
+
+#: includes/components/options-pages/pages/edit.php:104
+msgid "Update Page"
+msgstr "更新頁面"
+
+#: includes/components/options-pages/pages/edit.php:107
+msgid "Add Page"
+msgstr "新增頁面"
+
+#: includes/components/options-pages/pages/edit.php:139
+msgid "Manage options"
+msgstr "管理選項"
+
+#: includes/components/options-pages/pages/edit.php:143
+msgid "Activate plugins"
+msgstr "啟動外掛"
+
+#: includes/components/options-pages/pages/edit.php:147
+msgid "Create users"
+msgstr "創建使用者"
+
+#: includes/components/options-pages/pages/edit.php:151
+msgid "Switch themes"
+msgstr "切換主題佈景"
+
+#: includes/components/options-pages/pages/edit.php:155
+msgid "Edit pages"
+msgstr "編輯頁面"
+
+#: includes/components/options-pages/pages/edit.php:159
+msgid "Edit posts"
+msgstr "編輯文章"
+
+#: includes/components/options-pages/pages/edit.php:163
+msgid "Upload files"
+msgstr "上傳檔案"
+
+#: includes/components/options-pages/pages/edit.php:178
+msgid "Dashboard"
+msgstr "儀表板"
+
+#: includes/components/options-pages/pages/edit.php:182
+msgid "First Separator"
+msgstr "第一分隔器"
+
+#: includes/components/options-pages/pages/edit.php:194
+msgid "Links"
+msgstr "連結"
+
+#: includes/components/options-pages/pages/edit.php:198
+msgid "Pages"
+msgstr "頁面"
+
+#: includes/components/options-pages/pages/edit.php:206
+msgid "Second Separator"
+msgstr "第二分隔器"
+
+#: includes/components/options-pages/pages/edit.php:210
+msgid "Appearance"
+msgstr "外觀"
+
+#: includes/components/options-pages/pages/edit.php:214
+msgid "Plugins"
+msgstr "外掛"
+
+#: includes/components/options-pages/pages/edit.php:222
+msgid "Tools"
+msgstr "工具"
+
+#: includes/components/options-pages/pages/edit.php:230
+msgid "Third Separator"
+msgstr "第三分隔器"
+
+#: includes/components/options-pages/rest-api/delete-options-page.php:49
+#: includes/components/post-types/rest-api/delete-post-type.php:50
+#: includes/components/taxonomies/rest-api/delete-taxonomy.php:49
+msgid "Item data not found"
+msgstr "找不到項目資料"
+
+#: includes/components/options-pages/rest-api/get-options-page.php:47
+msgid "Page not found"
+msgstr "找不到頁面"
+
+#: includes/components/post-types/data.php:446
+msgid ""
+"Post type name not found in request. Please check your data and try again."
+msgstr "在請求中找不到文章型別名稱，請檢查你的資料並重試。"
+
+#: includes/components/post-types/manager.php:404
+msgid "Meta Value"
+msgstr "詮釋資料值"
+
+#: includes/components/post-types/manager.php:408
+msgid "Post Terms"
+msgstr "文章分類項目"
+
+#: includes/components/post-types/manager.php:412
+msgid "Custom Callback"
+msgstr "自訂回調"
+
+#: includes/components/post-types/manager.php:426
+#: includes/components/taxonomies/manager.php:223
+msgid "Singular name"
+msgstr "單頁名稱"
+
+#: includes/components/post-types/manager.php:427
+msgid "Name for one object of this post type"
+msgstr "此文章型別的物件名稱"
+
+#: includes/components/post-types/manager.php:434
+msgid ""
+"The add new text. The default is `Add New` for both hierarchical and non-"
+"hierarchical post types"
+msgstr "新增新文字，對於分層和沒分層的文章型別，預設值為「新增」"
+
+#: includes/components/post-types/manager.php:436
+#: includes/components/post-types/manager.php:443
+#: includes/components/taxonomies/manager.php:268
+msgid "Add New %s%"
+msgstr "新增 %s%"
+
+#: includes/components/post-types/manager.php:441
+msgid "Default is Add New Post/Add New Page"
+msgstr "預設是新增文章／頁面"
+
+#: includes/components/post-types/manager.php:447
+msgid "New Item"
+msgstr "新增項目"
+
+#: includes/components/post-types/manager.php:448
+msgid "Default is New Post/New Page"
+msgstr "預設是新增文章／頁面"
+
+#: includes/components/post-types/manager.php:450
+msgid "New %s%"
+msgstr "新增 %s%"
+
+#: includes/components/post-types/manager.php:455
+msgid "Default is Edit Post/Edit Page"
+msgstr "預設是編輯文章／頁面"
+
+#: includes/components/post-types/manager.php:457
+#: includes/components/taxonomies/manager.php:247
+msgid "Edit %s%"
+msgstr "編輯 %s%"
+
+#: includes/components/post-types/manager.php:462
+msgid "Default is View Post/View Page"
+msgstr "預設是檢視文章／頁面"
+
+#: includes/components/post-types/manager.php:464
+#: includes/components/taxonomies/manager.php:254
+msgid "View %s%"
+msgstr "檢視 %s%"
+
+#: includes/components/post-types/manager.php:468
+msgid "All Items"
+msgstr "全部項目"
+
+#: includes/components/post-types/manager.php:469
+msgid "String for the submenu"
+msgstr "用於子選單的字串"
+
+#: includes/components/post-types/manager.php:471
+#: includes/components/taxonomies/manager.php:240
+msgid "All %s%"
+msgstr "全部 %s%"
+
+#: includes/components/post-types/manager.php:475
+msgid "Search for items"
+msgstr "搜尋項目"
+
+#: includes/components/post-types/manager.php:476
+msgid "Default is Search Posts/Search Pages"
+msgstr "預設是搜尋文章／頁面"
+
+#: includes/components/post-types/manager.php:478
+msgid "Search for %s%"
+msgstr "搜尋 %s%"
+
+#: includes/components/post-types/manager.php:482
+msgid "Parent Item"
+msgstr "上層項目"
+
+#: includes/components/post-types/manager.php:483
+msgid ""
+"This string isn`t used on non-hierarchical types. In hierarchical ones the "
+"default is `Parent Page:`"
+msgstr "此字串不用於沒分層型別。 在分層結構中，預設值為「上層頁面：」"
+
+#: includes/components/post-types/manager.php:485
+#: includes/components/post-types/manager.php:492
+#: includes/components/taxonomies/manager.php:282
+msgid "Parent %s%"
+msgstr "上層 %s%"
+
+#: includes/components/post-types/manager.php:489
+msgid "Not found"
+msgstr "找不到"
+
+#: includes/components/post-types/manager.php:490
+msgid "Default is No posts found/No pages found"
+msgstr "預設是找不到文章／頁面"
+
+#: includes/components/post-types/manager.php:496
+msgid "Not found in trash"
+msgstr "垃圾桶裡找不到"
+
+#: includes/components/post-types/manager.php:497
+msgid "Default is No posts found in Trash/No pages found in Trash"
+msgstr "預設是在垃圾桶裡找不到文章／頁面"
+
+#: includes/components/post-types/manager.php:499
+#, php-format
+msgid "No %s% found in trash"
+msgstr "找不到 %s% f在垃圾桶裡"
+
+#: includes/components/post-types/manager.php:503
+msgid "Admin Menu"
+msgstr "管理選單"
+
+#: includes/components/post-types/manager.php:504
+msgid "Default is the same as `name`"
+msgstr "預設是和「name」相同"
+
+#: includes/components/post-types/manager.php:506
+#: includes/components/post-types/manager.php:513
+#: includes/components/post-types/manager.php:548
+msgid "%s%"
+msgstr "%s%"
+
+#: includes/components/post-types/manager.php:510
+msgid "Add New on Toolbar"
+msgstr "在工具列上新增"
+
+#: includes/components/post-types/manager.php:511
+msgid "String for use in New in Admin menu bar"
+msgstr "新增用在管理選單列裡的字串"
+
+#: includes/components/post-types/manager.php:517
+#: includes/components/post-types/manager.php:520
+msgid "Featured Image"
+msgstr "特色圖片"
+
+#: includes/components/post-types/manager.php:518
+msgid "Default is Featured Image"
+msgstr "預設是特色圖片"
+
+#: includes/components/post-types/manager.php:524
+msgid "Set Featured Image"
+msgstr "設定特色圖片"
+
+#: includes/components/post-types/manager.php:525
+msgid "Default is Set featured image"
+msgstr "預設是設定特色圖片"
+
+#: includes/components/post-types/manager.php:527
+msgid "Set featured image"
+msgstr "設定特色圖片"
+
+#: includes/components/post-types/manager.php:531
+msgid "Remove Featured Image"
+msgstr "移除特色圖片"
+
+#: includes/components/post-types/manager.php:532
+msgid "Default is Remove featured image"
+msgstr "預設是移除特色圖片"
+
+#: includes/components/post-types/manager.php:534
+msgid "Remove featured image"
+msgstr "移除特色圖片"
+
+#: includes/components/post-types/manager.php:538
+msgid "Use Featured Image"
+msgstr "使用特色圖片"
+
+#: includes/components/post-types/manager.php:539
+msgid "Default is Use as featured image"
+msgstr "預設是使用特色圖片"
+
+#: includes/components/post-types/manager.php:541
+msgid "Use featured image"
+msgstr "使用特色圖片"
+
+#: includes/components/post-types/manager.php:545
+msgid "The post type archive label used in nav menus"
+msgstr "該文章型別列表標籤已用在導覽選單裡"
+
+#: includes/components/post-types/manager.php:546
+msgid "String for use with archives in nav menus"
+msgstr "用在導覽選單裡的列表字串"
+
+#: includes/components/post-types/manager.php:552
+msgid "Insert into post"
+msgstr "插入到文章"
+
+#: includes/components/post-types/manager.php:553
+msgid "String for the media frame button"
+msgstr "用在媒體框按鈕的字串"
+
+#: includes/components/post-types/manager.php:555
+msgid "Insert into %s%"
+msgstr "插入到 %s%"
+
+#: includes/components/post-types/manager.php:559
+msgid "Uploaded to this post"
+msgstr "已上傳到這篇文章"
+
+#: includes/components/post-types/manager.php:560
+msgid "String for the media frame filter"
+msgstr "用在媒體框篩選器的字串"
+
+#: includes/components/post-types/manager.php:562
+msgid "Uploaded to this %s%"
+msgstr "已上傳到這個 %s%"
+
+#: includes/components/post-types/manager.php:593
+msgid "Editor"
+msgstr "編輯器"
+
+#: includes/components/post-types/manager.php:601
+msgid "Revisions"
+msgstr "版本修訂"
+
+#: includes/components/post-types/manager.php:605
+msgid "Trackbacks"
+msgstr "引用"
+
+#: includes/components/post-types/manager.php:617
+msgid "Page Attributes"
+msgstr "頁面屬性"
+
+#: includes/components/post-types/manager.php:621
+msgid "Thumbnail (Featured Image)"
+msgstr "縮圖（特色圖片）"
+
+#: includes/components/post-types/manager.php:625
+msgid "Custom Fields"
+msgstr "自訂欄位"
+
+#: includes/components/post-types/manager.php:629
+msgid "Post Formats"
+msgstr "文章格式"
+
+#: includes/components/post-types/manager.php:648
+msgid "Post Types"
+msgstr "文章型別"
+
+#: includes/components/post-types/manager.php:700
+msgid "Please, set post type name"
+msgstr "請設定文章型別名稱"
+
+#: includes/components/post-types/manager.php:701
+msgid "Please, set post type slug"
+msgstr "請設定文章型別代稱"
+
+#: includes/components/post-types/manager.php:702
+msgid "Post type updated"
+msgstr "文章型別已更新"
+
+#: includes/components/post-types/pages/edit.php:38
+msgid "Edit Post Type"
+msgstr "編輯文章型別"
+
+#: includes/components/post-types/pages/edit.php:40
+msgid "Add New Post Type"
+msgstr "新增文章型別"
+
+#: includes/components/post-types/pages/edit.php:106
+msgid "Update Post Type"
+msgstr "更新文章型別"
+
+#: includes/components/post-types/pages/edit.php:117
+msgid "Add Post Type"
+msgstr "新增文章型別"
+
+#: includes/components/post-types/pages/edit.php:133
+msgid "Maximum 20 characters length"
+msgstr "最大只能 20 個字元長度"
+
+#: includes/components/post-types/pages/edit.php:137
+msgid "Creating custom post type with JetEngine"
+msgstr "使用 Jet Engine 創建自訂文章型別"
+
+#: includes/components/post-types/pages/edit.php:141
+msgid "How to create a custom post type"
+msgstr "如何創建自訂文章型別"
+
+#: includes/components/post-types/pages/edit.php:145
+msgid "How to display post terms in admin columns"
+msgstr "如何在管理欄裡顯示文章分類項目"
+
+#: includes/components/post-types/pages/edit.php:149
+msgid "How to display date in an admin column"
+msgstr "如何在管理欄裡顯示日期"
+
+#: includes/components/post-types/pages/edit.php:153
+msgid ""
+"How to use custom callback to display needed information in admin columns"
+msgstr "如何使用自訂回調在管理欄中顯示所需資訊"
+
+#: includes/components/post-types/pages/edit.php:171
+msgid "Format date (from timestamp)"
+msgstr "格式日期（從 timestamp）"
+
+#: includes/components/post-types/pages/edit.php:174
+#: includes/components/post-types/pages/edit.php:189
+#: includes/components/post-types/pages/edit.php:199
+#: includes/components/post-types/pages/edit.php:209
+#: includes/components/post-types/pages/edit.php:229
+#: includes/components/post-types/pages/edit.php:244
+msgid "Set field"
+msgstr "設定欄位"
+
+#: includes/components/post-types/pages/edit.php:175
+msgid "Meta field to get date from"
+msgstr "取得日期從詮釋欄位裡的"
+
+#: includes/components/post-types/pages/edit.php:179
+msgid "Set format"
+msgstr "設定格式"
+
+#: includes/components/post-types/pages/edit.php:186
+msgid "Get linked post title by post ID"
+msgstr "依文章 ID 取得相連的文章標題"
+
+#: includes/components/post-types/pages/edit.php:190
+#: includes/components/post-types/pages/edit.php:200
+msgid "Meta field to get post ID from"
+msgstr "依文章 ID 取得相連的詮釋欄位"
+
+#: includes/components/post-types/pages/edit.php:196
+msgid "Get linked post title by post ID (for relations)"
+msgstr "依文章 ID 取得連結的文章標題（關聯）"
+
+#: includes/components/post-types/pages/edit.php:206
+msgid "Render human-readable value from switcher field"
+msgstr "從切換開關欄位呈現人類可讀的值"
+
+#: includes/components/post-types/pages/edit.php:210
+#: includes/components/post-types/pages/edit.php:230
+#: includes/components/post-types/pages/edit.php:245
+msgid "Meta field to get value from"
+msgstr "從詮釋欄位取得值"
+
+#: includes/components/post-types/pages/edit.php:214
+msgid "Label if enabled"
+msgstr "標籤，如果已啟用"
+
+#: includes/components/post-types/pages/edit.php:215
+msgid "Show this if switcher is enabled"
+msgstr "顯示它，如果切換開關已啟用"
+
+#: includes/components/post-types/pages/edit.php:219
+msgid "Label if disabled"
+msgstr "標籤，如果已停用"
+
+#: includes/components/post-types/pages/edit.php:220
+msgid "Show this if switcher is disabled"
+msgstr "顯示它，如果切換開關已停用"
+
+#: includes/components/post-types/pages/edit.php:226
+msgid "Render human-readable value from checkbox field"
+msgstr "從核取方塊欄位呈現人類可讀的值"
+
+#: includes/components/post-types/pages/edit.php:235
+msgid "If multiple values checked - them will be separated with this"
+msgstr "如果勾選了多個數值，它們將會以符號分隔"
+
+#: includes/components/post-types/pages/edit.php:241
+msgid "Render image tag by post thumbnail or image from meta"
+msgstr "透過發佈縮圖或詮釋資料中的圖片來渲染圖片標籤"
+
+#: includes/components/post-types/pages/edit.php:250
+msgid "Image size (numeric value)"
+msgstr "圖片大小（數值）"
+
+#: includes/components/post-types/pages/list.php:64
+msgid "Custom Post Types List"
+msgstr "自訂文章型別清單"
+
+#: includes/components/post-types/rest-api/edit-built-in-post-type.php:34
+msgid "Post type not found in request"
+msgstr "找不到你要求的文章型別"
+
+#: includes/components/post-types/rest-api/get-built-in-post-type.php:31
+#: includes/components/post-types/rest-api/reset-built-in-post-type.php:31
+msgid "Post type name not found in request"
+msgstr "找不到你要求的文章型別名稱"
+
+#: includes/components/relations/data.php:36
+#: includes/components/relations/data.php:69
+msgid "Please set both post types"
+msgstr "請同時設置兩種文章型別"
+
+#: includes/components/relations/data.php:44
+#: includes/components/relations/data.php:77
+msgid "Parent and child post type can't be the same"
+msgstr "上層及子層的文章型別不能相同"
+
+#: includes/components/relations/manager.php:114
+msgid "One to one"
+msgstr "一對一"
+
+#: includes/components/relations/manager.php:115
+msgid "One to many"
+msgstr "一對多"
+
+#: includes/components/relations/manager.php:116
+msgid "Many to many"
+msgstr "多對多"
+
+#: includes/components/relations/manager.php:216
+#: includes/components/relations/manager.php:217
+#, php-format
+msgid "Related %s"
+msgstr "相關 %s"
+
+#: includes/components/relations/manager.php:233
+#: includes/components/relations/manager.php:262
+#, php-format
+msgid "Select %s"
+msgstr "選擇 %s"
+
+#: includes/components/relations/manager.php:236
+#, php-format
+msgid "Set Child %s"
+msgstr "設定下層 %s"
+
+#: includes/components/relations/manager.php:265
+#, php-format
+msgid "Set Parent %s"
+msgstr "設定上層 %s"
+
+#: includes/components/relations/manager.php:315
+#, php-format
+msgid "Child %s"
+msgstr "下層 %s"
+
+#: includes/components/relations/manager.php:321
+#, php-format
+msgid "Parent %s"
+msgstr "上層 %s"
+
+#: includes/components/relations/manager.php:541
+#: includes/dashboard/skins-import.php:133
+#: templates/admin/pages/dashboard/export.php:66
+msgid "Relations"
+msgstr "關聯"
+
+#: includes/components/relations/pages/edit.php:38
+msgid "Edit Relation"
+msgstr "編輯關聯"
+
+#: includes/components/relations/pages/edit.php:40
+#: includes/components/relations/pages/edit.php:99
+msgid "Add Relation"
+msgstr "新增關聯"
+
+#: includes/components/relations/pages/edit.php:96
+msgid "Update Relation"
+msgstr "更新關䏈"
+
+#: includes/components/relations/pages/edit.php:114
+msgid "How to choose the needed post relations and set them with JetEngine"
+msgstr "如何選擇所需的文章關聯，並使用 JetEngine 進行設置"
+
+#: includes/components/relations/pages/edit.php:118
+msgid ""
+"How to establish posts relations with JetEngine. Creating “one-to-one” posts "
+"relation"
+msgstr "如何使用 JetEngine 建立文章關聯， 創建「一對一」文章關聯"
+
+#: includes/components/relations/pages/edit.php:122
+msgid "How to display related posts using Dynamic Field widget"
+msgstr "如何使用動態欄位小工具顯示相關文章"
+
+#: includes/components/relations/pages/edit.php:126
+msgid "How to display the related child posts in the Listing Grid"
+msgstr "如何在列表方格中顯示相關的下層文章"
+
+#: includes/components/relations/pages/edit.php:130
+msgid "How to display the related parent posts in the Listing Grid"
+msgstr "如何在列表方格中顯示相關的上層文章"
+
+#: includes/components/relations/pages/list.php:62
+msgid "Posts Relations List"
+msgstr "文章相關清單"
+
+#: includes/components/relations/rest-api/get-relation.php:47
+msgid "Relation not found"
+msgstr "沒找到關聯"
+
+#: includes/components/taxonomies/data.php:53
+msgid "Please set taxonomy slug"
+msgstr "請設定分類法代稱"
+
+#: includes/components/taxonomies/data.php:61
+msgid "Please set taxonomy name"
+msgstr "請設定分類法名稱"
+
+#: includes/components/taxonomies/data.php:69
+msgid "Please set post type for taxonomy"
+msgstr "請為分類法設定相應的文章型別"
+
+#: includes/components/taxonomies/data.php:77
+msgid "Please change taxonomy slug. Current is reserved for WordPress needs"
+msgstr "請更新分類法代稱，目前這個 WordPress 正在用"
+
+#: includes/components/taxonomies/manager.php:224
+msgid "Name for one object of this taxonomy"
+msgstr "為此分類法的一個物件命名"
+
+#: includes/components/taxonomies/manager.php:230
+msgid "Menu name text"
+msgstr "選單名稱文字"
+
+#: includes/components/taxonomies/manager.php:231
+msgid ""
+"This string is the name to give menu items. If not set, defaults to value of "
+"name field"
+msgstr "此字串是選單項目的名稱。 如果未設置，則預設為名稱欄位的值"
+
+#: includes/components/taxonomies/manager.php:237
+msgid "All items text"
+msgstr "全部項目文字"
+
+#: includes/components/taxonomies/manager.php:238
+msgid "Default is All Tags or All Categories"
+msgstr "預設是全部標籤或全部分類"
+
+#: includes/components/taxonomies/manager.php:244
+msgid "Edit item text"
+msgstr "編輯項目文字"
+
+#: includes/components/taxonomies/manager.php:245
+msgid "Default is Edit Tag or Edit Category"
+msgstr "預設是編輯標籤或編輯分類"
+
+#: includes/components/taxonomies/manager.php:252
+msgid "Default is View Tag or View Category"
+msgstr "預設是檢視標籤或檢視分類"
+
+#: includes/components/taxonomies/manager.php:258
+msgid "Update item text"
+msgstr "更新項目文字"
+
+#: includes/components/taxonomies/manager.php:259
+msgid "Default is Update Tag or Update Category"
+msgstr "預設是更新標籤或更新分類"
+
+#: includes/components/taxonomies/manager.php:261
+msgid "Update %s%"
+msgstr "更新 %s%"
+
+#: includes/components/taxonomies/manager.php:265
+msgid "Add new item text"
+msgstr "新增項目文字"
+
+#: includes/components/taxonomies/manager.php:266
+msgid "Default is Add New Tag or Add New Category"
+msgstr "預設是新增標籤或新增分類"
+
+#: includes/components/taxonomies/manager.php:272
+msgid "New item name text"
+msgstr "新增項目名稱文字"
+
+#: includes/components/taxonomies/manager.php:273
+msgid "Default is New Tag Name or New Category Name"
+msgstr "預設是新增標籤名稱或新增分類名稱"
+
+#: includes/components/taxonomies/manager.php:275
+msgid "New %s% Name"
+msgstr "新增 %s% 名稱"
+
+#: includes/components/taxonomies/manager.php:279
+msgid "Parent item text"
+msgstr "上層項目文字"
+
+#: includes/components/taxonomies/manager.php:280
+msgid ""
+"This string is not used on non-hierarchical taxonomies such as post tags"
+msgstr "此字串不適用於無分層分類法，例如文章標籤"
+
+#: includes/components/taxonomies/manager.php:286
+msgid "Parent item with colon"
+msgstr "上層項目使用冒號"
+
+#: includes/components/taxonomies/manager.php:287
+msgid "The same as parent_item, but with colon : in the end null"
+msgstr "與上層項目相同，但在結尾時使用冒號"
+
+#: includes/components/taxonomies/manager.php:289
+msgid "Parent %s%:"
+msgstr "上層 %s%："
+
+#: includes/components/taxonomies/manager.php:293
+msgid "Search items text"
+msgstr "選擇項目文字"
+
+#: includes/components/taxonomies/manager.php:294
+msgid "Default is Search Tags or Search Categories"
+msgstr "預設是搜尋標籤或搜尋分類"
+
+#: includes/components/taxonomies/manager.php:296
+msgid "Search %s%"
+msgstr "搜尋 %s%"
+
+#: includes/components/taxonomies/manager.php:300
+msgid "Popular items text"
+msgstr "熱門項目文字"
+
+#: includes/components/taxonomies/manager.php:301
+msgid "This string is not used on hierarchical taxonomies"
+msgstr "此字串不用於分層分類法"
+
+#: includes/components/taxonomies/manager.php:303
+msgid "Popular %s%"
+msgstr "熱門 %s%"
+
+#: includes/components/taxonomies/manager.php:307
+msgid "Separate item with commas text"
+msgstr "使用逗號分隔項目"
+
+#: includes/components/taxonomies/manager.php:308
+#: includes/components/taxonomies/manager.php:322
+msgid ""
+"Used in the taxonomy meta box. This string is not used on hierarchical "
+"taxonomies"
+msgstr "在分類法詮釋資料群組中使用。 此字串不用於分層分類法"
+
+#: includes/components/taxonomies/manager.php:310
+msgid "Separate %s% with commas"
+msgstr "分隔 %s% 使用逗號"
+
+#: includes/components/taxonomies/manager.php:314
+msgid "Add or remove items text"
+msgstr "新增或刪除項目文字"
+
+#: includes/components/taxonomies/manager.php:315
+msgid ""
+"Used in the taxonomy meta box when JavaScript is disabled. This string is "
+"not used on hierarchical taxonomies"
+msgstr ""
+"當停用 JavaScript 時，在分類法詮釋資料群組中使用。 此字串不用於分層分類法"
+
+#: includes/components/taxonomies/manager.php:317
+msgid "Add or remove %s%"
+msgstr "新增或刪除 %s%"
+
+#: includes/components/taxonomies/manager.php:321
+msgid "Choose from most used text"
+msgstr "從最常用的文字中選擇"
+
+#: includes/components/taxonomies/manager.php:324
+msgid "Choose from the most used %s%"
+msgstr "選擇從最常用的 %s%"
+
+#: includes/components/taxonomies/manager.php:328
+msgid "Items not found text"
+msgstr "找不到項目文字"
+
+#: includes/components/taxonomies/manager.php:329
+msgid ""
+"The text displayed via clicking \"Choose from the most used tags\" in the "
+"taxonomy meta box when no tags are available and the text used in the terms "
+"list table when there are no items for a taxonomy"
+msgstr ""
+"如果沒有可用的標籤，則通過點擊分類法詮釋資料群組中的「從最常用的標籤中選擇」"
+"來顯示文字，如果沒有分類法的項目，則使用分類項目清單裡的文字"
+
+#: includes/components/taxonomies/manager.php:331
+#, php-format
+msgid "No %s% found"
+msgstr "此 %s% f找不到"
+
+#: includes/components/taxonomies/manager.php:335
+msgid "Back to items"
+msgstr "返回項目"
+
+#: includes/components/taxonomies/manager.php:336
+msgid ""
+"The text displayed after a term has been updated for a link back to main "
+"index"
+msgstr "項目更新後顯示的文字，用於返回主索引的連結"
+
+#: includes/components/taxonomies/manager.php:338
+msgid "← Back to %s%"
+msgstr "← 返回 %s%"
+
+#: includes/components/taxonomies/manager.php:362
+#: includes/dashboard/skins-import.php:204
+#: templates/admin/pages/dashboard/export.php:46
+msgid "Taxonomies"
+msgstr "分類法"
+
+#: includes/components/taxonomies/manager.php:411
+msgid "Please, set taxonomy name"
+msgstr "請設定分類法名稱"
+
+#: includes/components/taxonomies/manager.php:412
+msgid "Please, set taxonomy slug"
+msgstr "請設定分類法代稱"
+
+#: includes/components/taxonomies/manager.php:413
+msgid "Please, select post type for this taxonomy"
+msgstr "請為此分類法選擇文章型別"
+
+#: includes/components/taxonomies/manager.php:414
+msgid "Taxonomy updated"
+msgstr "分類法已更新"
+
+#: includes/components/taxonomies/pages/edit.php:38
+msgid "Edit Taxonomy"
+msgstr "編輯分類法"
+
+#: includes/components/taxonomies/pages/edit.php:40
+msgid "Add New Taxonomy"
+msgstr "新增分類法"
+
+#: includes/components/taxonomies/pages/edit.php:97
+msgid "Update Taxonomy"
+msgstr "更新分類法"
+
+#: includes/components/taxonomies/pages/edit.php:100
+msgid "Add Taxonomy"
+msgstr "新增分類法"
+
+#: includes/components/taxonomies/pages/edit.php:115
+msgid "Creating custom taxonomy with JetEngine"
+msgstr "使用 JetEngine 創建自訂分類法"
+
+#: includes/components/taxonomies/pages/edit.php:119
+msgid "How to add a thumbnail for the specific taxonomy"
+msgstr "如何為指定分類法新增縮圖"
+
+#: includes/components/taxonomies/pages/edit.php:123
+msgid "How to create an additional taxonomy type to use it for the post"
+msgstr "如何創建其他分類法型別以用於發佈"
+
+#: includes/components/taxonomies/pages/list.php:62
+msgid "Custom Taxonomies List"
+msgstr "自訂分類法清單"
+
+#: includes/components/taxonomies/rest-api/get-taxonomy.php:47
+msgid "Taxonomy not found"
+msgstr "找不到分類法"
+
+#: includes/dashboard/manager.php:115
+msgid "Saved!"
+msgstr "已儲存！"
+
+#: includes/dashboard/manager.php:116
+msgid ""
+"Saved! One of activated/deactivated modules requires page reloading. Page "
+"will be reloaded automatically in few seconds."
+msgstr ""
+"已儲存！已啟用／已停用的模組之一需要重新刷新頁面。 頁面將在幾秒鐘後自動重新刷"
+"新。"
+
+#: includes/dashboard/skins-import.php:44
+msgid "File not passed"
+msgstr "檔案未通過"
+
+#: includes/dashboard/skins-import.php:50
+msgid "Format not allowed"
+msgstr "不允許的格式"
+
+#: includes/dashboard/skins-import.php:57
+msgid "No data found in file"
+msgstr "在檔案中找不到資料"
+
+#: includes/dashboard/skins-import.php:168
+#: templates/admin/pages/dashboard/export.php:36
+msgid "Post types"
+msgstr "文章型別"
+
+#: includes/modules/calendar/calendar.php:33
+#: includes/modules/calendar/widget.php:33
+msgid "Calendar"
+msgstr "行事曆"
+
+#: includes/modules/calendar/widget.php:79
+msgid "Group posts by"
+msgstr "群組文章依"
+
+#: includes/modules/calendar/widget.php:83
+msgid "Post publication date"
+msgstr "文章發佈日期"
+
+#: includes/modules/calendar/widget.php:84
+msgid "Post modification date"
+msgstr "文章修改日期"
+
+#: includes/modules/calendar/widget.php:85
+msgid "Date from custom field"
+msgstr "自訂欄位中的日期"
+
+#: includes/modules/calendar/widget.php:93
+msgid "Meta field name"
+msgstr "詮釋欄位名稱"
+
+#: includes/modules/calendar/widget.php:97
+msgid ""
+"This field must contain date to group posts by. Works only if \"Save as "
+"timestamp\" option for meta field is active"
+msgstr ""
+"欄位必須包含用於分組文章的日期。 僅在詮釋欄位的「另存為時間戳記」選項處於活動"
+"狀態時有效"
+
+#: includes/modules/calendar/widget.php:107
+msgid "Allow multiday events"
+msgstr "允許多日活動"
+
+#: includes/modules/calendar/widget.php:123
+msgid "End date field name"
+msgstr "結束日期欄位名稱"
+
+#: includes/modules/calendar/widget.php:127
+msgid ""
+"This field must contain date when events ends. Works only if \"Save as "
+"timestamp\" option for meta field is active"
+msgstr ""
+"活動結束時，此欄位必須包含日期。 僅在詮釋資料的「另存為時間戳」選項處於活動狀"
+"態時有效"
+
+#: includes/modules/calendar/widget.php:138
+msgid "Week days format"
+msgstr "平日格式"
+
+#: includes/modules/calendar/widget.php:143
+msgid "Short"
+msgstr "短"
+
+#: includes/modules/calendar/widget.php:144
+msgid "Initial letter"
+msgstr "首字"
+
+#: includes/modules/calendar/widget.php:152
+msgid "Start from custom month"
+msgstr "從自訂月份開始"
+
+#: includes/modules/calendar/widget.php:165
+msgid "Start from month"
+msgstr "從月開始"
+
+#: includes/modules/calendar/widget.php:178
+msgid "Start from year"
+msgstr "從年開始"
+
+#: includes/modules/calendar/widget.php:198
+msgid "January"
+msgstr "一月"
+
+#: includes/modules/calendar/widget.php:199
+msgid "February"
+msgstr "二月"
+
+#: includes/modules/calendar/widget.php:200
+msgid "March"
+msgstr "三月"
+
+#: includes/modules/calendar/widget.php:201
+msgid "April"
+msgstr "四月"
+
+#: includes/modules/calendar/widget.php:202
+msgid "May"
+msgstr "五月"
+
+#: includes/modules/calendar/widget.php:203
+msgid "June"
+msgstr "六月"
+
+#: includes/modules/calendar/widget.php:204
+msgid "July"
+msgstr "七月"
+
+#: includes/modules/calendar/widget.php:205
+msgid "August"
+msgstr "八月"
+
+#: includes/modules/calendar/widget.php:206
+msgid "September"
+msgstr "九月"
+
+#: includes/modules/calendar/widget.php:207
+msgid "October"
+msgstr "十月"
+
+#: includes/modules/calendar/widget.php:208
+msgid "November"
+msgstr "十一月"
+
+#: includes/modules/calendar/widget.php:209
+msgid "December"
+msgstr "十二月"
+
+#: includes/modules/calendar/widget.php:222
+msgid "Caption"
+msgstr "標題"
+
+#: includes/modules/calendar/widget.php:235
+msgid "Layout 1"
+msgstr "佈局 1"
+
+#: includes/modules/calendar/widget.php:236
+msgid "Layout 2"
+msgstr "佈局 2"
+
+#: includes/modules/calendar/widget.php:237
+msgid "Layout 3"
+msgstr "佈局 3"
+
+#: includes/modules/calendar/widget.php:238
+msgid "Layout 4"
+msgstr "佈局 4"
+
+#: includes/modules/calendar/widget.php:257
+msgid "Label Color"
+msgstr "標籤顏色"
+
+#: includes/modules/calendar/widget.php:324
+msgid "Navigation Arrows"
+msgstr "導引箭頭"
+
+#: includes/modules/calendar/widget.php:367
+msgid "Arrow Size"
+msgstr "箭頭大小"
+
+#: includes/modules/calendar/widget.php:386
+msgid "Prev Arrow (Default)"
+msgstr "上一步箭頭（預設）"
+
+#: includes/modules/calendar/widget.php:417
+msgid "Next Arrow"
+msgstr "下一步箭頭"
+
+#: includes/modules/calendar/widget.php:533
+msgid "Week Days"
+msgstr "平日"
+
+#: includes/modules/calendar/widget.php:584
+#: includes/modules/calendar/widget.php:712
+msgid "Border Width"
+msgstr "邊線寬度"
+
+#: includes/modules/calendar/widget.php:608
+msgid "First Border Color"
+msgstr "第一邊線顏色"
+
+#: includes/modules/calendar/widget.php:619
+msgid "Last Border Color"
+msgstr "最後邊線顏色"
+
+#: includes/modules/calendar/widget.php:645
+msgid "Days"
+msgstr "日期"
+
+#: includes/modules/calendar/widget.php:677
+msgid "Min height"
+msgstr "最小高度"
+
+#: includes/modules/calendar/widget.php:695
+msgid "Gap between events"
+msgstr "活動之間的間隔"
+
+#: includes/modules/calendar/widget.php:757
+msgid "Date Label"
+msgstr "日期標籤"
+
+#: includes/modules/calendar/widget.php:799
+msgid "Has Events"
+msgstr "有活動"
+
+#: includes/modules/calendar/widget.php:840
+msgid "Date Box Alignment"
+msgstr "日期框對齊"
+
+#: includes/modules/calendar/widget.php:866
+msgid "Date Text Alignment"
+msgstr "日期文字對齊"
+
+#: includes/modules/calendar/widget.php:977
+msgid "Disabled Days (not in current month)"
+msgstr "停用天數（當前月份除外）"
+
+#: includes/modules/calendar/widget.php:986
+msgid "Opacity"
+msgstr "透明度"
+
+#: includes/modules/calendar/widget.php:1000
+msgid "Day Background Color"
+msgstr "日的背景顏色"
+
+#: includes/modules/calendar/widget.php:1011
+msgid "Day Border Color"
+msgstr "日的邊線顏色"
+
+#: includes/modules/calendar/widget.php:1022
+msgid "Day Label Text Color"
+msgstr "日標籤文字顏色"
+
+#: includes/modules/calendar/widget.php:1033
+msgid "Day Label Background Color"
+msgstr "日標籤背景顏色"
+
+#: includes/modules/calendar/widget.php:1044
+msgid "Day Label Border Color"
+msgstr "日標籤邊線顏色"
+
+#: includes/modules/calendar/widget.php:1057
+msgid "Mobile"
+msgstr "手機"
+
+#: includes/modules/calendar/widget.php:1066
+msgid "Mobile Trigger Color"
+msgstr "手機觸發顏色"
+
+#: includes/modules/calendar/widget.php:1077
+msgid "Active Mobile Trigger Color"
+msgstr "啟動手機觸發顏色"
+
+#: includes/modules/calendar/widget.php:1088
+msgid "Mobile Trigger Width"
+msgstr "手機觸發寬度"
+
+#: includes/modules/calendar/widget.php:1110
+msgid "Mobile Trigger Height"
+msgstr "手機觸發高度"
+
+#: includes/modules/calendar/widget.php:1127
+msgid "Mobile Trigger Alignment"
+msgstr "手機觸發對齊"
+
+#: includes/modules/calendar/widget.php:1153
+msgid "Mobile Trigger Border Radius"
+msgstr "手機觸發邊線圓角"
+
+#: includes/modules/calendar/widget.php:1165
+msgid "Mobile Trigger Margin"
+msgstr "手機觸發外距"
+
+#: includes/modules/calendar/widget.php:1177
+msgid "Mobile Event Margin"
+msgstr "手機活動外距"
+
+#: includes/modules/forms/builder.php:321 includes/modules/forms/editor.php:344
+#: includes/modules/forms/editor.php:345
+#: includes/modules/forms/widgets/booking-form.php:800
+msgid "Submit"
+msgstr "送出"
+
+#: includes/modules/forms/editor.php:147
+msgid "New order on website"
+msgstr "網站上的新訂單"
+
+#: includes/modules/forms/editor.php:155
+msgid "Are you sure you want to delete this field?"
+msgstr "你確定要刪除這個欄位？"
+
+#: includes/modules/forms/editor.php:167
+msgid "Message"
+msgstr "訊息"
+
+#: includes/modules/forms/editor.php:168
+msgid "Submit Button"
+msgstr "送出按鈕"
+
+#: includes/modules/forms/editor.php:169
+msgid ""
+"The “Redirect” notification should be the last one on the list. No other "
+"notifications will be processed after Redirect is done."
+msgstr ""
+"「重新導向」通知應該是列表中的最後一個。 重新導向完成後，將不再處理其他通知。"
+
+#: includes/modules/forms/editor.php:244
+msgid "User Login"
+msgstr "使用者登入"
+
+#: includes/modules/forms/editor.php:245 includes/modules/forms/manager.php:142
+msgid "Email"
+msgstr "電子郵件"
+
+#: includes/modules/forms/editor.php:246 includes/modules/forms/manager.php:145
+msgid "Password"
+msgstr "密碼"
+
+#: includes/modules/forms/editor.php:247
+msgid "Confirm Password"
+msgstr "確認密碼"
+
+#: includes/modules/forms/editor.php:329 includes/modules/forms/editor.php:476
+#: templates/forms/admin/form-builder.php:159
+msgid "Current Post ID"
+msgstr "目前文章 ID"
+
+#: includes/modules/forms/editor.php:387 includes/modules/forms/editor.php:388
+#: includes/modules/forms/editor.php:431 includes/modules/forms/editor.php:441
+#: includes/modules/forms/forms.php:33
+msgid "Forms"
+msgstr "表單"
+
+#: includes/modules/forms/editor.php:432
+#: includes/modules/forms/widgets/booking-form.php:18
+msgid "Form"
+msgstr "表單"
+
+#: includes/modules/forms/editor.php:434
+msgid "Add New Form"
+msgstr "新增表單"
+
+#: includes/modules/forms/editor.php:435
+msgid "Edit Form"
+msgstr "編輯表單"
+
+#: includes/modules/forms/editor.php:437
+msgid "View Form"
+msgstr "檢視表單"
+
+#: includes/modules/forms/editor.php:438
+msgid "Search Form"
+msgstr "搜尋表單"
+
+#: includes/modules/forms/editor.php:439
+msgid "No Forms Found"
+msgstr "找不到表單"
+
+#: includes/modules/forms/editor.php:440
+msgid "No Forms Found In Trash"
+msgstr "在垃圾桶裡找不到表單"
+
+#: includes/modules/forms/editor.php:473
+msgid "Select type..."
+msgstr "選擇型別..."
+
+#: includes/modules/forms/editor.php:526
+msgid "Fields Settings"
+msgstr "欄位設定"
+
+#: includes/modules/forms/editor.php:537
+msgid "Notifications Settings"
+msgstr "通知設定"
+
+#: includes/modules/forms/editor.php:548
+msgid "Messages Settings"
+msgstr "訊息設定"
+
+#: includes/modules/forms/manager.php:125
+msgid "Send Email"
+msgstr "送出電子郵件"
+
+#: includes/modules/forms/manager.php:126
+msgid "Insert Post"
+msgstr "插入文章"
+
+#: includes/modules/forms/manager.php:127
+msgid "Register New User"
+msgstr "註冊新使用者"
+
+#: includes/modules/forms/manager.php:128
+msgid "Call a Hook"
+msgstr "呼叫掛載點"
+
+#: includes/modules/forms/manager.php:129
+msgid "Call a Webhook"
+msgstr "呼叫網站掛載點"
+
+#: includes/modules/forms/manager.php:130
+msgid "Redirect to Page"
+msgstr "重導頁面"
+
+#: includes/modules/forms/manager.php:144
+msgid "Tel"
+msgstr "電話"
+
+#: includes/modules/forms/manager.php:158
+#: includes/modules/forms/manager.php:159
+msgid "Form successfully submitted."
+msgstr "表單已成功送出。"
+
+#: includes/modules/forms/manager.php:162
+msgid "Submit failed."
+msgstr "送出發生錯誤。"
+
+#: includes/modules/forms/manager.php:163
+msgid "There was an error trying to submit form. Please try again later."
+msgstr "嘗試送出表單時出錯，請稍後再試。"
+
+#: includes/modules/forms/manager.php:166
+msgid "Validation error"
+msgstr "驗證錯誤"
+
+#: includes/modules/forms/manager.php:167
+msgid "One or more fields have an error. Please check and try again."
+msgstr "一或多個欄位出錯，請檢查後再試。"
+
+#: includes/modules/forms/manager.php:170
+msgid "Entered an invalid email"
+msgstr "輸入了不正確的電子郵件"
+
+#: includes/modules/forms/manager.php:171
+msgid "The e-mail address entered is invalid."
+msgstr "該電子郵件地址輸入不正確。"
+
+#: includes/modules/forms/manager.php:174
+msgid "Required field is empty"
+msgstr "必填欄位是空的"
+
+#: includes/modules/forms/manager.php:175
+msgid "The field is required."
+msgstr "這是必填欄位。"
+
+#: includes/modules/forms/manager.php:178
+msgid "Register User specific: Passwords mismatch"
+msgstr "註冊使用者：密碼不匹配"
+
+#: includes/modules/forms/manager.php:179
+msgid "Passwords don't match."
+msgstr "密碼不匹配。"
+
+#: includes/modules/forms/manager.php:182
+msgid "Register User specific: Username Exists"
+msgstr "註冊使用者：使用者名稱已存在"
+
+#: includes/modules/forms/manager.php:183
+msgid "This username already taken."
+msgstr "這個使用者名稱已經被用了。"
+
+#: includes/modules/forms/manager.php:186
+msgid "Register User specific: Email exists"
+msgstr "註冊使用者：電子郵件已存在"
+
+#: includes/modules/forms/manager.php:187
+msgid "This e-mail already used."
+msgstr "這個電子郵件已被用了。"
+
+#: includes/modules/forms/manager.php:190
+msgid "Register User specific: Incorrect username"
+msgstr "註冊使用者：不正確的使用者名稱"
+
+#: includes/modules/forms/manager.php:191
+msgid "Username contains not allowed characters."
+msgstr "使用者名稱內含了不被允許的字元。"
+
+#: includes/modules/forms/manager.php:194
+msgid "Register User specific: Empty username"
+msgstr "註冊使用者：使用者名稱是空的"
+
+#: includes/modules/forms/manager.php:195
+msgid "Please set username."
+msgstr "請設定使用者名稱。"
+
+#: includes/modules/forms/manager.php:198
+msgid "Register User specific: Empty email"
+msgstr "註冊使用者：電子郵件是空的"
+
+#: includes/modules/forms/manager.php:199
+msgid "Please set user email."
+msgstr "請設定使用者的電子郵件。"
+
+#: includes/modules/forms/manager.php:202
+msgid "Register User specific: Empty password"
+msgstr "註冊使用者：密碼是空的"
+
+#: includes/modules/forms/manager.php:203
+msgid "Please set user password."
+msgstr "請設定使用者的密碼。"
+
+#: includes/modules/forms/manager.php:206
+#: includes/modules/forms/manager.php:207
+msgid "Captcha validation failed"
+msgstr "驗證碼驗證失敗"
+
+#: includes/modules/forms/manager.php:231
+msgid "Hidden"
+msgstr "隱藏"
+
+#: includes/modules/forms/manager.php:233
+msgid "Checkboxes"
+msgstr "核取方塊"
+
+#: includes/modules/forms/manager.php:235
+msgid "Number"
+msgstr "數值"
+
+#: includes/modules/forms/manager.php:238
+msgid "Calculated"
+msgstr "已計算"
+
+#: includes/modules/forms/notifications.php:478
+#, php-format
+msgid "Form on %s Submitted"
+msgstr "在 %s 表單已送出"
+
+#: includes/modules/forms/notifications.php:519
+#, php-format
+msgid ""
+"Email from JetEngine Booking Form failed to send.\n"
+"Send time: %s\n"
+"To: %s\n"
+"Subject: %s\n"
+"Content: %s\n"
+"\n"
+msgstr ""
+"來自 JetEngine 預訂表單的電子郵件無法發送。\n"
+"寄送時間：%s\n"
+"收件人：%s\n"
+"標題：%s\n"
+"內容：%s\n"
+"\n"
+
+#: includes/modules/forms/widgets/booking-form.php:45
+msgid "Select form"
+msgstr "選擇表單"
+
+#: includes/modules/forms/widgets/booking-form.php:55
+msgid "Fields layout"
+msgstr "欄位佈局"
+
+#: includes/modules/forms/widgets/booking-form.php:60
+msgid "Row"
+msgstr "列"
+
+#: includes/modules/forms/widgets/booking-form.php:68
+msgid "Submit type"
+msgstr "送出型別"
+
+#: includes/modules/forms/widgets/booking-form.php:72
+msgid "Reload"
+msgstr "重刷"
+
+#: includes/modules/forms/widgets/booking-form.php:73
+msgid "AJAX"
+msgstr "AJAX"
+
+#: includes/modules/forms/widgets/booking-form.php:81
+msgid "Cache form output"
+msgstr "快取表單輸出"
+
+#: includes/modules/forms/widgets/booking-form.php:96
+msgid "Rows"
+msgstr "列"
+
+#: includes/modules/forms/widgets/booking-form.php:105
+msgid "Divider between rows"
+msgstr "列之間的分隔線"
+
+#: includes/modules/forms/widgets/booking-form.php:153
+msgid "Rows Gap"
+msgstr "列距"
+
+#: includes/modules/forms/widgets/booking-form.php:171
+msgid "Columns Gap"
+msgstr "欄距"
+
+#: includes/modules/forms/widgets/booking-form.php:254
+msgid "Descriptions"
+msgstr "說明"
+
+#: includes/modules/forms/widgets/booking-form.php:294
+msgid "Horizontal Alignment"
+msgstr "水平對齊"
+
+#: includes/modules/forms/widgets/booking-form.php:323
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#: includes/modules/forms/widgets/booking-form.php:333
+msgid "Middle"
+msgstr "置中"
+
+#: includes/modules/forms/widgets/booking-form.php:380
+msgid "Placeholder Color"
+msgstr "提示字元顏色"
+
+#: includes/modules/forms/widgets/booking-form.php:458
+msgid "Textarea Height"
+msgstr "多行文字方框高度"
+
+#: includes/modules/forms/widgets/booking-form.php:478
+msgid "Checkbox & Radio Fields"
+msgstr "核取 & 選項方塊欄位"
+
+#: includes/modules/forms/widgets/booking-form.php:528
+msgid "Gap between control and label"
+msgstr "介於控制與標籤的間距"
+
+#: includes/modules/forms/widgets/booking-form.php:605
+msgid "Calculated Fields"
+msgstr "已計算欄位"
+
+#: includes/modules/forms/widgets/booking-form.php:633
+msgid "Prefix Color"
+msgstr "前輟顏色"
+
+#: includes/modules/forms/widgets/booking-form.php:644
+msgid "Prefix size"
+msgstr "前輟大小"
+
+#: includes/modules/forms/widgets/booking-form.php:662
+msgid "Suffix Color"
+msgstr "後輟顏色"
+
+#: includes/modules/forms/widgets/booking-form.php:673
+msgid "Suffix size"
+msgstr "後輟大小"
+
+#: includes/modules/forms/widgets/booking-form.php:750
+#: includes/modules/forms/widgets/booking-form.php:759
+msgid "Required mark"
+msgstr "必填標記"
+
+#: includes/modules/forms/widgets/booking-form.php:983
+msgid "Messages"
+msgstr "訊息"
+
+#: includes/modules/forms/widgets/booking-form.php:1024
+msgid "Success"
+msgstr "成功"
+
+#: includes/modules/forms/widgets/booking-form.php:1182
+msgid "Field Messages"
+msgstr "欄位訊息"
+
+#: includes/modules/forms/widgets/booking-form.php:1191
+msgid "Font Size"
+msgstr "字型大小"
+
+#: includes/modules/forms/widgets/booking-form.php:1275
+msgid "Please, select form to show"
+msgstr "請選擇要顯示的表單"
+
+#: includes/modules/gallery/grid.php:33
+msgid "Grid Gallery for Dynamic Field widget"
+msgstr "動態欄位小工具的方格相簿"
+
+#: includes/modules/gallery/grid.php:56
+msgid "Images gallery grid"
+msgstr "相簿方格"
+
+#: includes/modules/gallery/grid.php:71 includes/modules/gallery/slider.php:132
+msgid "Images gap"
+msgstr "圖片間距"
+
+#: includes/modules/gallery/grid.php:96 includes/modules/gallery/slider.php:76
+msgid "Image Overlay"
+msgstr "圖片覆蓋"
+
+#: includes/modules/gallery/grid.php:116 includes/modules/gallery/slider.php:96
+msgid "Hover Overlay"
+msgstr "懸停覆蓋"
+
+#: includes/modules/gallery/grid.php:139
+#: includes/modules/gallery/slider.php:119
+msgid "Lightbox Icon Color"
+msgstr "燈箱圖示顏色"
+
+#: includes/modules/gallery/grid.php:180
+#: includes/modules/gallery/slider.php:335
+msgid "Images Size"
+msgstr "圖片大小"
+
+#: includes/modules/gallery/grid.php:194
+#: includes/modules/gallery/slider.php:349
+msgid "Use lightbox"
+msgstr "使用燈箱"
+
+#: includes/modules/gallery/slider.php:33
+msgid "Slider Gallery for Dynamic Field widget"
+msgstr "動態欄位小工具的滑動式相簿"
+
+#: includes/modules/gallery/slider.php:56
+msgid "Images gallery slider"
+msgstr "相簿滑動"
+
+#: includes/modules/gallery/slider.php:157
+msgid "Slider arrows"
+msgstr "滑動箭形"
+
+#: includes/modules/gallery/slider.php:314
+msgid "Slides to show"
+msgstr "滑動以顯示"
+
+#: includes/modules/listing-injections/listing-injections.php:36
+msgid "Listing Grid injections"
+msgstr "列表方格注入"
+
+#: includes/modules/listing-injections/listing-injections.php:390
+msgid "Inject alternative listing items"
+msgstr "注入替代列表項目"
+
+#: includes/modules/listing-injections/listing-injections.php:403
+msgid "Listing template"
+msgstr "列表方框版型"
+
+#: includes/modules/listing-injections/listing-injections.php:413
+msgid "Inject on"
+msgstr "注入"
+
+#: includes/modules/listing-injections/listing-injections.php:417
+msgid "On each N item"
+msgstr "在每個 N 項目上"
+
+#: includes/modules/listing-injections/listing-injections.php:418
+msgid "Depends on item meta field value"
+msgstr "取決於項目詮釋欄位值"
+
+#: includes/modules/listing-injections/listing-injections.php:426
+msgid "Inject this item only once"
+msgstr "只能注入一次"
+
+#: includes/modules/listing-injections/listing-injections.php:437
+msgid "Item number"
+msgstr "項目號碼"
+
+#: includes/modules/listing-injections/listing-injections.php:452
+msgid "Start from first"
+msgstr "從第一筆開始"
+
+#: includes/modules/listing-injections/listing-injections.php:456
+msgid ""
+"If checked - alternative item will be injected on first item and then on "
+"each N item after first. If not - on each N item from start."
+msgstr ""
+"如果選中–將在第一個項目上注入替代項目，然後在第一個之後的 N 個項目中注入替代"
+"項目。 如果不是–從開始起每 N 個項目。"
+
+#: includes/modules/listing-injections/listing-injections.php:516
+msgid "Column span"
+msgstr "欄跨度"
+
+#: includes/modules/listing-injections/listing-injections.php:519
+msgid "Note: Can't be bigger than Columns Number value"
+msgstr "注意：不能大於「欄號」值"
+
+#: includes/modules/listing-injections/listing-injections.php:534
+msgid "Static item"
+msgstr "靜態項目"
+
+#: includes/modules/listing-injections/listing-injections.php:538
+msgid ""
+"If checked - alternative item will be injected without current post context. "
+"Use this to inject static items into listing."
+msgstr ""
+"如果選中–將在沒有當前發布前後文的情況下注入替代項目。 使用它可以將靜態項目注"
+"入列表。"
+
+#: includes/modules/qr-code/qr-code.php:35
+msgid "QR Code for Dynamic Field widget"
+msgstr "動態欄位小工具的 QR Code"
+
+#: includes/modules/qr-code/qr-code.php:57
+msgid "QR Code"
+msgstr "QR Code"
+
+#: includes/modules/qr-code/qr-code.php:72
+msgid "QR Code Size"
+msgstr "QR Code 大小"
+
+#: includes/updater/plugin-changelog.php:127
+#, php-format
+msgid "More information about %s"
+msgstr "更多資訊關於 %s"
+
+#: includes/updater/plugin-changelog.php:129
+msgid "View details"
+msgstr "檢視細節"
+
+#: templates/admin/listings-popup.php:10
+msgid "Setup Listing Item"
+msgstr "設定列表方框項目"
+
+#: templates/admin/listings-popup.php:38
+msgid "Listing Item Name:"
+msgstr "列表方框項目名稱："
+
+#: templates/admin/listings-popup.php:39
+msgid "Set listing name"
+msgstr "設置列表方框名稱"
+
+#: templates/admin/listings-popup.php:42
+msgid "Listing view:"
+msgstr "列表檢視："
+
+#: templates/admin/listings-popup.php:44
+msgid "Elementor"
+msgstr "Elementor"
+
+#: templates/admin/listings-popup.php:45
+msgid "Blocks (Gutenberg)"
+msgstr "區塊 (Gutenberg)"
+
+#: templates/admin/listings-popup.php:50
+msgid "Create Listing Item"
+msgstr "創建列表方框項目"
+
+#: templates/admin/pages/dashboard/export.php:18
+msgid "Export Skin"
+msgstr "匯出自訂結構"
+
+#: templates/admin/pages/dashboard/export.php:21
+msgid ""
+"Export combination of post types, related taxonomies and listing items as "
+"new skin"
+msgstr "將文章型別、相關分類法和列表項目的組合匯出為新自訂結構"
+
+#: templates/admin/pages/dashboard/export.php:30
+msgid "Export settings"
+msgstr "匯出設定"
+
+#: templates/admin/pages/dashboard/export.php:56
+msgid "Meta boxes"
+msgstr "詮釋資料群組"
+
+#: templates/admin/pages/dashboard/export.php:76
+msgid "Listing items"
+msgstr "列表方框項目"
+
+#: templates/admin/pages/dashboard/export.php:87
+msgid "Sample content"
+msgstr "範例內容"
+
+#: templates/admin/pages/dashboard/export.php:93
+msgid "Export"
+msgstr "匯出"
+
+#: templates/admin/pages/dashboard/import.php:18
+msgid "Import Skin"
+msgstr "匯入自訂結構"
+
+#: templates/admin/pages/dashboard/import.php:21
+msgid "Import new post types, taxonomies and listing items from JSON file."
+msgstr "從 JSON 文件匯入新的文章型別，分類法和列表方框項目。"
+
+#: templates/admin/pages/dashboard/import.php:31
+msgid "Imported:"
+msgstr "匯入："
+
+#: templates/admin/pages/dashboard/import.php:45
+msgid "Choose an JetEngine skin JSON file, and add it to your website."
+msgstr "選擇一個 JetEngine 自訂結構 JSON 檔案，並將其新增到您的網站。"
+
+#: templates/admin/pages/dashboard/import.php:54
+msgid "Import"
+msgstr "匯入"
+
+#: templates/admin/pages/dashboard/main.php:7
+msgid "JetEngine dashboard"
+msgstr "JetEngine 儀表板"
+
+#: templates/admin/pages/dashboard/main.php:17
+msgid "Modules"
+msgstr "模組"
+
+#: templates/admin/pages/dashboard/main.php:22
+msgid "Available Modules"
+msgstr "可用模組"
+
+#: templates/admin/pages/dashboard/main.php:23
+msgid "Enable/disable additional JetEngine features"
+msgstr "啟用／停用其他 JetEngine 功能"
+
+#: templates/admin/pages/dashboard/main.php:57
+msgid "Skins Manager"
+msgstr "自訂結構管理員"
+
+#: templates/admin/pages/dashboard/main.php:63
+msgid "Skins manager"
+msgstr "自訂結構管理員"
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:3
+msgid "Delete meta box"
+msgstr "刪除詮釋資料群組"
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:4
+#: templates/admin/pages/options-pages/delete-dialog.php:4
+#: templates/admin/pages/post-types/delete-dialog.php:4
+#: templates/admin/pages/post-types/edit.php:474
+#: templates/admin/pages/relations/delete-dialog.php:4
+#: templates/admin/pages/taxonomies/delete-dialog.php:4
+#: templates/forms/admin/form-builder.php:338
+#: templates/forms/admin/notifications.php:237
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:9
+msgid "Please confirm meta box deletion"
+msgstr "請確認刪除詮釋資料群組"
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:12
+msgid "Are you sure you want to delete this meta box?"
+msgstr "您確定要刪除此詮釋資料群組嗎？"
+
+#: templates/admin/pages/meta-boxes/edit.php:11
+#: templates/admin/pages/options-pages/edit.php:11
+#: templates/admin/pages/post-types/edit.php:11
+#: templates/admin/pages/relations/edit.php:11
+#: templates/admin/pages/taxonomies/edit.php:11
+msgid "General Settings"
+msgstr "一般設定"
+
+#: templates/admin/pages/meta-boxes/edit.php:14
+msgid "Meta Box Title"
+msgstr "詮釋資料群組標題"
+
+#: templates/admin/pages/meta-boxes/edit.php:15
+msgid ""
+"Title will be shown ar the top of Meta Box on edit Post page. Eg. `Settings`"
+msgstr "標題將顯示在「編輯文章」頁面上「詮釋資料群組」的頂部。例如：「設置」"
+
+#: templates/admin/pages/meta-boxes/edit.php:23
+msgid "Meta Box for"
+msgstr "詮釋資料群組"
+
+#: templates/admin/pages/meta-boxes/edit.php:24
+msgid "Select to add this meta box to posts, taxonomies or users"
+msgstr "選擇以將此詮釋資料群組到文章，分類法或使用者"
+
+#: templates/admin/pages/meta-boxes/edit.php:36
+msgid "User"
+msgstr "使用者"
+
+#: templates/admin/pages/meta-boxes/edit.php:44
+msgid "Enable For Post Types"
+msgstr "啟用文章型別"
+
+#: templates/admin/pages/meta-boxes/edit.php:45
+msgid "Select post types where this meta box should be shown"
+msgstr "選擇顯示此詮釋資料群組的文章型別"
+
+#: templates/admin/pages/meta-boxes/edit.php:60
+msgid "Enable For Taxonomies"
+msgstr "啟用分類法"
+
+#: templates/admin/pages/meta-boxes/edit.php:61
+msgid "Select taxonomies where this meta box should be shown"
+msgstr "選擇應在其中顯示此詮釋資料群組的分類法"
+
+#: templates/admin/pages/meta-boxes/edit.php:76
+msgid "Specific Posts"
+msgstr "特定文章"
+
+#: templates/admin/pages/meta-boxes/edit.php:77
+msgid "Select specific post to show meta box on"
+msgstr "選擇特定文章以在其上顯示詮釋資料群組"
+
+#: templates/admin/pages/meta-boxes/edit.php:94
+msgid "Visible at"
+msgstr "可見於"
+
+#: templates/admin/pages/meta-boxes/edit.php:95
+msgid ""
+"If selected `Edit User` meta fields will be visible only for website "
+"administrator on Edit User page, if `Edit User & Profile` - fields also will "
+"be visible at user Profile page and can be edited by user"
+msgstr ""
+"如果選擇了「編輯使用者」詮釋欄位，則僅對網站管理員在「編輯使用者」頁面上可"
+"見；如果「編輯使用者和個人資料」，則這些欄位也將在使用者「個人資料」頁面上可"
+"見，並且可以由使用者進行編輯"
+
+#: templates/admin/pages/meta-boxes/edit.php:99
+msgid "Edit User"
+msgstr "編輯使用者"
+
+#: templates/admin/pages/meta-boxes/edit.php:103
+msgid "Edit User & Profile"
+msgstr "編輯使用者 & 檔案"
+
+#: templates/admin/pages/meta-boxes/edit.php:123
+#: templates/admin/pages/meta-boxes/list.php:13
+#: templates/admin/pages/options-pages/edit.php:97
+#: templates/admin/pages/options-pages/list.php:13
+#: templates/admin/pages/post-types/edit.php:391
+#: templates/admin/pages/post-types/list.php:14
+#: templates/admin/pages/relations/edit.php:74
+#: templates/admin/pages/relations/list.php:15
+#: templates/admin/pages/taxonomies/edit.php:170
+#: templates/admin/pages/taxonomies/list.php:13
+msgid "Actions"
+msgstr "動作"
+
+#: templates/admin/pages/meta-boxes/edit.php:125
+#: templates/admin/pages/options-pages/edit.php:99
+#: templates/admin/pages/post-types/edit.php:393
+#: templates/admin/pages/relations/edit.php:76
+#: templates/admin/pages/taxonomies/edit.php:172
+msgid ""
+"If you are not sure where to start, please check tutorials list below this "
+"block"
+msgstr "如果不確定從哪裡開始，請查看此區塊下方的教學清單"
+
+#: templates/admin/pages/meta-boxes/edit.php:149
+#: templates/admin/pages/meta-boxes/list.php:36
+#: templates/admin/pages/options-pages/edit.php:123
+#: templates/admin/pages/options-pages/list.php:36
+#: templates/admin/pages/post-types/edit.php:426
+#: templates/admin/pages/post-types/list.php:70
+#: templates/admin/pages/relations/delete-dialog.php:3
+#: templates/admin/pages/relations/edit.php:100
+#: templates/admin/pages/relations/list.php:40
+#: templates/admin/pages/taxonomies/delete-dialog.php:3
+#: templates/admin/pages/taxonomies/edit.php:196
+#: templates/admin/pages/taxonomies/list.php:36
+msgid "Delete"
+msgstr "刪除"
+
+#: templates/admin/pages/meta-boxes/edit.php:167
+#: templates/admin/pages/options-pages/edit.php:141
+#: templates/admin/pages/post-types/edit.php:458
+#: templates/admin/pages/relations/edit.php:118
+#: templates/admin/pages/taxonomies/edit.php:214
+msgid "Need Help?"
+msgstr "需要幫助？"
+
+#: templates/admin/pages/meta-boxes/fields.php:26
+msgid "Meta field label. It will be displayed on Post edit page"
+msgstr "詮釋欄位標籤，它將顯示在文章編輯頁面上"
+
+#: templates/admin/pages/meta-boxes/fields.php:34
+msgid "Name/ID"
+msgstr "名稱／ID"
+
+#: templates/admin/pages/meta-boxes/fields.php:35
+msgid ""
+"Meta field name/ID. Under this name field will be stored in the database. "
+"Should contain only Latin letters, numbers, `-` or `_` chars"
+msgstr ""
+"詮釋欄位名稱／ID。在該名稱下，欄位將儲存在資料庫中。僅限使用英文字母、數字、"
+"「-」或「 _」字元"
+
+#: templates/admin/pages/meta-boxes/fields.php:42
+msgid "Object type"
+msgstr "物件型別"
+
+#: templates/admin/pages/meta-boxes/fields.php:43
+msgid ""
+"Current meta box object type: field or layout element. To close the action "
+"of previously selected Tab or Accordion group, use the `Endpoint` option"
+msgstr ""
+"當前的詮釋資料群組物件型別：欄位或佈局元素。要關閉先前選擇的「標籤」或「可折"
+"疊容器」群組的操作，請使用「端點」選項"
+
+#: templates/admin/pages/meta-boxes/fields.php:53
+msgid "Tab"
+msgstr "書籤"
+
+#: templates/admin/pages/meta-boxes/fields.php:57
+msgid "Accordion"
+msgstr "可折疊容器"
+
+#: templates/admin/pages/meta-boxes/fields.php:61
+msgid "Endpoint"
+msgstr "端點"
+
+#: templates/admin/pages/meta-boxes/fields.php:68
+msgid "Field type"
+msgstr "欄位型別"
+
+#: templates/admin/pages/meta-boxes/fields.php:69
+msgid ""
+"Meta field type. Defines the way field to be displayed on Post edit page"
+msgstr "詮釋欄位型別，定義欄位要在「文章編輯」頁面上顯示的方式"
+
+#: templates/admin/pages/meta-boxes/fields.php:85
+msgid ""
+"Select tab layout. Note, layout selected on first tab in set will be "
+"automatically applied to all other tabs"
+msgstr ""
+"選擇書籤佈局。注意，在集合中第一個書籤上選擇的佈局將自動應用於所有其他書籤"
+
+#: templates/admin/pages/meta-boxes/fields.php:125
+msgid "New Field Option"
+msgstr "新增欄位選項"
+
+#: templates/admin/pages/meta-boxes/fields.php:142
+msgid "Option Value"
+msgstr "選項值"
+
+#: templates/admin/pages/meta-boxes/fields.php:143
+msgid "This value will be saved into Database"
+msgstr "這個值將會儲存到資料庫裡"
+
+#: templates/admin/pages/meta-boxes/fields.php:150
+msgid "Option label"
+msgstr "選項標籤"
+
+#: templates/admin/pages/meta-boxes/fields.php:151
+msgid "This will be shown for user on Post edit page"
+msgstr "這將顯示在文章編輯頁面上"
+
+#: templates/admin/pages/meta-boxes/fields.php:158
+msgid "Is checked (selected)"
+msgstr "是否已勾選（已選）"
+
+#: templates/admin/pages/meta-boxes/fields.php:159
+msgid "Check this to make this field checked or selected by default."
+msgstr "勾選此複選框以預設勾選或選中此欄位。"
+
+#: templates/admin/pages/meta-boxes/fields.php:169
+msgid "Save as timestamp"
+msgstr "以時間戳記格式儲存"
+
+#: templates/admin/pages/meta-boxes/fields.php:170
+msgid ""
+"If this option is enabled date will be saved in database Unix timestamp. "
+"Toggle it if you need to sort or query posts by date"
+msgstr ""
+"如果啟用此選項，則日期將儲存在資料庫 Unix 時間戳中。如果您需要按日期對文章進"
+"行排序或查詢，請進行切換"
+
+#: templates/admin/pages/meta-boxes/fields.php:188
+#: templates/admin/pages/meta-boxes/fields.php:288
+msgid "Search in post types"
+msgstr "在文章型別中搜尋"
+
+#: templates/admin/pages/meta-boxes/fields.php:189
+#: templates/admin/pages/meta-boxes/fields.php:289
+msgid "Select post types available to search in"
+msgstr "選擇可用於搜索的文章型別"
+
+#: templates/admin/pages/meta-boxes/fields.php:210
+#: templates/admin/pages/meta-boxes/fields.php:306
+msgid "Multiple"
+msgstr "多個"
+
+#: templates/admin/pages/meta-boxes/fields.php:211
+#: templates/admin/pages/meta-boxes/fields.php:307
+msgid "Allow to select multiple values"
+msgstr "允許選擇多個值"
+
+#: templates/admin/pages/meta-boxes/fields.php:245
+msgid "New Repeater Field"
+msgstr "新增重複器欄位"
+
+#: templates/admin/pages/meta-boxes/fields.php:263
+msgid "Repeater field label. Will be displayed on Post edit page"
+msgstr "重複器欄位標籤，將顯示在文章編輯頁面上"
+
+#: templates/admin/pages/meta-boxes/fields.php:272
+msgid ""
+"Repeater field name/ID. Should contain only latin letters, numbers, `-` or "
+"`_` chars"
+msgstr "重複器欄位名稱／ID。應包含英文字母、數字、「-」或「 _」字元"
+
+#: templates/admin/pages/meta-boxes/fields.php:280
+msgid ""
+"Repeater field type. Defines the way field be displayed on Post edit page"
+msgstr "重複器欄位型別，定義欄位在「文章編輯」頁面上的顯示方式"
+
+#: templates/admin/pages/meta-boxes/fields.php:325
+msgid "Meta field description to be shown on Post edit page"
+msgstr "詮釋欄位說明將顯示在文章編輯頁面上"
+
+#: templates/admin/pages/meta-boxes/fields.php:339
+msgid "Field width"
+msgstr "欄位寬度"
+
+#: templates/admin/pages/meta-boxes/fields.php:340
+msgid "Select meta field width from the dropdown list for Post edit page"
+msgstr "從文章編輯頁面的下拉清單中選擇詮釋欄位寬度"
+
+#: templates/admin/pages/meta-boxes/fields.php:385
+msgid "Character limit"
+msgstr "字元限制"
+
+#: templates/admin/pages/meta-boxes/fields.php:386
+msgid "Max field value length. Leave empty for no limit"
+msgstr "最大欄位長度。留空代表無限制"
+
+#: templates/admin/pages/meta-boxes/fields.php:406
+msgid "Default value"
+msgstr "預設值"
+
+#: templates/admin/pages/meta-boxes/fields.php:407
+msgid ""
+"Set default value for current field. <b>Note</b> For date field you can set "
+"any value could be processed by strtotime() function."
+msgstr ""
+"設定當前欄位的預設值。<b>注意</b>對於日期欄位，您可以設置 strtotime() 函數可"
+"以處理的任何值。"
+
+#: templates/admin/pages/meta-boxes/fields.php:421
+msgid "Is required"
+msgstr "是必填的"
+
+#: templates/admin/pages/meta-boxes/fields.php:422
+msgid ""
+"Toggle this option to make this field as required one. Note: so far, "
+"required fields don’t work properly with Blocks editor"
+msgstr ""
+"切換此選項可使該欄位成為必填欄位。注意：到目前為止，必填欄位無法在區塊編輯器"
+"中正常使用"
+
+#: templates/admin/pages/meta-boxes/list.php:4
+msgid "No meta boxes found"
+msgstr "沒找到詮釋資料群組"
+
+#: templates/admin/pages/meta-boxes/list.php:11
+msgid "Meta Box Name"
+msgstr "詮釋資料群組名稱"
+
+#: templates/admin/pages/meta-boxes/list.php:12
+msgid "Show On"
+msgstr "顯示在"
+
+#: templates/admin/pages/meta-boxes/list.php:30
+#: templates/admin/pages/options-pages/list.php:30
+#: templates/admin/pages/post-types/list.php:63
+#: templates/admin/pages/relations/list.php:34
+#: templates/admin/pages/taxonomies/list.php:30
+msgid "Edit"
+msgstr "編輯"
+
+#: templates/admin/pages/options-pages/delete-dialog.php:3
+msgid "Delete page"
+msgstr "刪除頁面"
+
+#: templates/admin/pages/options-pages/delete-dialog.php:9
+msgid "Please confirm page deletion"
+msgstr "請確認要刪除的頁面"
+
+#: templates/admin/pages/options-pages/delete-dialog.php:12
+msgid "Are you sure you want to delete this page?"
+msgstr "您確定要刪除此頁面嗎？"
+
+#: templates/admin/pages/options-pages/delete-dialog.php:13
+msgid ""
+"If yes - please select what to do with saved options related to this page:"
+msgstr "如果確定–請選擇如何處理與此頁面相關的已儲存選項："
+
+#: templates/admin/pages/options-pages/delete-dialog.php:23
+msgid "Left options without changes"
+msgstr "剩餘選項不會變更"
+
+#: templates/admin/pages/options-pages/delete-dialog.php:27
+msgid "Delete saved options"
+msgstr "刪除已儲存的選項"
+
+#: templates/admin/pages/options-pages/edit.php:15
+msgid "Page title"
+msgstr "頁面標題"
+
+#: templates/admin/pages/options-pages/edit.php:16
+#: templates/admin/pages/options-pages/edit.php:37
+msgid "Set unique name for your options page"
+msgstr "為您的選項頁面設定唯一的名稱"
+
+#: templates/admin/pages/options-pages/edit.php:26
+msgid "Page slug"
+msgstr "頁面代稱"
+
+#: templates/admin/pages/options-pages/edit.php:27
+msgid ""
+"Set slug for your options page. Slug should contain only letters, numbers "
+"and `-` or `_` chars. This slug also be used to store options into database"
+msgstr ""
+"為您的選項頁面設定代稱。代稱僅限使用英文字母、數字、「-」或「 _」字元。這個代"
+"稱也用於將選項儲存到資料庫中"
+
+#: templates/admin/pages/options-pages/edit.php:36
+msgid "Menu name"
+msgstr "選單名稱"
+
+#: templates/admin/pages/options-pages/edit.php:43
+msgid "Parent page"
+msgstr "上層頁面"
+
+#: templates/admin/pages/options-pages/edit.php:44
+msgid ""
+"Leave empty to create top level menu page or select a parent for current page"
+msgstr "留空以創建上層選單頁面或為當前頁面選擇上層選單頁面"
+
+#: templates/admin/pages/options-pages/edit.php:52
+#: templates/admin/pages/post-types/edit.php:183
+msgid "Menu Icon"
+msgstr "選單圖示"
+
+#: templates/admin/pages/options-pages/edit.php:53
+#: templates/admin/pages/post-types/edit.php:184
+msgid "Icon will be visible in admin menu"
+msgstr "圖標將顯示在管理選單中"
+
+#: templates/admin/pages/options-pages/edit.php:69
+msgid "Access capability"
+msgstr "存取能力"
+
+#: templates/admin/pages/options-pages/edit.php:70
+msgid "Select capability type to restrict access to created page"
+msgstr "選擇功能型別以限制對創建頁面的存取"
+
+#: templates/admin/pages/options-pages/edit.php:77
+msgid "Menu position"
+msgstr "選單位置"
+
+#: templates/admin/pages/options-pages/edit.php:78
+msgid "Select existing menu item to add page after"
+msgstr "選擇現有選單項目以在之後新增頁面"
+
+#: templates/admin/pages/options-pages/list.php:4
+msgid "No options pages found"
+msgstr "找不到選項頁"
+
+#: templates/admin/pages/options-pages/list.php:11
+msgid "Page Name"
+msgstr "頁面名稱"
+
+#: templates/admin/pages/options-pages/list.php:12
+msgid "Page Slug (and option name)"
+msgstr "頁面代稱（以及選項名稱）"
+
+#: templates/admin/pages/post-types/delete-dialog.php:3
+msgid "Delete post type"
+msgstr "刪除文章型別"
+
+#: templates/admin/pages/post-types/delete-dialog.php:9
+msgid "Please confirm post type deletion"
+msgstr "請確認要刪除的文章型別"
+
+#: templates/admin/pages/post-types/delete-dialog.php:12
+msgid "Are you sure you want to delete this post type?"
+msgstr "你確定要刪除這個文章型別嗎？"
+
+#: templates/admin/pages/post-types/delete-dialog.php:13
+msgid "If yes - please select what to do with created posts of this post type:"
+msgstr "如果確定–請選擇如何處理此文章型別的已創建文章："
+
+#: templates/admin/pages/post-types/delete-dialog.php:23
+msgid "Leave posts without changes"
+msgstr "保持文章不變"
+
+#: templates/admin/pages/post-types/delete-dialog.php:27
+msgid "Attach to another post type"
+msgstr "附加到其它文章型別"
+
+#: templates/admin/pages/post-types/delete-dialog.php:31
+msgid "Delete all posts"
+msgstr "刪除全部文章"
+
+#: templates/admin/pages/post-types/edit.php:15
+#: templates/admin/pages/post-types/list.php:11
+msgid "Post Type Name"
+msgstr "文章型別名稱"
+
+#: templates/admin/pages/post-types/edit.php:16
+#: templates/admin/pages/taxonomies/edit.php:16
+msgid "Set unique name for your post type. Eg. `Projects`"
+msgstr "為您的文章型別設定唯一的名稱。例如：「專案」"
+
+#: templates/admin/pages/post-types/edit.php:26
+#: templates/admin/pages/post-types/list.php:12
+msgid "Post Type Slug"
+msgstr "文章型別代稱"
+
+#: templates/admin/pages/post-types/edit.php:27
+msgid ""
+"Set slug for your post type. Slug should contain only letters, numbers and `-"
+"` or `_` chars"
+msgstr "為您的文章型別設定代稱。代稱僅限使用英文字母、數字、「-」或「 _」字元"
+
+#: templates/admin/pages/post-types/edit.php:41
+msgid "Update Posts"
+msgstr "更新文章"
+
+#: templates/admin/pages/post-types/edit.php:42
+msgid ""
+"Check this if you already have created post of this post type and want to "
+"automatically change post type for these posts."
+msgstr ""
+"如果您已經創建了這種文章型別的文章，並且想要自動更改這些文章的文章型別，請勾"
+"選此核取方塊。"
+
+#: templates/admin/pages/post-types/edit.php:74
+#: templates/admin/pages/taxonomies/edit.php:79
+msgid "Is Public"
+msgstr "是公開的"
+
+#: templates/admin/pages/post-types/edit.php:75
+msgid "Controls how the type is visible to authors and readers"
+msgstr "控制作者和讀者如何看此型別"
+
+#: templates/admin/pages/post-types/edit.php:82
+msgid "Exclude From Search"
+msgstr "從搜尋中排除"
+
+#: templates/admin/pages/post-types/edit.php:83
+msgid ""
+"Whether to exclude posts with this post type from front end search results"
+msgstr "是否從前端搜索結果中排除這種文章型別的文章"
+
+#: templates/admin/pages/post-types/edit.php:89
+msgid "Publicly Queryable"
+msgstr "可公開查詢"
+
+#: templates/admin/pages/post-types/edit.php:90
+msgid ""
+"Whether queries can be performed on the front end as part of parse_request()"
+msgstr "在前端執行查詢是否可以作為 parse_request() 的一部分"
+
+#: templates/admin/pages/post-types/edit.php:96
+#: templates/admin/pages/taxonomies/edit.php:94
+msgid "Show Admin UI"
+msgstr "顯示管理界面"
+
+#: templates/admin/pages/post-types/edit.php:97
+msgid ""
+"Whether to generate a default UI for managing this post type in the admin"
+msgstr "是否在管理員中生成用於管理此文章型別的預設界面"
+
+#: templates/admin/pages/post-types/edit.php:103
+#: templates/admin/pages/taxonomies/edit.php:101
+msgid "Show in Admin Menu"
+msgstr "在管理選單中顯示"
+
+#: templates/admin/pages/post-types/edit.php:104
+msgid "Where to show the post type in the admin menu. show_ui must be true"
+msgstr "在管理選單中顯示文章型別的位置。 show_ui 必須為 true"
+
+#: templates/admin/pages/post-types/edit.php:110
+#: templates/admin/pages/taxonomies/edit.php:108
+msgid "Show in Nav Menu"
+msgstr "在導覽選單中顯示"
+
+#: templates/admin/pages/post-types/edit.php:111
+msgid "Whether post_type is available for selection in navigation menus"
+msgstr "該 post_type 是否可用於導覽選單中的選項"
+
+#: templates/admin/pages/post-types/edit.php:117
+#: templates/admin/pages/taxonomies/edit.php:115
+msgid "Show in Rest API"
+msgstr "顯示於 REST API"
+
+#: templates/admin/pages/post-types/edit.php:118
+msgid ""
+"Whether to expose this post type in the REST API. Also enable/disable "
+"Gutenberg editor for current post type"
+msgstr ""
+"是否在 REST API 中公開此文章型別。還為當前文章型別啟用／停用 Gutenberg 編輯器"
+
+#: templates/admin/pages/post-types/edit.php:124
+#: templates/admin/pages/taxonomies/edit.php:122
+msgid "Register Query Var"
+msgstr "註冊查詢變數"
+
+#: templates/admin/pages/post-types/edit.php:125
+#: templates/admin/pages/taxonomies/edit.php:123
+msgid "Sets the query_var key for this post type"
+msgstr "設定此文章型別的 query_var 鍵"
+
+#: templates/admin/pages/post-types/edit.php:131
+#: templates/admin/pages/taxonomies/edit.php:129
+msgid "Rewrite"
+msgstr "重寫"
+
+#: templates/admin/pages/post-types/edit.php:132
+msgid ""
+"Triggers the handling of rewrites for this post type. To prevent rewrites, "
+"set to false"
+msgstr "觸發對此文章型別的重寫的處理。為防止重寫，請設置為 false"
+
+#: templates/admin/pages/post-types/edit.php:138
+#: templates/admin/pages/taxonomies/edit.php:136
+msgid "Rewrite Slug"
+msgstr "重寫代稱"
+
+#: templates/admin/pages/post-types/edit.php:139
+msgid "Customize the permalink structure slug. Defaults to the post type slug"
+msgstr "自訂固定連結結構代稱。預設為文章型別代稱"
+
+#: templates/admin/pages/post-types/edit.php:153
+msgid "Capability Type"
+msgstr "能力型別"
+
+#: templates/admin/pages/post-types/edit.php:154
+msgid "The string to use to build the read, edit, and delete capabilities"
+msgstr "用於構建讀取，編輯和刪除功能的字串"
+
+#: templates/admin/pages/post-types/edit.php:161
+msgid "Has Archive"
+msgstr "有文章列表"
+
+#: templates/admin/pages/post-types/edit.php:162
+msgid "Enables post type archives"
+msgstr "啟用文章列表"
+
+#: templates/admin/pages/post-types/edit.php:168
+#: templates/admin/pages/taxonomies/edit.php:151
+msgid "Hierarchical"
+msgstr "分層"
+
+#: templates/admin/pages/post-types/edit.php:169
+msgid "Whether the post type is hierarchical (e.g. page)"
+msgstr "文章型別是否為分層（例如頁面）"
+
+#: templates/admin/pages/post-types/edit.php:175
+msgid "Menu Position"
+msgstr "選單位置"
+
+#: templates/admin/pages/post-types/edit.php:176
+msgid "The position in the menu order the post type should appear"
+msgstr "文章型別在選單順序中的位置"
+
+#: templates/admin/pages/post-types/edit.php:194
+msgid "Supports"
+msgstr "支援"
+
+#: templates/admin/pages/post-types/edit.php:195
+msgid "Registers support of certain feature(s) for a current post type"
+msgstr "註冊對當前文章型別的某些功能的支援"
+
+#: templates/admin/pages/post-types/edit.php:209
+msgid "Admin Columns"
+msgstr "管理欄"
+
+#: templates/admin/pages/post-types/edit.php:231
+msgid "Current column title. Will be shown at the top of the posts list table"
+msgstr "當前欄標題。將顯示在文章列表的頂部"
+
+#: templates/admin/pages/post-types/edit.php:240
+msgid "Select type of data to fill column cells"
+msgstr "選擇資料型別以填入欄裡的儲存格"
+
+#: templates/admin/pages/post-types/edit.php:249
+msgid "Field Name"
+msgstr "欄位名稱"
+
+#: templates/admin/pages/post-types/edit.php:250
+msgid "Custom field name to get value from"
+msgstr "自訂欄位名稱，以從中取值"
+
+#: templates/admin/pages/post-types/edit.php:266
+msgid "Taxonomy slug to get post terms from"
+msgstr "分類法代稱以取得文章分類項目"
+
+#: templates/admin/pages/post-types/edit.php:282
+msgid "Custom function name to get column cell value from"
+msgstr "自訂函數名稱，用於從中獲取欄裡的儲存格值"
+
+#: templates/admin/pages/post-types/edit.php:299
+msgid "Select from existing callbacks"
+msgstr "從現有的回調中選擇"
+
+#: templates/admin/pages/post-types/edit.php:304
+msgid "Column order"
+msgstr "欄序"
+
+#: templates/admin/pages/post-types/edit.php:305
+msgid "Column order. Should be a positive integer"
+msgstr "欄序，應該是一個正整數"
+
+#: templates/admin/pages/post-types/edit.php:314
+msgid "Text to add before column cell value"
+msgstr "在欄裡的儲存格值之前新增的文字"
+
+#: templates/admin/pages/post-types/edit.php:323
+msgid "Text to add after column cell value"
+msgstr "在欄裡的儲存格值之後新增的文字"
+
+#: templates/admin/pages/post-types/edit.php:331
+msgid "Is Sortable"
+msgstr "是否可排序"
+
+#: templates/admin/pages/post-types/edit.php:332
+msgid "Make this column sortable"
+msgstr "使此欄可被排序"
+
+#: templates/admin/pages/post-types/edit.php:346
+msgid "By field"
+msgstr "依欄位"
+
+#: templates/admin/pages/post-types/edit.php:347
+msgid ""
+"Sort can be done only by meta field value. Please set field name to sort "
+"posts by"
+msgstr "只能按詮釋欄位值進行排序。請設定欄位名稱以按文章排序"
+
+#: templates/admin/pages/post-types/edit.php:367
+msgid "Is Numeric Field"
+msgstr "是否為數值欄位"
+
+#: templates/admin/pages/post-types/edit.php:368
+msgid ""
+"Check this if field contain numbers. By default sorting will be alphabetical."
+msgstr "如果欄位包含數字，請檢查此處。預設情況下，排序將按字母順序進行。"
+
+#: templates/admin/pages/post-types/edit.php:417
+msgid "Reset to defaults"
+msgstr "重設回到預設值"
+
+#: templates/admin/pages/post-types/edit.php:432
+msgid "Are you sure?"
+msgstr "您確定嗎？"
+
+#: templates/admin/pages/post-types/edit.php:473
+msgid "Apply"
+msgstr "套用"
+
+#: templates/admin/pages/post-types/edit.php:480
+msgid "Select one of predefined callbacks"
+msgstr "選擇其中的預定義回調"
+
+#: templates/admin/pages/post-types/edit.php:484
+msgid "Click on callback name to paste it."
+msgstr "點擊回調名稱來貼上。"
+
+#: templates/admin/pages/post-types/list.php:4
+msgid "No post types found"
+msgstr "找不到文章型別"
+
+#: templates/admin/pages/post-types/list.php:43
+msgid "Built-in"
+msgstr "內建"
+
+#: templates/admin/pages/relations/delete-dialog.php:9
+msgid "Please confirm relation deletion"
+msgstr "請確認關聯刪除"
+
+#: templates/admin/pages/relations/delete-dialog.php:12
+msgid "Are you sure you want to delete this posts relation?"
+msgstr "您確定要刪除此文章關聯嗎？"
+
+#: templates/admin/pages/relations/edit.php:16
+msgid "Set unique name for your current relation"
+msgstr "為您當前的關聯設定唯一的名稱"
+
+#: templates/admin/pages/relations/edit.php:22
+msgid "Parent post type"
+msgstr "上層文章型別"
+
+#: templates/admin/pages/relations/edit.php:23
+msgid "Select main post type for current relation"
+msgstr "選擇當前關聯的主要文章型別"
+
+#: templates/admin/pages/relations/edit.php:31
+msgid "Child post type"
+msgstr "下層文章型別"
+
+#: templates/admin/pages/relations/edit.php:32
+msgid "Select child post type for current relation"
+msgstr "選擇當前關聯的下層文章型別"
+
+#: templates/admin/pages/relations/edit.php:40
+msgid "Relation Type"
+msgstr "關聯型別"
+
+#: templates/admin/pages/relations/edit.php:41
+msgid ""
+"Select type of current relation. Read more about available relation types <a "
+"href='https://crocoblock.com/knowledge-base/articles/how-to-choose-the-"
+"needed-post-relations-and-set-them-with-jetengine-plugin/'>here</a>"
+msgstr ""
+"選擇當前關聯的型別。閱讀有關可用關聯型別的更多資訊 <a href='https://"
+"crocoblock.com/knowledge-base/articles/how-to-choose-the-needed-post-"
+"relations-and-set-them-with-jetengine-plugin/'>這裡</a>"
+
+#: templates/admin/pages/relations/edit.php:53
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: templates/admin/pages/relations/edit.php:57
+msgid "Register controls for parent post type"
+msgstr "註冊上層文章型別的控制"
+
+#: templates/admin/pages/relations/edit.php:58
+msgid "Adds meta box `Related children` to parent post type edit page"
+msgstr "將詮釋資料群組「關聯下層」加入到上層文章型別的編輯頁面裡"
+
+#: templates/admin/pages/relations/edit.php:64
+msgid "Register controls for child post type"
+msgstr "註冊下層文章型別的控制"
+
+#: templates/admin/pages/relations/edit.php:65
+msgid "Adds meta box `Related parent` to child post type edit page"
+msgstr "將詮釋資料群組「關聯上層」加到子文章型別的編輯頁面"
+
+#: templates/admin/pages/relations/list.php:4
+msgid "No relations found"
+msgstr "沒找到關聯"
+
+#: templates/admin/pages/relations/list.php:12
+msgid "Related post types"
+msgstr "關聯文章型別"
+
+#: templates/admin/pages/relations/list.php:13
+msgid "Relation type"
+msgstr "關聯型別"
+
+#: templates/admin/pages/relations/list.php:14
+msgid "Relation meta key"
+msgstr "關聯詮釋資料鍵"
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:9
+msgid "Please confirm taxonomy deletion"
+msgstr "請確認分類法刪除"
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:12
+msgid "Are you sure you want to delete this taxonomy?"
+msgstr "你確定要刪除這個分類法嗎？"
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:13
+msgid "If yes - please select what to do with created terms of this taxonomy:"
+msgstr "如果確是–請選擇如何處理此分類法的已創建分類項目："
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:23
+msgid "Leave terms without changes"
+msgstr "保持分類項目不變"
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:27
+msgid "Delete all terms"
+msgstr "刪除全部分類項目"
+
+#: templates/admin/pages/taxonomies/edit.php:15
+#: templates/admin/pages/taxonomies/list.php:11
+msgid "Taxonomy Name"
+msgstr "分類法名稱"
+
+#: templates/admin/pages/taxonomies/edit.php:26
+#: templates/admin/pages/taxonomies/list.php:12
+msgid "Taxonomy Slug"
+msgstr "分類法代稱"
+
+#: templates/admin/pages/taxonomies/edit.php:27
+msgid ""
+"Set slug for your taxonomy. Slug should contain only letters, numbers and `-"
+"` or `_` chars"
+msgstr "設定你的分類法代稱。代稱應該僅限英文字母、數字、「-」或「 _」字元"
+
+#: templates/admin/pages/taxonomies/edit.php:35
+msgid "Update Terms"
+msgstr "更新分類項目"
+
+#: templates/admin/pages/taxonomies/edit.php:36
+msgid ""
+"Check this if you already have created terms of this taxonomy and want to "
+"automatically change tax for these terms."
+msgstr ""
+"如果您已經創建了此分類項目，並希望自動更改這些分類項目的代稱，請勾選此核取方"
+"塊。"
+
+#: templates/admin/pages/taxonomies/edit.php:42
+msgid "Post Type"
+msgstr "文章型別"
+
+#: templates/admin/pages/taxonomies/edit.php:43
+msgid "Select post types to add this taxonomy for"
+msgstr "選擇文章型別以新增此分類法"
+
+#: templates/admin/pages/taxonomies/edit.php:80
+msgid ""
+"Whether a taxonomy is intended for use publicly either via the admin "
+"interface or by front-end users"
+msgstr "分類法是否旨在通過管理界面或前端使用者公開使用"
+
+#: templates/admin/pages/taxonomies/edit.php:87
+msgid "Publicly queryable"
+msgstr "可公開查詢"
+
+#: templates/admin/pages/taxonomies/edit.php:88
+msgid "Whether the taxonomy is publicly queryable"
+msgstr "分類法是否可以公開查詢"
+
+#: templates/admin/pages/taxonomies/edit.php:95
+msgid "Whether to generate a default UI for managing this taxonomy"
+msgstr "是否生成用於管理此分類法的預設界面"
+
+#: templates/admin/pages/taxonomies/edit.php:102
+msgid ""
+"Where to show the taxonomy in the admin menu. `Show Admin UI` must be enabled"
+msgstr "在管理選單中的何處顯示分類法。必須啟用「顯示管理界面」"
+
+#: templates/admin/pages/taxonomies/edit.php:109
+msgid ""
+"If this option is enabled this taxonomy available for selection in "
+"navigation menus"
+msgstr "如果啟用此選項，則可以在導覽選單中選擇此分類法"
+
+#: templates/admin/pages/taxonomies/edit.php:116
+msgid ""
+"Whether to expose this taxonomy in the REST API. Also enable/disable "
+"Gutenberg editor for current post type"
+msgstr ""
+"是否在 REST API 中公開此分類法。還為當前文章型別啟用／停用 Gutenberg 編輯器"
+
+#: templates/admin/pages/taxonomies/edit.php:130
+msgid ""
+"Triggers the handling of rewrites for this taxonomy. To prevent rewrites, "
+"set to false"
+msgstr "觸發此分類法的重寫處理。為防止重寫，請設置為false"
+
+#: templates/admin/pages/taxonomies/edit.php:137
+msgid "Customize the permalink structure slug. Defaults to the taxonomy slug"
+msgstr "自訂固定連結結構代稱。預設為分類法代稱"
+
+#: templates/admin/pages/taxonomies/edit.php:152
+msgid ""
+"Is this taxonomy hierarchical (have descendants) like categories or not "
+"hierarchical like tags"
+msgstr "此分類法是否為分層分類（有下層）還是沒有分層的標籤"
+
+#: templates/admin/pages/taxonomies/edit.php:159
+msgid "Include a description of the taxonomy"
+msgstr "內含分類法的描述"
+
+#: templates/admin/pages/taxonomies/list.php:4
+msgid "No taxonomies found"
+msgstr "找不到分類法"
+
+#: templates/forms/admin/components/post-field-control.php:3
+msgid "Select post property..."
+msgstr "選擇文章屬性..."
+
+#: templates/forms/admin/components/post-field-control.php:4
+msgid "Post Title"
+msgstr "文章標題"
+
+#: templates/forms/admin/components/post-field-control.php:5
+msgid "Post Content"
+msgstr "文章內容"
+
+#: templates/forms/admin/components/post-field-control.php:6
+msgid "Post Excerpt"
+msgstr "文章摘要"
+
+#: templates/forms/admin/components/post-field-control.php:7
+msgid "Post Meta"
+msgstr "文章詮釋資料"
+
+#: templates/forms/admin/form-builder.php:49
+msgid "Enable reCAPTCHA v3 form verification"
+msgstr "啟用 reCAPTCHA v3 表單驗證"
+
+#: templates/forms/admin/form-builder.php:54
+msgid "Add Field"
+msgstr "新增欄位"
+
+#: templates/forms/admin/form-builder.php:57
+msgid "Add Submit Button"
+msgstr "新增送出按鈕"
+
+#: templates/forms/admin/form-builder.php:62
+msgid "Site Key:"
+msgstr "網站金鑰："
+
+#: templates/forms/admin/form-builder.php:66
+msgid "Secret Key:"
+msgstr "安全金鑰："
+
+#: templates/forms/admin/form-builder.php:73
+#, php-format
+msgid "Register reCAPTCHA v3 keys %s."
+msgstr "註冊 reCAPTCHA v3 金鑰 %s。"
+
+#: templates/forms/admin/form-builder.php:74
+msgid "here"
+msgstr "此處"
+
+#: templates/forms/admin/form-builder.php:92
+#: templates/forms/admin/form-builder.php:136
+#: templates/forms/admin/form-builder.php:211
+msgid "Label:"
+msgstr "標題："
+
+#: templates/forms/admin/form-builder.php:98
+#: templates/forms/admin/form-builder.php:319
+msgid "Custom CSS Class:"
+msgstr "自訂 CSS 類："
+
+#: templates/forms/admin/form-builder.php:108
+#: templates/forms/admin/notifications.php:32
+msgid "Type:"
+msgstr "型別："
+
+#: templates/forms/admin/form-builder.php:122
+msgid "Field Type:"
+msgstr "欄位型別："
+
+#: templates/forms/admin/form-builder.php:130
+msgid "Name:"
+msgstr "名稱："
+
+#: templates/forms/admin/form-builder.php:142
+msgid "Description:"
+msgstr "描述："
+
+#: templates/forms/admin/form-builder.php:148
+msgid "Required:"
+msgstr "必填："
+
+#: templates/forms/admin/form-builder.php:156
+msgid "Field Value:"
+msgstr "欄位值："
+
+#: templates/forms/admin/form-builder.php:160
+msgid "Current Post Title"
+msgstr "當前文章標題"
+
+#: templates/forms/admin/form-builder.php:161
+msgid "Current Post/Page URL"
+msgstr "當前文章／頁面連結"
+
+#: templates/forms/admin/form-builder.php:162
+msgid "Current Post Meta"
+msgstr "當前文章詮釋資料"
+
+#: templates/forms/admin/form-builder.php:169
+#: templates/forms/admin/form-builder.php:188
+msgid "Meta field to get value from:"
+msgstr "詮釋欄位要取得值，從："
+
+#: templates/forms/admin/form-builder.php:177
+msgid "Fill Options From:"
+msgstr "填寫選項從："
+
+#: templates/forms/admin/form-builder.php:180
+msgid "Manual Input"
+msgstr "手動輸入"
+
+#: templates/forms/admin/form-builder.php:196
+msgid "Options List:"
+msgstr "選項清單："
+
+#: templates/forms/admin/form-builder.php:205
+msgid "Value:"
+msgstr "值："
+
+#: templates/forms/admin/form-builder.php:227
+msgid "Add Option"
+msgstr "新增選項"
+
+#: templates/forms/admin/form-builder.php:236
+msgid "Calculation Formula:"
+msgstr "計算公式："
+
+#: templates/forms/admin/form-builder.php:238
+msgid "Set math formula to calculate field value."
+msgstr "設定數學公式以計算欄位值。"
+
+#: templates/forms/admin/form-builder.php:239
+msgid "For example:"
+msgstr "舉例："
+
+#: templates/forms/admin/form-builder.php:241
+msgid "Where:"
+msgstr "何處："
+
+#: templates/forms/admin/form-builder.php:242
+msgid ""
+"%FIELD::quantity% - macros for form field value. \"quantity\" - is a field "
+"name to get value from"
+msgstr ""
+"%FIELD::quantity% - 表單欄位值的巨集。\"quantity\"- 是從中獲取值的欄位名稱"
+
+#: templates/forms/admin/form-builder.php:243
+msgid ""
+"%META::price% - macros for current post meta value. \"quantity\" - is a meta "
+"key to get value from"
+msgstr ""
+"%META::price% - 當前文章詮釋資料的值。\"price\" - 是從中獲取值的詮釋資料鍵"
+
+#: templates/forms/admin/form-builder.php:253
+msgid "Decimal Places Number:"
+msgstr "小數位數："
+
+#: templates/forms/admin/form-builder.php:261
+msgid "Calculated Value Prefix:"
+msgstr "計算值前綴："
+
+#: templates/forms/admin/form-builder.php:269
+msgid "Calculated Value Suffix:"
+msgstr "計算值後綴："
+
+#: templates/forms/admin/form-builder.php:277
+msgid "Placeholder:"
+msgstr "提示字元："
+
+#: templates/forms/admin/form-builder.php:285
+msgid "Default:"
+msgstr "預設："
+
+#: templates/forms/admin/form-builder.php:293
+msgid "Min Value:"
+msgstr "最小值："
+
+#: templates/forms/admin/form-builder.php:301
+msgid "Max Value:"
+msgstr "最大值："
+
+#: templates/forms/admin/form-builder.php:309
+msgid "Field Visibility:"
+msgstr "欄位可見："
+
+#: templates/forms/admin/form-builder.php:312
+msgid "For all"
+msgstr "對所有人"
+
+#: templates/forms/admin/form-builder.php:313
+msgid "Only for logged in users"
+msgstr "僅適用於已登入的使用者"
+
+#: templates/forms/admin/form-builder.php:314
+msgid "Only for NOT-logged in users"
+msgstr "僅適用於未登入的使用者"
+
+#: templates/forms/admin/form-builder.php:334
+#: templates/forms/admin/notifications.php:234
+msgid "Apply Changes"
+msgstr "套用變更"
+
+#: templates/forms/admin/notifications.php:42
+msgid "Hook Name:"
+msgstr "掛載點名稱："
+
+#: templates/forms/admin/notifications.php:51
+msgid "Mail to:"
+msgstr "收件人："
+
+#: templates/forms/admin/notifications.php:54
+msgid "Admin email"
+msgstr "管理員郵件"
+
+#: templates/forms/admin/notifications.php:55
+#: templates/forms/admin/notifications.php:79
+msgid "Email from submitted form field"
+msgstr "提交表單欄位中的電子郵件"
+
+#: templates/forms/admin/notifications.php:56
+#: templates/forms/admin/notifications.php:80
+msgid "Custom email"
+msgstr "自訂電子郵件"
+
+#: templates/forms/admin/notifications.php:61
+msgid "Email Address:"
+msgstr "電子郵件地址："
+
+#: templates/forms/admin/notifications.php:67
+msgid "From Field:"
+msgstr "從欄位："
+
+#: templates/forms/admin/notifications.php:75
+msgid "Reply to:"
+msgstr "回覆給："
+
+#: templates/forms/admin/notifications.php:78
+msgid "Not selected"
+msgstr "尚未選擇"
+
+#: templates/forms/admin/notifications.php:85
+msgid "Reply to Email Address:"
+msgstr "回覆電子郵件地址："
+
+#: templates/forms/admin/notifications.php:91
+msgid "Reply To Email From Field:"
+msgstr "從欄位取得回覆電子郵件地址："
+
+#: templates/forms/admin/notifications.php:99
+msgid "Post Type:"
+msgstr "文章型別："
+
+#: templates/forms/admin/notifications.php:109
+msgid "Post Status:"
+msgstr "文章狀態："
+
+#: templates/forms/admin/notifications.php:119
+#: templates/forms/admin/notifications.php:133
+msgid "Fields Map:"
+msgstr "欄位地圖："
+
+#: templates/forms/admin/notifications.php:122
+msgid "Set meta fields names to save apropriate form fields into"
+msgstr "設定詮釋欄位名稱，以將適當的表單欄位保存到"
+
+#: templates/forms/admin/notifications.php:136
+msgid "Set form fields names to to get user data from"
+msgstr "設定表單欄位名稱以取得使用者資料"
+
+#: templates/forms/admin/notifications.php:139
+msgid "User Login, Email and Password fields can't be empty"
+msgstr "者用者登入名稱、電子郵件和密碼欄位不能為空"
+
+#: templates/forms/admin/notifications.php:153
+msgid "Log In User after Register:"
+msgstr "註冊後登入用戶："
+
+#: templates/forms/admin/notifications.php:159
+msgid "Add User ID to form data:"
+msgstr "新增使用者 ID 到表單資料："
+
+#: templates/forms/admin/notifications.php:163
+msgid ""
+"Registered user ID will be added to from data. If form is filled by logged "
+"in user - current user ID will be added to form data."
+msgstr ""
+"註冊的使用者 ID 將被新增到資料中。如果表單由登入使用者填寫–當前使用者 ID 將新"
+"增到表單資料中。"
+
+#: templates/forms/admin/notifications.php:168
+msgid "Subject:"
+msgstr "主題："
+
+#: templates/forms/admin/notifications.php:174
+msgid "From Name:"
+msgstr "寄件人名稱："
+
+#: templates/forms/admin/notifications.php:181
+msgid "From Email Address:"
+msgstr "寄件人電子郵件地址："
+
+#: templates/forms/admin/notifications.php:188
+msgid "Webhook URL:"
+msgstr "網站掛載點連結："
+
+#: templates/forms/admin/notifications.php:195
+msgid "Content:"
+msgstr "內容："
+
+#: templates/forms/admin/notifications.php:197
+msgid "Available macros:"
+msgstr "可用巨集："
+
+#: templates/forms/admin/notifications.php:208
+msgid "Redirect to:"
+msgstr "轉寄給："
+
+#: templates/forms/admin/notifications.php:211
+msgid "Static page"
+msgstr "靜態頁面"
+
+#: templates/forms/admin/notifications.php:212
+msgid "Custom URL"
+msgstr "自訂連結"
+
+#: templates/forms/admin/notifications.php:217
+msgid "Select page:"
+msgstr "選擇頁面："
+
+#: templates/forms/admin/notifications.php:225
+msgid "Redirect URL:"
+msgstr "重導網址："
+
+#: templates/forms/admin/notifications.php:248
+msgid "Add Notification"
+msgstr "新增通知"
