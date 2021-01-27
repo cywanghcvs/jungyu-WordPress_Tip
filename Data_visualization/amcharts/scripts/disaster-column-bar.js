@@ -22,11 +22,11 @@ am4core.ready(function() {
     // Themes end
 
     // Create chart instance
-    var chart = am4core.create("chart", am4charts.XYChart);
+    var chart = am4core.create("disaster-column-bar", am4charts.XYChart);
     chart.scrollbarX = new am4core.Scrollbar();
 
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('GET', './data/disaster-county.csv', true);
+    xmlhttp.open('GET', 'https://raw.githubusercontent.com/jungyu/WordPress_Tip/master/Data_visualization/amcharts/data/disaster-county.csv', true);
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4) {
             if (xmlhttp.status == 200) {
