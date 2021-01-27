@@ -3,7 +3,7 @@ add_shortcode( 'csv2json', function () {
 	?>
 <script>
 
-	$.get("./data/002.csv", function (data) {
+	$.get("http://opendataap2.e-land.gov.tw/./resource/files/2019-12-05/9f954094265803e25235b7c4208f759c.csv", function (data) {
 
                 var data = JSON.parse(csvJSON(data));
 
