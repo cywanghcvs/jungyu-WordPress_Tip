@@ -8,7 +8,7 @@ am4core.ready(function() {
     var chart = am4core.create("chartdiv", am4charts.XYChart);
 
     // Add data JSON Format
-    chart.dataSource.url = "https://raw.githubusercontent.com/jungyu/presentations/master/data.json";
+    chart.dataSource.url = "https://raw.githubusercontent.com/jungyu/WordPress_Tip/master/Data_visualization/amcharts/data/line.json";
 
     // Set input format for the dates
     chart.dateFormatter.inputDateFormat = "yyyy-MM-dd";
