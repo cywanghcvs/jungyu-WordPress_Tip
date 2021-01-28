@@ -16,7 +16,7 @@ am4core.ready(function() {
     // Themes end
 
     // Create chart instance
-    var chart = am4core.create("chartdiv", am4charts.XYChart);
+    var chart = am4core.create("weather", am4charts.XYChart);
 
     // Set up data source
     chart.dataSource.url = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-033?Authorization=CWB-AAE535A9-78B4-4EC7-854E-B5A3776201BF&locationName=%E5%85%A7%E5%9F%94%E9%84%89&elementName=AT,T";
